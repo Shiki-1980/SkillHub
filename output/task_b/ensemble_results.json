@@ -1,0 +1,70 @@
+{
+  "individual_results": [
+    {
+      "method": "Isolation Forest",
+      "f1": 0.0818,
+      "precision": 0.0867,
+      "recall": 0.0774,
+      "accuracy": 0.8054,
+      "n_flagged": 1050
+    },
+    {
+      "method": "LOF",
+      "f1": 0.0952,
+      "precision": 0.101,
+      "recall": 0.0901,
+      "accuracy": 0.8082,
+      "n_flagged": 1050
+    },
+    {
+      "method": "LSTM Autoencoder",
+      "f1": 0.0463,
+      "precision": 0.0509,
+      "recall": 0.0425,
+      "accuracy": 0.8039,
+      "n_flagged": 983
+    }
+  ],
+  "ensemble_results": [
+    {
+      "method": "Majority (\u22652/3)",
+      "f1": 0.0332,
+      "precision": 0.0548,
+      "recall": 0.0238,
+      "accuracy": 0.8447,
+      "n_flagged": 511
+    },
+    {
+      "method": "Unanimous (3/3)",
+      "f1": 0.0016,
+      "precision": 0.0222,
+      "recall": 0.0009,
+      "accuracy": 0.8839,
+      "n_flagged": 45
+    },
+    {
+      "method": "Weighted (F1-based)",
+      "f1": 0.094,
+      "precision": 0.0871,
+      "recall": 0.102,
+      "accuracy": 0.7797,
+      "n_flagged": 1377
+    },
+    {
+      "method": "Any (\u22651/3)",
+      "f1": 0.1177,
+      "precision": 0.0863,
+      "recall": 0.1854,
+      "accuracy": 0.6889,
+      "n_flagged": 2527
+    }
+  ],
+  "agreement_matrix": {
+    "IF \u2229 LOF": 141,
+    "IF \u2229 LSTM": 372,
+    "LOF \u2229 LSTM": 88,
+    "IF \u2229 LOF \u2229 LSTM": 45
+  },
+  "best_individual": "Any (\u22651/3)",
+  "best_ensemble": "Any (\u22651/3)"
+}
