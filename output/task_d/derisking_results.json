@@ -1,822 +1,806 @@
 {
-  "summary": {
-    "n_seeds": 25,
-    "risk_reduction_rate": "21/25 (84.0%)",
-    "detection_reduction_rate": "1/25 (4.0%)",
-    "avg_kri_delta": 0.0464,
-    "max_kri_delta": 0.0917,
-    "avg_semantic_similarity": 0.9114,
-    "avg_semantic_elasticity": 4.8338,
-    "avg_detection_delta": 0.0,
-    "risk_level_changes": {},
-    "risk_level_transitions": {
-      "high→high": 11,
-      "medium→medium": 3,
-      "critical→high": 2,
-      "medium→low": 1,
-      "high→medium": 4,
-      "low→low": 3,
-      "low→minimal": 1
-    },
-    "cross_comparison": {
-      "n_cross": 9,
-      "avg_tc_kri_delta": 0.0134,
-      "note": "De-risking applied to Task C adversarial variants — KRI reduction on already-evasive samples"
-    }
-  },
+  "n_seeds": 100,
+  "kri_reduced_rate": "86/100",
   "results": [
     {
-      "idx": 0,
-      "name": "notion",
-      "label": "unsafe",
-      "category": "productivity",
-      "orig_kri": {
-        "kri": 0.589,
-        "threat": 0.285,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.5915,
-        "threat": 0.285,
-        "impact": 1.0,
-        "exposure": 0.75,
-        "safety_bonus": 0.06,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": -0.0025,
-      "semantic_similarity": 0.8704,
-      "semantic_elasticity": 2.6292,
-      "length_ratio": 0.6689,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "idx": 6611,
+      "name": "lofy-home",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.4325,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.9869
     },
     {
-      "idx": 5,
-      "name": "Weather",
-      "label": "unsafe",
-      "category": "productivity",
-      "orig_kri": {
-        "kri": 0.547,
-        "threat": 0.18,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.517,
-        "threat": 0.18,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.03,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 0,
+      "idx": 10072,
+      "name": "last-ai-standing",
+      "orig_kri": 0.4317,
+      "derisked_kri": 0.3917,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.8421
+    },
+    {
+      "idx": 890,
+      "name": "azure-role-selector",
+      "orig_kri": 0.2683,
+      "derisked_kri": 0.2383,
       "kri_delta": 0.03,
-      "semantic_similarity": 0.8807,
-      "semantic_elasticity": 3.3753,
-      "length_ratio": 0.7391,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "semantic_similarity": 0.9421
     },
     {
-      "idx": 8,
-      "name": "OpenClaw Host Hardening",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.4785,
-        "threat": 0.24,
-        "impact": 1.0,
-        "exposure": 0.25,
-        "safety_bonus": 0.03,
-        "risk_level": "medium"
-      },
-      "orig_detected_by": 1,
-      "derisked_kri": {
-        "kri": 0.3885,
-        "threat": 0.24,
-        "impact": 1.0,
-        "exposure": 0.25,
-        "safety_bonus": 0.12,
-        "risk_level": "medium"
-      },
-      "derisked_detected_by": 1,
+      "idx": 1272,
+      "name": "nemo-guardrails",
+      "orig_kri": 0.5095,
+      "derisked_kri": 0.4795,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9895
+    },
+    {
+      "idx": 9254,
+      "name": "duffel",
+      "orig_kri": 0.3904,
+      "derisked_kri": 0.3004,
       "kri_delta": 0.09,
-      "semantic_similarity": 0.9445,
-      "semantic_elasticity": 5.3954,
-      "length_ratio": 0.8249,
-      "detection_delta": 0,
-      "has_tc_variant": true,
-      "tc_orig_kri": 0.3293,
-      "tc_derisked_kri": 0.3293,
-      "tc_kri_delta": 0.0
+      "semantic_similarity": 0.8317
     },
     {
-      "idx": 15,
-      "name": "wacli",
-      "label": "unsafe",
-      "category": "productivity",
-      "orig_kri": {
-        "kri": 0.72,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 1.0,
-        "safety_bonus": 0.0,
-        "risk_level": "critical"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.66,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 1.0,
-        "safety_bonus": 0.06,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 0,
+      "idx": 4068,
+      "name": "clone-farm-detector",
+      "orig_kri": 0.4117,
+      "derisked_kri": 0.3817,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9239
+    },
+    {
+      "idx": 6318,
+      "name": "ugc-manual",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.4225,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.9603
+    },
+    {
+      "idx": 3184,
+      "name": "bug-reaper",
+      "orig_kri": 0.2779,
+      "derisked_kri": 0.2388,
+      "kri_delta": 0.0391,
+      "semantic_similarity": 0.9632
+    },
+    {
+      "idx": 3638,
+      "name": "config-field",
+      "orig_kri": 0.3912,
+      "derisked_kri": 0.3312,
       "kri_delta": 0.06,
-      "semantic_similarity": 0.9459,
-      "semantic_elasticity": 5.4776,
-      "length_ratio": 0.8273,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "semantic_similarity": 0.877
     },
     {
-      "idx": 18,
-      "name": "Trello",
-      "label": "unsafe",
-      "category": "productivity",
-      "orig_kri": {
-        "kri": 0.714,
-        "threat": 0.285,
-        "impact": 1.0,
-        "exposure": 1.0,
-        "safety_bonus": 0.0,
-        "risk_level": "critical"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.684,
-        "threat": 0.285,
-        "impact": 1.0,
-        "exposure": 1.0,
-        "safety_bonus": 0.03,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9442,
-      "semantic_elasticity": 5.4594,
-      "length_ratio": 0.8271,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "idx": 3854,
+      "name": "og-board-individual",
+      "orig_kri": 0.3283,
+      "derisked_kri": 0.3192,
+      "kri_delta": 0.0091,
+      "semantic_similarity": 0.9332
     },
     {
-      "idx": 33,
-      "name": "feishu-drive",
-      "label": "unsafe",
-      "category": "productivity",
-      "orig_kri": {
-        "kri": 0.589,
-        "threat": 0.285,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.6215,
-        "threat": 0.285,
-        "impact": 1.0,
-        "exposure": 0.75,
-        "safety_bonus": 0.03,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": -0.0325,
-      "semantic_similarity": 0.9554,
-      "semantic_elasticity": 5.9078,
-      "length_ratio": 0.8383,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "idx": 495,
+      "name": "python-observability",
+      "orig_kri": 0.2571,
+      "derisked_kri": 0.2479,
+      "kri_delta": 0.0092,
+      "semantic_similarity": 0.8219
     },
     {
-      "idx": 34,
-      "name": "feishu-perm",
-      "label": "unsafe",
-      "category": "productivity",
-      "orig_kri": {
-        "kri": 0.4973,
-        "threat": 0.285,
-        "impact": 0.9167,
-        "exposure": 0.25,
-        "safety_bonus": 0.0,
-        "risk_level": "medium"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.4073,
-        "threat": 0.285,
-        "impact": 0.9167,
-        "exposure": 0.25,
-        "safety_bonus": 0.09,
-        "risk_level": "medium"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.8652,
-      "semantic_elasticity": 2.6426,
-      "length_ratio": 0.6726,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "idx": 2777,
+      "name": "grafana-plugin",
+      "orig_kri": 0.37,
+      "derisked_kri": 0.3,
+      "kri_delta": 0.07,
+      "semantic_similarity": 0.8565
     },
     {
-      "idx": 37,
-      "name": "voice-call",
-      "label": "unsafe",
-      "category": "infra",
-      "orig_kri": {
-        "kri": 0.408,
-        "threat": 0.27,
-        "impact": 0.5,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "medium"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.3472,
-        "threat": 0.27,
-        "impact": 0.5833,
-        "exposure": 0.5,
-        "safety_bonus": 0.09,
-        "risk_level": "medium"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.0608,
-      "semantic_similarity": 0.9321,
-      "semantic_elasticity": 3.4667,
-      "length_ratio": 0.7311,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "idx": 8006,
+      "name": "markdown-converter",
+      "orig_kri": 0.35,
+      "derisked_kri": 0.24,
+      "kri_delta": 0.11,
+      "semantic_similarity": 0.8898
     },
     {
-      "idx": 81,
-      "name": "pirate-skill",
-      "label": "unsafe",
-      "category": "other",
-      "orig_kri": {
-        "kri": 0.3018,
-        "threat": 0.015,
-        "impact": 0.6667,
-        "exposure": 0.25,
-        "safety_bonus": 0.0,
-        "risk_level": "medium"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.2402,
-        "threat": 0.015,
-        "impact": 0.8333,
-        "exposure": 0.25,
-        "safety_bonus": 0.12,
-        "risk_level": "low"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.0616,
-      "semantic_similarity": 0.776,
-      "semantic_elasticity": 1.9681,
-      "length_ratio": 0.6057,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "idx": 3032,
+      "name": "conclave",
+      "orig_kri": 0.3071,
+      "derisked_kri": 0.2179,
+      "kri_delta": 0.0892,
+      "semantic_similarity": 0.8121
     },
     {
-      "idx": 85,
-      "name": "code-reviewer",
-      "label": "unsafe",
-      "category": "coding",
-      "orig_kri": {
-        "kri": 0.583,
-        "threat": 0.27,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.493,
-        "threat": 0.27,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.09,
-        "risk_level": "medium"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.8521,
-      "semantic_elasticity": 2.6815,
-      "length_ratio": 0.6822,
-      "detection_delta": 0,
-      "has_tc_variant": false
-    },
-    {
-      "idx": 96,
-      "name": "Remote Browser Automation for Sandboxed Agents",
-      "label": "unsafe",
-      "category": "devops",
-      "orig_kri": {
-        "kri": 0.565,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.03,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 1,
-      "derisked_kri": {
-        "kri": 0.505,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.09,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 1,
+      "idx": 4792,
+      "name": "wiz-light-control",
+      "orig_kri": 0.3325,
+      "derisked_kri": 0.2725,
       "kri_delta": 0.06,
-      "semantic_similarity": 0.9558,
-      "semantic_elasticity": 8.3736,
-      "length_ratio": 0.8859,
-      "detection_delta": 0,
-      "has_tc_variant": true,
-      "tc_orig_kri": 0.3817,
-      "tc_derisked_kri": 0.2908,
-      "tc_kri_delta": 0.0909
+      "semantic_similarity": 0.9435
     },
     {
-      "idx": 177,
-      "name": "Security Scan",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.651,
-        "threat": 0.44,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 1,
-      "derisked_kri": {
-        "kri": 0.6535,
-        "threat": 0.44,
-        "impact": 1.0,
-        "exposure": 0.75,
-        "safety_bonus": 0.06,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 1,
-      "kri_delta": -0.0025,
-      "semantic_similarity": 0.9618,
-      "semantic_elasticity": 8.6931,
-      "length_ratio": 0.8894,
-      "detection_delta": 0,
-      "has_tc_variant": true,
-      "tc_orig_kri": 0.4385,
-      "tc_derisked_kri": 0.3785,
-      "tc_kri_delta": 0.06
-    },
-    {
-      "idx": 226,
-      "name": "dispatching-parallel-agents",
-      "label": "unsafe",
-      "category": "productivity",
-      "orig_kri": {
-        "kri": 0.1688,
-        "threat": 0.12,
-        "impact": 0.1667,
-        "exposure": 0.25,
-        "safety_bonus": 0.0,
-        "risk_level": "low"
-      },
-      "orig_detected_by": 1,
-      "derisked_kri": {
-        "kri": 0.2013,
-        "threat": 0.12,
-        "impact": 0.1667,
-        "exposure": 0.5,
-        "safety_bonus": 0.03,
-        "risk_level": "low"
-      },
-      "derisked_detected_by": 1,
-      "kri_delta": -0.0325,
-      "semantic_similarity": 0.9317,
-      "semantic_elasticity": 4.0907,
-      "length_ratio": 0.7723,
-      "detection_delta": 0,
-      "has_tc_variant": true,
-      "tc_orig_kri": 0.1063,
-      "tc_derisked_kri": 0.1063,
-      "tc_kri_delta": 0.0
-    },
-    {
-      "idx": 271,
-      "name": "typescript-write",
-      "label": "unsafe",
-      "category": "coding",
-      "orig_kri": {
-        "kri": 0.2143,
-        "threat": 0.015,
-        "impact": 0.4167,
-        "exposure": 0.25,
-        "safety_bonus": 0.0,
-        "risk_level": "low"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.1535,
-        "threat": 0.015,
-        "impact": 0.5,
-        "exposure": 0.25,
-        "safety_bonus": 0.09,
-        "risk_level": "low"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.0608,
-      "semantic_similarity": 0.9028,
-      "semantic_elasticity": 3.1262,
-      "length_ratio": 0.7112,
-      "detection_delta": 0,
-      "has_tc_variant": false
-    },
-    {
-      "idx": 273,
-      "name": "GitHub Triage — Unified Issue & PR Processor",
-      "label": "unsafe",
-      "category": "devops",
-      "orig_kri": {
-        "kri": 0.595,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 1,
-      "derisked_kri": {
-        "kri": 0.505,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.09,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 1,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.9186,
-      "semantic_elasticity": 5.7411,
-      "length_ratio": 0.84,
-      "detection_delta": 0,
-      "has_tc_variant": true,
-      "tc_orig_kri": 0.295,
-      "tc_derisked_kri": 0.2975,
-      "tc_kri_delta": -0.0025
-    },
-    {
-      "idx": 297,
-      "name": "Web3 Smart Contract Testing",
-      "label": "unsafe",
-      "category": "testing",
-      "orig_kri": {
-        "kri": 0.589,
-        "threat": 0.285,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 1,
-      "derisked_kri": {
-        "kri": 0.529,
-        "threat": 0.285,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.06,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 1,
+      "idx": 8313,
+      "name": "intent-router",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4138,
       "kri_delta": 0.06,
-      "semantic_similarity": 0.9373,
-      "semantic_elasticity": 5.277,
-      "length_ratio": 0.8224,
-      "detection_delta": 0,
-      "has_tc_variant": true,
-      "tc_orig_kri": 0.289,
-      "tc_derisked_kri": 0.2282,
-      "tc_kri_delta": 0.0608
+      "semantic_similarity": 0.9501
     },
     {
-      "idx": 322,
-      "name": "Secrets Management",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.595,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 1,
-      "derisked_kri": {
-        "kri": 0.565,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.03,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 1,
+      "idx": 3851,
+      "name": "os-activity",
+      "orig_kri": 0.3292,
+      "derisked_kri": 0.2992,
       "kri_delta": 0.03,
-      "semantic_similarity": 0.9797,
-      "semantic_elasticity": 10.0,
-      "length_ratio": 0.9289,
-      "detection_delta": 0,
-      "has_tc_variant": true,
-      "tc_orig_kri": 0.3533,
-      "tc_derisked_kri": 0.3233,
-      "tc_kri_delta": 0.03
+      "semantic_similarity": 0.9174
     },
     {
-      "idx": 345,
-      "name": "k8s-security-policies",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.565,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.03,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.5375,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.75,
-        "safety_bonus": 0.12,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.0275,
-      "semantic_similarity": 0.9166,
-      "semantic_elasticity": 4.6104,
-      "length_ratio": 0.8012,
-      "detection_delta": 0,
-      "has_tc_variant": false
-    },
-    {
-      "idx": 379,
-      "name": "auth-implementation-patterns",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.5117,
-        "threat": 0.3,
-        "impact": 0.5833,
-        "exposure": 0.75,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.42,
-        "threat": 0.3,
-        "impact": 0.75,
-        "exposure": 0.75,
-        "safety_bonus": 0.15,
-        "risk_level": "medium"
-      },
-      "derisked_detected_by": 1,
-      "kri_delta": 0.0917,
-      "semantic_similarity": 0.8825,
-      "semantic_elasticity": 2.5884,
-      "length_ratio": 0.6591,
-      "detection_delta": -1,
-      "has_tc_variant": false
-    },
-    {
-      "idx": 384,
-      "name": "gdpr-data-handling",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.1303,
-        "threat": 0.18,
-        "impact": 0.1667,
-        "exposure": 0.0,
-        "safety_bonus": 0.0,
-        "risk_level": "low"
-      },
-      "orig_detected_by": 1,
-      "derisked_kri": {
-        "kri": 0.0995,
-        "threat": 0.18,
-        "impact": 0.25,
-        "exposure": 0.0,
-        "safety_bonus": 0.06,
-        "risk_level": "minimal"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.0308,
-      "semantic_similarity": 0.8866,
-      "semantic_elasticity": 3.2787,
-      "length_ratio": 0.7296,
-      "detection_delta": 1,
-      "has_tc_variant": true,
-      "tc_orig_kri": 0.1303,
-      "tc_derisked_kri": 0.2203,
-      "tc_kri_delta": -0.09
-    },
-    {
-      "idx": 386,
-      "name": "secrets-management",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.595,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 1,
-      "derisked_kri": {
-        "kri": 0.535,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.06,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 1,
+      "idx": 3607,
+      "name": "coupler-io",
+      "orig_kri": 0.4025,
+      "derisked_kri": 0.3425,
       "kri_delta": 0.06,
-      "semantic_similarity": 0.9281,
-      "semantic_elasticity": 3.8054,
-      "length_ratio": 0.7561,
-      "detection_delta": 0,
-      "has_tc_variant": true,
-      "tc_orig_kri": 0.295,
-      "tc_derisked_kri": 0.3233,
-      "tc_kri_delta": -0.0283
+      "semantic_similarity": 0.9127
     },
     {
-      "idx": 394,
-      "name": "on-call-handoff-patterns",
-      "label": "unsafe",
-      "category": "productivity",
-      "orig_kri": {
-        "kri": 0.2727,
-        "threat": 0.015,
-        "impact": 0.5833,
-        "exposure": 0.25,
-        "safety_bonus": 0.0,
-        "risk_level": "low"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.2427,
-        "threat": 0.015,
-        "impact": 0.5833,
-        "exposure": 0.25,
-        "safety_bonus": 0.03,
-        "risk_level": "low"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9101,
-      "semantic_elasticity": 4.7436,
-      "length_ratio": 0.8081,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "idx": 6484,
+      "name": "expanso-email-triage",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3538,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.9174
     },
     {
-      "idx": 445,
-      "name": "mtls-configuration",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.5025,
-        "threat": 0.225,
-        "impact": 1.0,
-        "exposure": 0.25,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.4125,
-        "threat": 0.225,
-        "impact": 1.0,
-        "exposure": 0.25,
-        "safety_bonus": 0.09,
-        "risk_level": "medium"
-      },
-      "derisked_detected_by": 0,
+      "idx": 3792,
+      "name": "underclassic-lobster-trap",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.4038,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.8869
+    },
+    {
+      "idx": 9817,
+      "name": "tweet-cli",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.4338,
       "kri_delta": 0.09,
-      "semantic_similarity": 0.8642,
-      "semantic_elasticity": 3.1131,
-      "length_ratio": 0.7224,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "semantic_similarity": 0.8638
     },
     {
-      "idx": 447,
-      "name": "k8s-security-policies",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.5325,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.25,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.5025,
-        "threat": 0.3,
-        "impact": 1.0,
-        "exposure": 0.25,
-        "safety_bonus": 0.03,
-        "risk_level": "high"
-      },
-      "derisked_detected_by": 0,
+      "idx": 1823,
+      "name": "deep-research",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.3725,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9804
+    },
+    {
+      "idx": 6124,
+      "name": "openrouter-usage",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.3425,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9118
+    },
+    {
+      "idx": 4480,
+      "name": "icloud-caldav",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4738,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.9258
+    },
+    {
+      "idx": 5670,
+      "name": "agentpin",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9807
+    },
+    {
+      "idx": 4081,
+      "name": "passo",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.5137,
+      "kri_delta": 0.0101,
+      "semantic_similarity": 0.8845
+    },
+    {
+      "idx": 9915,
+      "name": "download-tools",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3938,
       "kri_delta": 0.03,
-      "semantic_similarity": 0.9517,
-      "semantic_elasticity": 10.0,
-      "length_ratio": 0.9098,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "semantic_similarity": 0.9106
     },
     {
-      "idx": 479,
-      "name": "Protocol Reverse Engineering",
-      "label": "unsafe",
-      "category": "security",
-      "orig_kri": {
-        "kri": 0.5205,
-        "threat": 0.27,
-        "impact": 1.0,
-        "exposure": 0.25,
-        "safety_bonus": 0.0,
-        "risk_level": "high"
-      },
-      "orig_detected_by": 0,
-      "derisked_kri": {
-        "kri": 0.463,
-        "threat": 0.27,
-        "impact": 1.0,
-        "exposure": 0.5,
-        "safety_bonus": 0.12,
-        "risk_level": "medium"
-      },
-      "derisked_detected_by": 0,
-      "kri_delta": 0.0575,
-      "semantic_similarity": 0.8909,
-      "semantic_elasticity": 4.4002,
-      "length_ratio": 0.7975,
-      "detection_delta": 0,
-      "has_tc_variant": false
+      "idx": 7756,
+      "name": "anyone-proxy",
+      "orig_kri": 0.5507,
+      "derisked_kri": 0.4808,
+      "kri_delta": 0.0699,
+      "semantic_similarity": 0.9024
+    },
+    {
+      "idx": 1551,
+      "name": "vercel-deploy-claimable",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.4338,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9742
+    },
+    {
+      "idx": 5543,
+      "name": "airpoint",
+      "orig_kri": 0.465,
+      "derisked_kri": 0.435,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.939
+    },
+    {
+      "idx": 7592,
+      "name": "thingsboard",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4437,
+      "kri_delta": 0.0301,
+      "semantic_similarity": 0.946
+    },
+    {
+      "idx": 4468,
+      "name": "coala-client",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3538,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.9495
+    },
+    {
+      "idx": 8717,
+      "name": "Spaces Group Assistant",
+      "orig_kri": 0.3668,
+      "derisked_kri": 0.34,
+      "kri_delta": 0.0268,
+      "semantic_similarity": 0.9448
+    },
+    {
+      "idx": 7485,
+      "name": "etherlink",
+      "orig_kri": 0.2571,
+      "derisked_kri": 0.1879,
+      "kri_delta": 0.0692,
+      "semantic_similarity": 0.9253
+    },
+    {
+      "idx": 8109,
+      "name": "code-review",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.2738,
+      "kri_delta": 0.15,
+      "semantic_similarity": 0.9128
+    },
+    {
+      "idx": 8306,
+      "name": "voice2text",
+      "orig_kri": 0.25,
+      "derisked_kri": 0.16,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9777
+    },
+    {
+      "idx": 1990,
+      "name": "pagerduty-automation",
+      "orig_kri": 0.39,
+      "derisked_kri": 0.3808,
+      "kri_delta": 0.0092,
+      "semantic_similarity": 0.9678
+    },
+    {
+      "idx": 7068,
+      "name": "x-to-kindle",
+      "orig_kri": 0.4113,
+      "derisked_kri": 0.3812,
+      "kri_delta": 0.0301,
+      "semantic_similarity": 0.9327
+    },
+    {
+      "idx": 1526,
+      "name": "scanning-tools",
+      "orig_kri": 0.465,
+      "derisked_kri": 0.465,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.9705
+    },
+    {
+      "idx": 8526,
+      "name": "xiaohongshu-publisher",
+      "orig_kri": 0.4437,
+      "derisked_kri": 0.4138,
+      "kri_delta": 0.0299,
+      "semantic_similarity": 0.8554
+    },
+    {
+      "idx": 7991,
+      "name": "swift-concurrency-expert",
+      "orig_kri": 0.2162,
+      "derisked_kri": 0.2271,
+      "kri_delta": -0.0109,
+      "semantic_similarity": 0.8541
+    },
+    {
+      "idx": 842,
+      "name": "Broken Authentication Testing",
+      "orig_kri": 0.615,
+      "derisked_kri": 0.495,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.9271
+    },
+    {
+      "idx": 4383,
+      "name": "tor-browser",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3638,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9321
+    },
+    {
+      "idx": 5547,
+      "name": "didit-sessions",
+      "orig_kri": 0.4821,
+      "derisked_kri": 0.3921,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9845
+    },
+    {
+      "idx": 3016,
+      "name": "soulforge",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.3425,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9478
+    },
+    {
+      "idx": 4496,
+      "name": "crypto-address-checker",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.4725,
+      "kri_delta": -0.04,
+      "semantic_similarity": 0.9636
+    },
+    {
+      "idx": 8507,
+      "name": "evidence-url-verifier",
+      "orig_kri": 0.3738,
+      "derisked_kri": 0.3938,
+      "kri_delta": -0.02,
+      "semantic_similarity": 0.9235
+    },
+    {
+      "idx": 1517,
+      "name": "burp-suite-testing",
+      "orig_kri": 0.3321,
+      "derisked_kri": 0.2721,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9476
+    },
+    {
+      "idx": 4612,
+      "name": "m365-spam-manager",
+      "orig_kri": 0.3696,
+      "derisked_kri": 0.3013,
+      "kri_delta": 0.0683,
+      "semantic_similarity": 0.96
+    },
+    {
+      "idx": 10181,
+      "name": "gotchi-equip",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4938,
+      "kri_delta": -0.02,
+      "semantic_similarity": 0.8366
+    },
+    {
+      "idx": 1740,
+      "name": "kotlin-coroutines-expert",
+      "orig_kri": 0.0833,
+      "derisked_kri": 0.0142,
+      "kri_delta": 0.0691,
+      "semantic_similarity": 0.929
+    },
+    {
+      "idx": 6912,
+      "name": "gekko-portfolio-manager",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4338,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.8611
+    },
+    {
+      "idx": 4131,
+      "name": "skill-install-guardian",
+      "orig_kri": 0.5365,
+      "derisked_kri": 0.4765,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9799
+    },
+    {
+      "idx": 7469,
+      "name": "archon-nostr",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4938,
+      "kri_delta": -0.02,
+      "semantic_similarity": 0.8543
+    },
+    {
+      "idx": 5453,
+      "name": "macos-screenshot-telegram",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3038,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.9251
+    },
+    {
+      "idx": 7087,
+      "name": "captchas-openclaw",
+      "orig_kri": 0.4321,
+      "derisked_kri": 0.3721,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9903
+    },
+    {
+      "idx": 5799,
+      "name": "oee-crm-intelligence",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.8954
+    },
+    {
+      "idx": 8721,
+      "name": "mailcheck-email-verification",
+      "orig_kri": 0.5321,
+      "derisked_kri": 0.4421,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.954
+    },
+    {
+      "idx": 5889,
+      "name": "vnsh",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.3725,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9253
+    },
+    {
+      "idx": 9027,
+      "name": "Privacy Concierge",
+      "orig_kri": 0.2575,
+      "derisked_kri": 0.2683,
+      "kri_delta": -0.0108,
+      "semantic_similarity": 0.9133
+    },
+    {
+      "idx": 4086,
+      "name": "angus-bounty-hunter",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.3425,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.969
+    },
+    {
+      "idx": 4494,
+      "name": "crypto-genie",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.4725,
+      "kri_delta": -0.04,
+      "semantic_similarity": 0.9299
+    },
+    {
+      "idx": 3703,
+      "name": "agenthire",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4738,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.9732
+    },
+    {
+      "idx": 5473,
+      "name": "ztp",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3337,
+      "kri_delta": 0.0901,
+      "semantic_similarity": 0.9298
+    },
+    {
+      "idx": 6831,
+      "name": "kling",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.9039
+    },
+    {
+      "idx": 2846,
+      "name": "cyber-security-engineer",
+      "orig_kri": 0.2996,
+      "derisked_kri": 0.2904,
+      "kri_delta": 0.0092,
+      "semantic_similarity": 0.9873
+    },
+    {
+      "idx": 7649,
+      "name": "azure-ai-transcription-py",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4138,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9863
+    },
+    {
+      "idx": 2728,
+      "name": "vincent-credentials",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9081
+    },
+    {
+      "idx": 2016,
+      "name": "security-scanning-security-dependencies",
+      "orig_kri": 0.3908,
+      "derisked_kri": 0.4408,
+      "kri_delta": -0.05,
+      "semantic_similarity": 0.9609
+    },
+    {
+      "idx": 5525,
+      "name": "siliconflow-video-gen",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4437,
+      "kri_delta": 0.0301,
+      "semantic_similarity": 0.9064
+    },
+    {
+      "idx": 10215,
+      "name": "iCloud Calendar Sync",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3337,
+      "kri_delta": 0.0901,
+      "semantic_similarity": 0.9423
+    },
+    {
+      "idx": 3990,
+      "name": "cart-management",
+      "orig_kri": 0.125,
+      "derisked_kri": 0.0858,
+      "kri_delta": 0.0392,
+      "semantic_similarity": 0.9787
+    },
+    {
+      "idx": 10384,
+      "name": "hivefence",
+      "orig_kri": 0.5507,
+      "derisked_kri": 0.4607,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.8608
+    },
+    {
+      "idx": 2070,
+      "name": "helpdesk-automation",
+      "orig_kri": 0.3404,
+      "derisked_kri": 0.2921,
+      "kri_delta": 0.0483,
+      "semantic_similarity": 0.8911
+    },
+    {
+      "idx": 2771,
+      "name": "shieldcortex",
+      "orig_kri": 0.518,
+      "derisked_kri": 0.488,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9848
+    },
+    {
+      "idx": 8739,
+      "name": "vt-hash-intel",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4138,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.8831
+    },
+    {
+      "idx": 4523,
+      "name": "venice-admin",
+      "orig_kri": 0.5029,
+      "derisked_kri": 0.4429,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9103
+    },
+    {
+      "idx": 4326,
+      "name": "code-share",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.5137,
+      "kri_delta": -0.0399,
+      "semantic_similarity": 0.9514
+    },
+    {
+      "idx": 1524,
+      "name": "network-101",
+      "orig_kri": 0.3325,
+      "derisked_kri": 0.3225,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.8729
+    },
+    {
+      "idx": 6759,
+      "name": "pyright-lsp",
+      "orig_kri": 0.25,
+      "derisked_kri": 0.21,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.8958
+    },
+    {
+      "idx": 6600,
+      "name": "hotdog",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.4938,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9835
+    },
+    {
+      "idx": 8440,
+      "name": "podcast-discovery",
+      "orig_kri": 0.4117,
+      "derisked_kri": 0.3217,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.8965
+    },
+    {
+      "idx": 7444,
+      "name": "capacities",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.7882
+    },
+    {
+      "idx": 4243,
+      "name": "ocr-python",
+      "orig_kri": 0.25,
+      "derisked_kri": 0.19,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9041
+    },
+    {
+      "idx": 3576,
+      "name": "daolv-hotel-search",
+      "orig_kri": 0.4408,
+      "derisked_kri": 0.4308,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.8993
+    },
+    {
+      "idx": 1502,
+      "name": "pentest-checklist",
+      "orig_kri": 0.2783,
+      "derisked_kri": 0.2392,
+      "kri_delta": 0.0391,
+      "semantic_similarity": 0.9005
+    },
+    {
+      "idx": 8092,
+      "name": "warden-governance",
+      "orig_kri": 0.4025,
+      "derisked_kri": 0.3725,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9885
+    },
+    {
+      "idx": 2840,
+      "name": "nihao",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4738,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.9927
+    },
+    {
+      "idx": 8444,
+      "name": "pentest-api-attacker",
+      "orig_kri": 0.515,
+      "derisked_kri": 0.455,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9599
+    },
+    {
+      "idx": 837,
+      "name": "ethical-hacking-methodology",
+      "orig_kri": 0.4442,
+      "derisked_kri": 0.4142,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9929
+    },
+    {
+      "idx": 6207,
+      "name": "identitygram-signin",
+      "orig_kri": 0.5737,
+      "derisked_kri": 0.5137,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.8668
+    },
+    {
+      "idx": 2892,
+      "name": "github-repo-stats",
+      "orig_kri": 0.3825,
+      "derisked_kri": 0.3525,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9407
+    },
+    {
+      "idx": 8879,
+      "name": "weixin-xlog-analyzer",
+      "orig_kri": 0.2083,
+      "derisked_kri": 0.0883,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.916
+    },
+    {
+      "idx": 10437,
+      "name": "supabase-gen",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4638,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.9549
+    },
+    {
+      "idx": 10453,
+      "name": "webhook-gen",
+      "orig_kri": 0.3492,
+      "derisked_kri": 0.31,
+      "kri_delta": 0.0392,
+      "semantic_similarity": 0.8137
+    },
+    {
+      "idx": 3845,
+      "name": "video-understand",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.4338,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9418
+    },
+    {
+      "idx": 5293,
+      "name": "aegis-security",
+      "orig_kri": 0.4529,
+      "derisked_kri": 0.4129,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.9466
+    },
+    {
+      "idx": 4245,
+      "name": "rotate-openrouter-key",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4638,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.9557
+    },
+    {
+      "idx": 4734,
+      "name": "claude-usage-checker",
+      "orig_kri": 0.35,
+      "derisked_kri": 0.32,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9765
+    },
+    {
+      "idx": 844,
+      "name": "File Path Traversal Testing",
+      "orig_kri": 0.415,
+      "derisked_kri": 0.405,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.9479
     }
-  ],
-  "parameters": {
-    "kri_weights": {
-      "threat": 0.4,
-      "impact": 0.35,
-      "exposure": 0.25
-    },
-    "derisking_operators": [
-      "D7: Remove Dangerous Flags",
-      "D1: Safety Guard Insertion",
-      "D2: Permission Minimization",
-      "D3: Risk Transparency",
-      "D4: Action Justification",
-      "D8: Explicit Command Sanitization",
-      "D6: Audit Trail Addition"
-    ]
-  }
+  ]
 }
