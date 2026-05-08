@@ -1,0 +1,5500 @@
+name,category,llm_label
+notion,productivity,unsafe
+coding-agent,coding,unsafe
+sherpa-onnx-tts,ai-ml,normal
+Model Usage,productivity,normal
+sonoscli,productivity,normal
+Weather,productivity,normal
+apple-reminders,productivity,normal
+tmux Session Control,productivity,unsafe
+OpenClaw Host Hardening,security,unsafe
+session-logs,productivity,normal
+gog,productivity,normal
+Apple Notes CLI,productivity,unsafe
+clawhub,productivity,unsafe
+blogwatcher,productivity,normal
+Video Frames (ffmpeg),productivity,normal
+wacli,productivity,unsafe
+mcporter,infra,normal
+Summarize,productivity,normal
+Trello,productivity,normal
+gifgrep,productivity,normal
+goplaces,productivity,normal
+Obsidian,productivity,unsafe
+Peekaboo,productivity,unsafe
+Himalaya Email CLI,productivity,normal
+openai-whisper-api,ai-ml,normal
+nano-pdf,productivity,normal
+voice-call,infra,normal
+spotify-player,productivity,unsafe
+openai-whisper,ai-ml,normal
+acp-router,ai-ml,unsafe
+sherpa-onnx-tts,ai-ml,normal
+xurl,productivity,unsafe
+gh-issues,devops,unsafe
+feishu-drive,productivity,unsafe
+feishu-perm,productivity,unsafe
+feishu-wiki,productivity,normal
+Canvas,productivity,unsafe
+voice-call,infra,unsafe
+facebook/react/test,testing,normal
+facebook/react/verify,testing,normal
+Flow Type Checking,coding,normal
+Feature Flags,devops,normal
+React Feature Flags,coding,normal
+Fix Lint and Formatting,coding,normal
+Extract Error Codes,coding,normal
+n8n Content Design,design,normal
+Create Pull Request,devops,normal
+Skill Lookup,productivity,normal
+Book Translation,docs,normal
+prompt-lookup,ai-ml,normal
+React Vendoring,coding,normal
+Runtime Debug,coding,normal
+authoring-skills,docs,normal
+oRPC Contract-First Development,coding,normal
+Dify Frontend Testing,testing,normal
+Next.js Documentation Updater,docs,normal
+Dify Component Refactoring,coding,normal
+Frontend Code Review,coding,normal
+bun-file-io,coding,normal
+UX Designer,design,normal
+docs-writer,docs,normal
+docs-writer,docs,normal
+skill-creator,docs,normal
+docs-changelog,docs,normal
+Python Expert,coding,normal
+Debugger,coding,normal
+Full-Stack Developer,coding,normal
+Fact Checker,productivity,normal
+Project Planner,productivity,normal
+Content Creator,productivity,normal
+Decision Helper,productivity,normal
+Academic Researcher,docs,normal
+Meeting Notes,productivity,normal
+Technical Writer,docs,normal
+Strategy Advisor,productivity,normal
+Sprint Planner,productivity,normal
+Data Analyst,data,normal
+Editor,docs,normal
+Email Drafter,productivity,normal
+Visualization Expert,data,normal
+docs-changelog,docs,normal
+pirate-skill,other,normal
+Pull Request Creator,devops,normal
+pr-creator,devops,normal
+Code Reviewer,coding,normal
+code-reviewer,coding,unsafe
+greeter,productivity,normal
+skill-creator,ai-ml,unsafe
+docx,docs,normal
+playwright-mcp-dev,coding,normal
+Playwright Development Guide,coding,normal
+xlsx,data,normal
+pptx,productivity,normal
+pdf,coding,normal
+skill-creator,ai-ml,normal
+docx,coding,normal
+Remote Browser Automation for Sandboxed Agents,devops,unsafe
+browser-use,testing,unsafe
+PyTorch Docstring Writing Guide,docs,normal
+skill-writer,productivity,normal
+pdf,coding,normal
+xlsx,data,normal
+pptx,productivity,normal
+Writing Hookify Rules,productivity,normal
+LobeHub Testing Guide,testing,normal
+LobeHub UI Microcopy Guidelines,design,normal
+Drizzle ORM Schema Style Guide,coding,unsafe
+LobeHub Project Overview,docs,normal
+React Component Writing Guide for LobeHub,coding,normal
+doc-coauthoring,docs,normal
+slack-gif-creator,design,normal
+frontend-design,design,normal
+mcp-builder,ai-ml,normal
+brand-guidelines,design,normal
+canvas-design,design,normal
+algorithmic-art,design,normal
+internal-comms,docs,normal
+template-skill,other,useless
+webapp-testing,testing,normal
+web-artifacts-builder,coding,normal
+theme-factory,design,normal
+LobeHub Internationalization Guide,coding,normal
+LobeHub Desktop Development Guide,coding,normal
+add-provider-doc,docs,normal
+LobeHub Zustand State Management,coding,normal
+brainstorming,design,normal
+using-superpowers,productivity,normal
+writing-plans,productivity,normal
+Adding Keyboard Shortcuts Guide,coding,normal
+Modal Imperative API Guide,coding,normal
+Recent Data Usage Guide,coding,normal
+writing-skills,docs,normal
+subagent-driven-development,coding,normal
+executing-plans,productivity,normal
+using-git-worktrees,devops,normal
+add-setting-env,coding,normal
+Debug Package Usage Guide,coding,normal
+TypeScript Code Style Guide,coding,normal
+continuous-learning-v2,ai-ml,unsafe
+Eval Harness,testing,normal
+Continuous Learning,ai-ml,unsafe
+doc-coauthoring,docs,normal
+frontend-design,design,normal
+slack-gif-creator,design,normal
+C++ Testing,testing,normal
+postgres-patterns,data,unsafe
+template-skill,other,normal
+brand-guidelines,design,normal
+webapp-testing,testing,normal
+mcp-builder,coding,normal
+algorithmic-art,design,normal
+web-artifacts-builder,coding,normal
+theme-factory,design,normal
+configure-ecc,productivity,normal
+search-first,productivity,normal
+Nutrient Document Processing,productivity,unsafe
+Swift 6.2 Approachable Concurrency,coding,normal
+FoundationModels: On-Device LLM (iOS 26),ai-ml,normal
+Liquid Glass Design System (iOS 26),design,normal
+swift-actor-persistence,coding,normal
+Java Coding Standards,coding,normal
+Spring Boot Security Review,security,normal
+Spring Boot Verification Loop,testing,normal
+golang-testing,testing,normal
+swift-protocol-di-testing,testing,normal
+Project Guidelines Example,coding,normal
+Verification Loop,testing,normal
+Docker Patterns,devops,normal
+Deployment Patterns,devops,unsafe
+Django Testing with TDD,testing,normal
+Database Migration Patterns,data,normal
+Django Development Patterns,coding,normal
+cpp-coding-standards,coding,normal
+frontend-patterns,coding,normal
+Django Security Best Practices,security,normal
+cost-aware-llm-pipeline,ai-ml,unsafe
+coding-standards,coding,normal
+Security Scan,security,normal
+content-hash-cache-pattern,coding,normal
+golang-patterns,coding,normal
+tdd-workflow,testing,normal
+django-verification,testing,unsafe
+backend-patterns,coding,normal
+ClickHouse Analytics Patterns,data,unsafe
+JPA/Hibernate Patterns,coding,normal
+regex-vs-llm-structured-text,data,normal
+Python Development Patterns,coding,normal
+Python Testing Patterns,testing,normal
+Spring Boot TDD Workflow,testing,normal
+Iterative Retrieval Pattern,ai-ml,normal
+Strategic Compact,productivity,normal
+Spring Boot Development Patterns,coding,normal
+visa-doc-translate,productivity,normal
+SwiftUI Patterns,coding,normal
+receiving-code-review,productivity,normal
+using-superpowers,productivity,normal
+brainstorming,coding,normal
+writing-plans,productivity,normal
+test-driven-development,testing,normal
+requesting-code-review,coding,normal
+dispatching-parallel-agents,productivity,normal
+systematic-debugging,coding,normal
+writing-skills,docs,normal
+PR Babysitter,devops,unsafe
+executing-plans,coding,normal
+subagent-driven-development,productivity,unsafe
+using-git-worktrees,devops,normal
+Opus 4.5 Migration Guide,ai-ml,normal
+Hook Development for Claude Code Plugins,coding,normal
+Plugin Settings Pattern for Claude Code Plugins,productivity,normal
+Skill Development for Claude Code Plugins,docs,normal
+MCP Integration for Claude Code Plugins,infra,normal
+Plugin Structure for Claude Code,docs,normal
+Agent Development for Claude Code Plugins,ai-ml,normal
+Command Development for Claude Code,productivity,unsafe
+SEO Audit for Concept Pages,docs,normal
+Resource Curator for Concept Pages,docs,normal
+Complete Concept Workflow,docs,normal
+Test Writer for Concept Pages,testing,normal
+JavaScript Fact Checker,docs,normal
+Write JavaScript Concept Documentation,docs,normal
+Create Pull Request,devops,normal
+receiving-code-review,productivity,normal
+requesting-code-review,coding,normal
+test-driven-development,coding,normal
+systematic-debugging,coding,normal
+dispatching-parallel-agents,productivity,unsafe
+finishing-a-development-branch,devops,unsafe
+verification-before-completion,productivity,normal
+finishing-a-development-branch,devops,normal
+verification-before-completion,coding,normal
+mutation-testing,testing,unsafe
+TypeScript/JavaScript Code Review,coding,normal
+typescript-review,coding,normal
+Metabase Documentation Writing,docs,normal
+docs-write,docs,normal
+Context7 Documentation Lookup,docs,normal
+write-pr,docs,normal
+write-docs,docs,normal
+clojure-review,coding,normal
+analytics-events,coding,normal
+read-arxiv-paper,ai-ml,normal
+write-example,docs,normal
+Telegram Automation via Rube MCP,productivity,unsafe
+YouTube Video Downloader,productivity,normal
+Instagram Automation via Rube MCP,productivity,unsafe
+LinkedIn Automation via Rube MCP,productivity,unsafe
+Google Drive Automation via Rube MCP,productivity,unsafe
+Google Calendar Automation via Rube MCP,productivity,unsafe
+GitLab Automation via Rube MCP,devops,unsafe
+Google Sheets Automation via Rube MCP,productivity,unsafe
+Gmail Automation via Rube MCP,productivity,unsafe
+GitHub Automation via Rube MCP,devops,unsafe
+write-e2e-tests,testing,normal
+write-unit-tests,testing,normal
+write-issue,docs,normal
+Documentation Review,docs,normal
+docs-review,docs,normal
+add-malli-schemas,coding,normal
+clojure-write,coding,normal
+CCXT for Python,coding,unsafe
+Twitter Algorithm Optimizer,productivity,normal
+GitHub PR Triage Specialist,devops,unsafe
+GitHub Issue Triage Specialist (Streaming Architecture),productivity,normal
+make-pr,devops,normal
+Remotion Web Renderer Visual Snapshot Testing,testing,normal
+Connect Apps,productivity,unsafe
+LangSmith Fetch - Agent Debugging Skill,ai-ml,normal
+Tailored Resume Generator,productivity,normal
+Connect,productivity,unsafe
+TypeScript/JavaScript Development Skill for Metabase,coding,normal
+typescript-write,coding,unsafe
+System Info,infra,normal
+GitHub Triage — Unified Issue & PR Processor,devops,unsafe
+git-workflow,devops,normal
+Writing Remotion Documentation,docs,normal
+Adding an Interactive Demo to Remotion Docs,docs,normal
+video-report,testing,unsafe
+UI/UX Pro Max,design,normal
+Frontend UI/UX Designer-Developer,design,normal
+Cookbook Audit,docs,normal
+Developer Growth Analysis,productivity,malicious
+skill-share,productivity,normal
+ui-ux-pro-max,design,normal
+mem-search,productivity,normal
+Artifacts Builder,coding,normal
+Raffle Winner Picker,productivity,normal
+Meeting Insights Analyzer,productivity,normal
+Lead Research Assistant,productivity,unsafe
+Image Enhancer,productivity,normal
+Invoice Organizer,productivity,normal
+File Organizer,productivity,unsafe
+Content Research Writer,docs,normal
+Changelog Generator,docs,normal
+Competitive Ads Extractor,data,unsafe
+ShellCheck Configuration and Static Analysis,coding,normal
+Employment Contract Templates,docs,normal
+Web3 Smart Contract Testing,testing,unsafe
+Vector Index Tuning,ai-ml,normal
+Web Component Design,design,normal
+WCAG Audit Patterns,design,normal
+Visual Design Foundations,design,normal
+Unity ECS Patterns,coding,normal
+Turborepo Caching,devops,normal
+UV Package Manager,devops,normal
+Istio Traffic Management,infra,unsafe
+Threat Mitigation Mapping,security,normal
+Terraform Module Library,infra,normal
+Design System Patterns,design,normal
+TypeScript Advanced Types,coding,normal
+Tailwind Design System (v4),design,normal
+Solidity Security,security,normal
+Stripe Integration,coding,normal
+STRIDE Analysis Patterns,security,normal
+Team Composition Analysis,productivity,normal
+SQL Optimization Patterns,data,unsafe
+Similarity Search Patterns,ai-ml,unsafe
+Startup Financial Modeling,data,normal
+Startup Metrics Framework,data,normal
+Apache Spark Optimization,data,normal
+SLO Implementation,infra,normal
+Service Mesh Observability,infra,normal
+Secrets Management,security,unsafe
+GitHub Actions Templates,devops,unsafe
+DeFi Protocol Templates,coding,unsafe
+Debugging Strategies,coding,normal
+dbt Transformation Patterns,data,normal
+Security Requirement Extraction,security,normal
+Cloud Cost Optimization,infra,normal
+Data Quality Frameworks,data,normal
+CQRS Implementation,coding,normal
+Database Migration,data,normal
+Data Storytelling,docs,normal
+E2E Testing Patterns,testing,normal
+React Modernization,coding,normal
+Rust Async Patterns,coding,normal
+Saga Orchestration,coding,normal
+Risk Metrics Calculation,data,normal
+Billing Automation,coding,unsafe
+Godot GDScript Patterns,coding,normal
+Screen Reader Testing,testing,normal
+Attack Tree Construction,security,normal
+Competitive Landscape Analysis,productivity,normal
+RAG Implementation,ai-ml,unsafe
+React Native Design,coding,normal
+k8s-security-policies,security,unsafe
+Helm Chart Scaffolding,devops,normal
+Modern JavaScript Patterns,coding,normal
+Angular Migration,coding,normal
+Grafana Dashboards,infra,normal
+Bash Defensive Patterns,coding,normal
+Projection Patterns,coding,normal
+LangChain & LangGraph Architecture,ai-ml,normal
+Incident Runbook Templates,devops,unsafe
+Hybrid Search Implementation,ai-ml,normal
+Prompt Engineering Patterns,ai-ml,unsafe
+Prometheus Configuration,infra,normal
+OpenAPI Spec Generation,docs,normal
+Bats Testing Patterns,testing,normal
+Accessibility Compliance,coding,normal
+iOS Mobile Design,design,normal
+Responsive Design,design,normal
+Apache Airflow DAG Patterns,data,normal
+Code Review Excellence,coding,normal
+Async Python Patterns,coding,normal
+React Native Architecture,coding,normal
+API Design Principles,coding,normal
+React State Management,coding,normal
+turborepo,devops,normal
+openapi-spec-generation,docs,normal
+code-review-excellence,productivity,normal
+nodejs-backend-patterns,coding,normal
+changelog-automation,devops,normal
+bazel-build-optimization,devops,normal
+billing-automation,coding,unsafe
+screen-reader-testing,testing,unsafe
+competitive-landscape,productivity,normal
+nft-standards,coding,unsafe
+bash-defensive-patterns,devops,normal
+auth-implementation-patterns,security,unsafe
+cost-optimization,infra,normal
+backtesting-frameworks,data,normal
+react-modernization,coding,normal
+bats-testing-patterns,testing,normal
+gdpr-data-handling,security,unsafe
+github-actions-templates,devops,unsafe
+secrets-management,security,unsafe
+async-python-patterns,coding,normal
+architecture-patterns,coding,normal
+cqrs-implementation,coding,normal
+attack-tree-construction,security,normal
+python-performance-optimization,coding,normal
+airflow-dag-patterns,data,unsafe
+api-design-principles,coding,normal
+on-call-handoff-patterns,productivity,unsafe
+accessibility-compliance,coding,normal
+architecture-decision-records,docs,normal
+angular-migration,coding,normal
+python-packaging,coding,normal
+javascript-testing-patterns,testing,normal
+gitlab-ci-patterns,devops,unsafe
+data-quality-frameworks,data,normal
+security-requirement-extraction,security,normal
+projection-patterns,coding,normal
+turborepo-caching,devops,normal
+istio-traffic-management,devops,normal
+deployment-pipeline-design,devops,unsafe
+paypal-integration,coding,normal
+godot-gdscript-patterns,coding,normal
+helm-chart-scaffolding,devops,unsafe
+python-testing-patterns,testing,normal
+fastapi-templates,coding,normal
+market-sizing-analysis,productivity,normal
+startup-financial-modeling,productivity,normal
+solidity-security,security,normal
+typescript-advanced-types,coding,normal
+team-composition-analysis,productivity,normal
+go-concurrency-patterns,coding,normal
+hybrid-cloud-networking,infra,normal
+vector-index-tuning,ai-ml,normal
+dotnet-backend-patterns,coding,normal
+distributed-tracing,infra,normal
+e2e-testing-patterns,testing,normal
+embedding-strategies,ai-ml,unsafe
+error-handling-patterns,coding,normal
+defi-protocol-templates,coding,unsafe
+react-native-architecture,coding,normal
+design-system-patterns,design,normal
+employment-contract-templates,docs,normal
+startup-metrics-framework,productivity,normal
+mobile-android-design,coding,normal
+risk-metrics-calculation,data,normal
+tailwind-design-system,coding,normal
+slo-implementation,devops,normal
+dbt-transformation-patterns,data,normal
+dependency-upgrade,devops,normal
+debugging-strategies,coding,normal
+prometheus-configuration,devops,normal
+database-migration,devops,unsafe
+event-store-design,coding,normal
+stripe-integration,coding,normal
+data-storytelling,productivity,normal
+multi-cloud-architecture,infra,normal
+langchain-architecture,ai-ml,normal
+linkerd-patterns,devops,normal
+mtls-configuration,security,unsafe
+llm-evaluation,ai-ml,normal
+k8s-security-policies,security,unsafe
+incident-runbook-templates,devops,unsafe
+nextjs-app-router-patterns,coding,normal
+grafana-dashboards,devops,normal
+responsive-design,design,normal
+hybrid-search-implementation,ai-ml,normal
+interaction-design,design,normal
+kpi-dashboard-design,data,normal
+Context-Driven Development,docs,normal
+context-driven-development,docs,normal
+Team Composition Patterns,productivity,normal
+Task Coordination Strategies,productivity,normal
+Team Communication Protocols,productivity,normal
+Parallel Debugging,coding,normal
+Parallel Feature Development,productivity,normal
+Multi-Reviewer Patterns,coding,normal
+Python Type Safety,coding,normal
+Python Resilience Patterns,coding,normal
+Python Resource Management,coding,normal
+Python Project Structure & Module Architecture,coding,normal
+Python Observability,infra,normal
+Python Background Jobs & Task Queues,coding,normal
+Python Design Patterns,coding,normal
+Python Error Handling,coding,normal
+Python Configuration Management,coding,normal
+Python Anti-Patterns Checklist,coding,normal
+Python Code Style & Documentation,coding,normal
+multi-reviewer-patterns,coding,normal
+team-composition-patterns,ai-ml,normal
+task-coordination-strategies,productivity,normal
+team-communication-protocols,productivity,normal
+parallel-debugging,coding,normal
+Protocol Reverse Engineering,security,unsafe
+Anti-Reversing Techniques,security,normal
+PostgreSQL Table Design,data,normal
+Kubernetes Manifest Generator,infra,normal
+ML Pipeline Workflow,ai-ml,normal
+Memory Forensics,security,unsafe
+SAST Configuration,security,unsafe
+Binary Analysis Patterns,security,normal
+GitOps Workflow,devops,unsafe
+python-type-safety,coding,normal
+python-code-style,coding,normal
+python-design-patterns,coding,normal
+python-project-structure,coding,normal
+python-resource-management,coding,normal
+python-configuration,coding,normal
+python-anti-patterns,coding,normal
+python-observability,devops,normal
+python-error-handling,coding,normal
+python-resilience,coding,normal
+python-background-jobs,coding,normal
+Workflow Patterns,coding,normal
+Track Management,productivity,normal
+Workflow Orchestration Patterns,infra,normal
+Temporal Python Testing Strategies,testing,normal
+postgresql-table-design,data,normal
+binary-analysis-patterns,security,normal
+protocol-reverse-engineering,security,unsafe
+gitops-workflow,devops,unsafe
+memory-forensics,security,unsafe
+ml-pipeline-workflow,ai-ml,normal
+sast-configuration,security,unsafe
+k8s-manifest-generator,devops,normal
+anti-reversing-techniques,security,normal
+track-management,productivity,normal
+workflow-patterns,devops,normal
+temporal-python-testing,testing,normal
+workflow-orchestration-patterns,devops,unsafe
+heroui-native,coding,normal
+heroui-react,coding,normal
+Next.js 15 Performance,coding,normal
+Professional Research Report (Consulting Analysis),docs,normal
+GPT Researcher Development Skill,ai-ml,normal
+nextjs-performance,coding,unsafe
+PPT Generation,design,normal
+GitHub Deep Research,ai-ml,normal
+github-issues,productivity,normal
+winapp-cli,devops,unsafe
+Import Infrastructure as Code (Azure -> Terraform with AVM),infra,normal
+Data Cleaning and Variable Screening for Credit Risk,data,normal
+Microsoft Store Developer CLI (msstore),devops,unsafe
+azure-devops-cli,devops,normal
+bigquery-pipeline-audit,data,normal
+mcp-configure,devops,unsafe
+playwright-generate-test,testing,normal
+java-refactoring-extract-method,coding,normal
+prompt-builder,productivity,normal
+php-mcp-server-generator,coding,normal
+java-docs,docs,normal
+java-refactoring-remove-parameter,coding,normal
+power-platform-mcp-connector-suite,infra,normal
+java-add-graalvm-native-image-support,coding,normal
+go-mcp-server-generator,coding,normal
+readme-blueprint-generator,docs,normal
+write-coding-standards-from-file,docs,unsafe
+what-context-needed,productivity,normal
+git-flow-branch-creator,devops,normal
+github-copilot-starter,productivity,normal
+java-junit,testing,normal
+java-springboot,coding,normal
+python-mcp-server-generator,coding,normal
+fedora-linux-triage,infra,unsafe
+playwright-automation-fill-in-form,testing,normal
+generate-custom-instructions-from-codebase,productivity,normal
+folder-structure-blueprint-generator,docs,normal
+gen-specs-as-issues,productivity,normal
+first-ask,productivity,normal
+dotnet-best-practices,coding,normal
+power-bi-model-design-review,data,normal
+shuffle-json-data,data,normal
+kotlin-mcp-server-generator,coding,normal
+java-mcp-server-generator,coding,normal
+power-bi-dax-optimization,data,normal
+architecture-blueprint-generator,docs,normal
+ef-core,coding,normal
+finalize-agent-prompt,ai-ml,normal
+dotnet-upgrade,devops,normal
+editorconfig,coding,normal
+dotnet-design-pattern-review,coding,normal
+ai-prompt-engineering-safety-review,security,normal
+remember,productivity,normal
+apple-appstore-reviewer,security,normal
+arch-linux-triage,infra,unsafe
+add-educational-comments,docs,normal
+remember-interactive-programming,coding,normal
+repo-story-time,docs,normal
+playwright-explore-website,testing,normal
+my-issues,productivity,normal
+typespec-api-operations,coding,normal
+pytest-coverage,testing,normal
+power-apps-code-app-scaffold,coding,normal
+memory-merger,productivity,normal
+power-bi-report-design-consultation,design,normal
+typespec-create-agent,coding,normal
+refactor-plan,coding,normal
+typescript-mcp-server-generator,coding,normal
+update-markdown-file-index,docs,normal
+mcp-deploy-manage-agents,devops,unsafe
+postgresql-code-review,coding,normal
+postgresql-optimization,data,unsafe
+power-bi-performance-troubleshooting,data,normal
+update-oo-component-documentation,docs,normal
+swift-mcp-server-generator,coding,normal
+suggest-awesome-github-copilot-prompts,productivity,normal
+mcp-create-adaptive-cards,coding,normal
+sql-code-review,security,normal
+openapi-to-application-code,coding,normal
+create-implementation-plan,productivity,normal
+csharp-nunit,testing,normal
+suggest-awesome-github-copilot-skills,productivity,normal
+sql-optimization,data,normal
+structured-autonomy-generate,docs,normal
+create-specification,docs,normal
+mkdocs-translations,docs,normal
+breakdown-feature-prd,docs,normal
+create-github-issue-feature-from-specification,productivity,normal
+ruby-mcp-server-generator,coding,normal
+next-intl-add-language,coding,normal
+boost-prompt,productivity,normal
+model-recommendation,ai-ml,normal
+review-and-refactor,coding,unsafe
+devops-rollout-plan,devops,normal
+mcp-create-declarative-agent,ai-ml,normal
+create-github-issues-for-unmet-specification-requirements,productivity,normal
+az-cost-optimize,infra,normal
+documentation-writer,docs,normal
+create-github-pull-request-from-specification,devops,normal
+create-technical-spike,docs,normal
+breakdown-epic-pm,productivity,normal
+mcp-copilot-studio-server-generator,coding,normal
+kotlin-springboot,coding,normal
+multi-stage-dockerfile,devops,normal
+create-spring-boot-kotlin-project,coding,unsafe
+game-engine,coding,normal
+entra-agent-user,infra,unsafe
+agent-governance,security,normal
+quasi-coder,coding,normal
+make-repo-contribution,devops,normal
+fabric-lakehouse,data,normal
+copilot-usage-metrics,productivity,normal
+transloadit-media-processing,infra,normal
+fluentui-blazor,coding,normal
+polyglot-test-agent,testing,normal
+finnish-humanizer,docs,normal
+pdftk-server,productivity,normal
+sponsor-finder,productivity,normal
+copilot-cli-quickstart,docs,normal
+github-issues,devops,unsafe
+microsoft-skill-creator,ai-ml,normal
+create-web-form,coding,normal
+nano-banana-pro-openrouter,ai-ml,normal
+gh-cli,devops,normal
+microsoft-docs,docs,normal
+aspire,infra,normal
+winapp-cli,devops,unsafe
+azure-devops-cli,devops,normal
+meeting-minutes,productivity,normal
+powerbi-modeling,data,normal
+penpot-uiux-design,design,normal
+excalidraw-diagram-generator,design,normal
+refactor,coding,normal
+terraform-azurerm-set-diff-analyzer,devops,normal
+bigquery-pipeline-audit,data,normal
+mcp-configure,devops,normal
+tldr-prompt,docs,normal
+git-flow-branch-creator,devops,normal
+typescript-mcp-server-generator,coding,normal
+csharp-tunit,testing,normal
+mcp-deploy-manage-agents,devops,unsafe
+typespec-create-agent,coding,normal
+containerize-aspnet-framework,devops,normal
+boost-prompt,productivity,normal
+csharp-async,coding,normal
+devops-rollout-plan,devops,normal
+create-github-pull-request-from-specification,devops,normal
+conventional-commit,productivity,normal
+shuffle-json-data,data,normal
+swift-mcp-server-generator,coding,normal
+next-intl-add-language,coding,unsafe
+typespec-api-operations,coding,normal
+breakdown-test,testing,normal
+create-spring-boot-kotlin-project,coding,unsafe
+documentation-writer,docs,normal
+dotnet-design-pattern-review,coding,normal
+memory-merger,productivity,normal
+mkdocs-translations,docs,normal
+dataverse-python-quickstart,coding,normal
+remember,productivity,normal
+model-recommendation,ai-ml,normal
+create-github-issues-for-unmet-specification-requirements,devops,normal
+create-github-issue-feature-from-specification,productivity,unsafe
+create-oo-component-documentation,docs,normal
+structured-autonomy-plan,productivity,normal
+csharp-nunit,testing,normal
+csharp-xunit,testing,normal
+az-cost-optimize,infra,normal
+breakdown-epic-pm,docs,normal
+go-mcp-server-generator,coding,normal
+java-springboot,coding,normal
+azure-resource-health-diagnose,devops,normal
+kotlin-mcp-server-generator,coding,normal
+csharp-mcp-server-generator,coding,normal
+editorconfig,coding,normal
+aspnet-minimal-api-openapi,coding,normal
+code-exemplars-blueprint-generator,coding,normal
+dotnet-upgrade,devops,normal
+convert-plaintext-to-md,docs,normal
+copilot-instructions-blueprint-generator,productivity,normal
+breakdown-feature-prd,docs,normal
+create-llms,docs,normal
+debian-linux-triage,devops,normal
+declarative-agents,coding,normal
+mcp-create-adaptive-cards,coding,normal
+ruby-mcp-server-generator,coding,normal
+my-pull-requests,productivity,normal
+multi-stage-dockerfile,devops,normal
+update-specification,docs,normal
+java-docs,coding,normal
+create-implementation-plan,productivity,normal
+readme-blueprint-generator,docs,normal
+breakdown-epic-arch,docs,normal
+breakdown-plan,productivity,normal
+structured-autonomy-implement,coding,normal
+mcp-copilot-studio-server-generator,devops,unsafe
+playwright-automation-fill-in-form,testing,unsafe
+openapi-to-application-code,coding,normal
+javascript-typescript-jest,testing,normal
+dotnet-best-practices,coding,normal
+prompt-builder,productivity,normal
+php-mcp-server-generator,coding,normal
+ef-core,coding,normal
+kotlin-springboot,coding,normal
+create-architectural-decision-record,docs,normal
+java-refactoring-extract-method,coding,normal
+java-junit,testing,normal
+power-apps-code-app-scaffold,coding,normal
+update-llms,docs,normal
+folder-structure-blueprint-generator,docs,normal
+sql-code-review,security,normal
+my-issues,productivity,normal
+power-bi-model-design-review,data,normal
+rust-mcp-server-generator,coding,normal
+playwright-explore-website,testing,unsafe
+write-coding-standards-from-file,docs,normal
+suggest-awesome-github-copilot-agents,productivity,normal
+review-and-refactor,coding,unsafe
+pytest-coverage,testing,normal
+github-copilot-starter,devops,normal
+create-specification,docs,normal
+create-tldr-page,docs,normal
+update-oo-component-documentation,docs,normal
+power-bi-report-design-consultation,design,normal
+apple-appstore-reviewer,coding,normal
+refactor-plan,coding,normal
+dataverse-python-production-code,coding,normal
+arch-linux-triage,devops,normal
+create-github-issues-feature-from-implementation-plan,devops,normal
+update-markdown-file-index,docs,normal
+comment-code-generate-a-tutorial,coding,normal
+java-refactoring-remove-parameter,coding,normal
+fedora-linux-triage,devops,normal
+dataverse-python-advanced-patterns,coding,normal
+suggest-awesome-github-copilot-instructions,productivity,normal
+create-readme,docs,normal
+create-spring-boot-java-project,coding,normal
+power-bi-dax-optimization,data,normal
+sql-optimization,data,normal
+generate-custom-instructions-from-codebase,coding,normal
+postgresql-optimization,data,normal
+game-engine,coding,normal
+LangSmith - LLM Observability Platform,ai-ml,unsafe
+Megatron-Core Large-Scale LLM Training,ai-ml,unsafe
+PyTorch Geometric (PyG),ai-ml,normal
+Stable Diffusion Image Generation,ai-ml,normal
+SAELens: Sparse Autoencoders for Mechanistic Interpretability,ai-ml,normal
+SkyPilot Multi-Cloud Orchestration,infra,unsafe
+BLIP-2 Vision-Language Pre-training,ai-ml,normal
+SimPO - Simple Preference Optimization,ai-ml,normal
+PEFT Fine-Tuning,ai-ml,normal
+AudioCraft: Audio Generation,ai-ml,normal
+Phoenix AI Observability,ai-ml,normal
+AutoGPT - Autonomous AI Agent Platform,ai-ml,unsafe
+vLLM - High-Performance LLM Serving,ai-ml,unsafe
+AWQ (Activation-aware Weight Quantization),ai-ml,normal
+TransformerLens Mechanistic Interpretability,ai-ml,normal
+nnsight Remote Interpretability,ai-ml,normal
+HQQ - Half-Quadratic Quantization,ai-ml,normal
+Segment Anything Model (SAM),ai-ml,normal
+TRL - Transformer Reinforcement Learning Fine-Tuning,ai-ml,normal
+lm-evaluation-harness - LLM Benchmarking,ai-ml,unsafe
+Lambda Labs GPU Cloud,infra,normal
+bitsandbytes LLM Quantization,ai-ml,normal
+Qdrant Vector Similarity Search Engine,ai-ml,normal
+pyvene Causal Interventions for Neural Networks,ai-ml,normal
+LitGPT - Clean LLM Implementations,ai-ml,normal
+GGUF Quantization for llama.cpp,ai-ml,normal
+Flash Attention - Fast Memory-Efficient Attention,ai-ml,normal
+markdown-to-html,coding,normal
+copilot-sdk,ai-ml,unsafe
+entra-agent-user,infra,unsafe
+workiq-copilot,productivity,unsafe
+agent-governance,security,normal
+quasi-coder,coding,unsafe
+make-repo-contribution,devops,normal
+fabric-lakehouse,data,normal
+copilot-usage-metrics,productivity,normal
+transloadit-media-processing,infra,normal
+Vercel React Best Practices,coding,normal
+fluentui-blazor,coding,normal
+polyglot-test-agent,testing,unsafe
+finnish-humanizer,productivity,normal
+scoutqa-test,testing,unsafe
+pdftk-server,productivity,normal
+prd,docs,normal
+git-commit,devops,normal
+mcp-cli,infra,unsafe
+plantuml-ascii,docs,normal
+chrome-devtools,testing,unsafe
+azure-deployment-preflight,devops,normal
+image-manipulation-image-magick,productivity,normal
+sponsor-finder,productivity,normal
+legacy-circuit-mockups,design,normal
+copilot-cli-quickstart,productivity,normal
+agentic-eval,ai-ml,normal
+make-skill-template,productivity,normal
+snowflake-semanticview,data,normal
+microsoft-skill-creator,ai-ml,normal
+create-web-form,coding,normal
+nano-banana-pro-openrouter,ai-ml,normal
+azure-static-web-apps,devops,normal
+gh-cli,devops,unsafe
+microsoft-docs,docs,normal
+aspire,devops,normal
+microsoft-code-reference,coding,normal
+Wireshark Network Traffic Analysis,security,unsafe
+API Fuzzing for Bug Bounty,security,unsafe
+D3.js Visualisation,coding,normal
+Linux Production Shell Scripts,devops,unsafe
+Top 100 Web Vulnerabilities Reference,security,normal
+IDOR Vulnerability Testing,security,unsafe
+Burp Suite Web Application Testing,security,unsafe
+Academic Research Engineer,coding,normal
+windows-privilege-escalation,security,malicious
+html-injection-testing,security,malicious
+Red Team Tools and Methodology,security,unsafe
+Privilege Escalation Methods,security,malicious
+smtp-penetration-testing,security,unsafe
+active-directory-attacks,security,malicious
+linux-privilege-escalation,security,unsafe
+ethical-hacking-methodology,security,unsafe
+Cross-Site Scripting and HTML Injection Testing,security,unsafe
+cloud-penetration-testing,security,unsafe
+sql-injection-testing,security,unsafe
+aws-penetration-testing,security,malicious
+Broken Authentication Testing,security,unsafe
+ssh-penetration-testing,security,malicious
+File Path Traversal Testing,security,unsafe
+pentest-checklist,security,unsafe
+pentest-commands,security,unsafe
+network-101,security,unsafe
+Metasploit Framework,security,unsafe
+wordpress-penetration-testing,security,unsafe
+Obsidian Web Clipper Template Creator,productivity,normal
+Context Compression Strategies,ai-ml,normal
+vscode-ext-commands,coding,normal
+vscode-ext-localization,coding,normal
+meeting-minutes,productivity,normal
+powerbi-modeling,data,normal
+penpot-uiux-design,design,normal
+excalidraw-diagram-generator,design,normal
+refactor,coding,normal
+agirails-agent-payments,infra,unsafe
+AI Agents Architect,ai-ml,normal
+terraform-azurerm-set-diff-analyzer,devops,normal
+web-design-reviewer,design,normal
+Design Orchestration (Meta-Skill),design,normal
+Multi-Agent Brainstorming (Structured Design Review),design,normal
+nuget-manager,coding,normal
+AI Product Development,ai-ml,normal
+api-documenter,docs,normal
+AI Engineer,ai-ml,normal
+FastAPI Pro,coding,normal
+Kubernetes Architect,infra,unsafe
+backend-architect,coding,normal
+email-systems,infra,normal
+devops-troubleshooter,devops,unsafe
+data-scientist,ai-ml,normal
+Data Engineer,data,normal
+database-architect,infra,normal
+startup-business-analyst-financial-projections,data,normal
+Blockchain Developer,coding,unsafe
+ios-developer,coding,normal
+terraform-specialist,infra,normal
+Backend Security Coder,security,normal
+typescript-expert,coding,normal
+bash-pro,coding,unsafe
+startup-analyst,productivity,normal
+UI Visual Validator,testing,normal
+Market Opportunity Analysis,other,normal
+Content Marketer,productivity,normal
+Business Case Generator,productivity,normal
+Vercel AI SDK Usage Guide,ai-ml,normal
+azure-role-selector,security,unsafe
+markdown-to-html,coding,normal
+copilot-sdk,coding,unsafe
+Vercel Deployment,devops,normal
+behavioral-modes,productivity,normal
+viral-generator-builder,design,normal
+Voice AI Engine Development,ai-ml,normal
+AWS Skills,infra,unsafe
+avalonia-layout-zafiro,design,normal
+codebase-cleanup-deps-audit,security,normal
+Web Performance Optimization,coding,normal
+avalonia-viewmodels-zafiro,coding,normal
+zapier-make-patterns,productivity,normal
+Voice AI Development,ai-ml,unsafe
+youtube-summarizer,productivity,normal
+Autonomous Agent Patterns,ai-ml,normal
+voice-agents,ai-ml,normal
+Autonomous Agents,ai-ml,normal
+Vulnerability Scanner,security,normal
+Telegram Bot Builder,coding,normal
+Code Explanation and Analysis,docs,normal
+audio-transcriber,productivity,normal
+architect-review,coding,normal
+application-performance-performance-optimization,devops,unsafe
+test-fixing,testing,normal
+Clerk Authentication,security,normal
+Architecture Decision Framework,design,normal
+Code Review Checklist,coding,normal
+App Store Optimization (ASO),productivity,normal
+nextjs-best-practices,coding,normal
+clean-code,coding,normal
+frontend-dev-guidelines,coding,normal
+comprehensive-review-full-review,coding,unsafe
+cc-skill-strategic-compact,other,useless
+Firebase,infra,normal
+machine-learning-ops-ml-pipeline,ai-ml,unsafe
+file-uploads,infra,normal
+Game Development,coding,normal
+Data Pipeline Architecture,data,normal
+Conversation Memory,ai-ml,normal
+parallel-agents,productivity,unsafe
+NoSQL Expert Patterns (Cassandra & DynamoDB),data,normal
+vector-database-engineer,data,normal
+unit-testing-test-generate,testing,normal
+Unreal Engine C++ Pro,coding,normal
+Security Review Skill,security,normal
+BullMQ Specialist,infra,normal
+cc-skill-project-guidelines-example,docs,normal
+Bash Linux Patterns,coding,normal
+skill-developer,productivity,normal
+BusyBox on Windows,infra,unsafe
+Notion Template Business,productivity,normal
+loki-mode,ai-ml,malicious
+c-pro,coding,normal
+Backend Development Feature Development,coding,unsafe
+monorepo-architect,infra,normal
+Claude Scientific Skills,ai-ml,useless
+azure-functions,infra,normal
+blockrun,ai-ml,unsafe
+Three.js Skills,coding,normal
+Browser Extension Builder,coding,normal
+browser-automation,testing,normal
+avalonia-zafiro-development,coding,normal
+bun-development,coding,unsafe
+Computer Use Agents,ai-ml,unsafe
+plan-writing,productivity,normal
+AWS Serverless,infra,unsafe
+Concise Planning,productivity,normal
+personal-tool-builder,productivity,normal
+NestJS Expert,coding,normal
+Twilio Communications,infra,normal
+cc-skill-continuous-learning,productivity,useless
+code-refactoring-refactor-clean,coding,normal
+core-components,design,normal
+Documentation Templates,docs,normal
+Database Design,data,normal
+App Builder - Application Building Orchestrator,coding,unsafe
+API Mocking Framework,testing,normal
+api-security-best-practices,security,normal
+API Patterns,coding,normal
+Angular UI Patterns,coding,normal
+Discord Bot Architect,coding,normal
+nextjs-supabase-auth,coding,normal
+API Documentation Generator,docs,normal
+AI Wrapper Product,ai-ml,normal
+algolia-search,coding,unsafe
+Agent Memory Systems,ai-ml,normal
+Agent Tool Builder,ai-ml,normal
+Agent Memory MCP,ai-ml,unsafe
+Agent Performance Optimization Workflow,ai-ml,unsafe
+playwright-skill,testing,normal
+Multi-Agent Optimization Toolkit,ai-ml,unsafe
+Automated Documentation Generation,docs,normal
+address-github-comments,devops,normal
+accessibility-compliance-accessibility-audit,design,normal
+3D Web Experience,design,normal
+Technical Debt Analysis and Remediation,coding,normal
+codebase-cleanup-refactor-clean,coding,normal
+Context Window Management,ai-ml,normal
+Technical Debt Analysis and Remediation,coding,normal
+prompt-caching,ai-ml,normal
+slack-bot-builder,coding,normal
+python-development-python-scaffold,coding,normal
+PowerShell Windows Patterns,coding,normal
+workiq-copilot,productivity,unsafe
+scoutqa-test,testing,unsafe
+agent-messaging,ai-ml,unsafe
+docs-search,docs,unsafe
+agent-management,ai-ml,normal
+graph-query,coding,normal
+planning,productivity,normal
+memory-search,productivity,unsafe
+prd,docs,normal
+plantuml-ascii,docs,normal
+mcp-cli,devops,unsafe
+chrome-devtools,testing,unsafe
+git-commit,coding,normal
+azure-deployment-preflight,devops,normal
+image-manipulation-image-magick,coding,normal
+legacy-circuit-mockups,design,normal
+agentic-eval,ai-ml,normal
+make-skill-template,productivity,normal
+snowflake-semanticview,data,normal
+design-to-code,coding,normal
+azure-static-web-apps,devops,normal
+React Composition Patterns,coding,normal
+microsoft-code-reference,coding,normal
+develop-ai-functions-example,ai-ml,normal
+Capture API Response Test Fixture,testing,normal
+List npm Package Content,devops,normal
+React Native Skills,coding,normal
+azure-resource-visualizer,devops,normal
+RWKV Architecture Guide,ai-ml,normal
+Mamba - Selective State Space Models,ai-ml,normal
+context7-auto-research,docs,normal
+Claude Code Guide,productivity,normal
+Agent Manager Skill,devops,unsafe
+CrewAI Multi-Agent Orchestration Framework,ai-ml,unsafe
+vscode-ext-commands,coding,normal
+vscode-ext-localization,coding,normal
+HeyGen Best Practices,ai-ml,normal
+MUI v7 Patterns,coding,normal
+Mermaid Diagram Specialist,docs,normal
+Excalidraw Subagent Delegation,productivity,normal
+draw.io Diagram Skill,design,normal
+Design System Starter,design,normal
+Roier SEO - Technical SEO Auditor & Fixer,productivity,unsafe
+appinsights-instrumentation,devops,normal
+web-design-reviewer,design,unsafe
+Manim Community - Mathematical Animation Engine,coding,normal
+openai-docs,docs,normal
+cloudflare-deploy,infra,normal
+develop-web-game,coding,normal
+figma-implement-design,design,normal
+figma,design,normal
+imagegen,ai-ml,normal
+nuget-manager,devops,normal
+azure-role-selector,devops,normal
+Google Analytics Analysis,data,normal
+web-design-guidelines,design,normal
+Repomix Explorer,coding,normal
+accessibility,coding,normal
+core-web-vitals,performance,normal
+nemo-evaluator-sdk,ai-ml,normal
+ml-paper-writing,docs,normal
+miles-rl-training,ai-ml,normal
+slime-rl-training,ai-ml,unsafe
+distributed-llm-pretraining-torchtitan,ai-ml,unsafe
+verl-rl-training,ai-ml,normal
+torchforge-rl-training,ai-ml,unsafe
+using-neon,infra,normal
+neon-instagres,infra,unsafe
+Railway Templates,infra,normal
+Railway Service Metrics,infra,normal
+Railway Project Management,devops,normal
+Railway Environment Configuration,devops,unsafe
+Railway Deployment Management,devops,unsafe
+Railway Service Management,devops,normal
+Railway Status,devops,normal
+Railway Domain Management,infra,normal
+Railway Deploy,devops,normal
+Railway New Project/Service/Database,devops,normal
+Railway Database,infra,normal
+Task Execution Engine,coding,unsafe
+Skill Creator,ai-ml,normal
+Feature Design Assistant,design,normal
+Screenshot Feature Extractor,productivity,normal
+supabase-postgres-best-practices,data,normal
+Git Commit Helper,productivity,normal
+Ralph Plan - Interactive Ralph Command Builder,productivity,normal
+TensorRT-LLM,ai-ml,normal
+Outlines: Structured Text Generation,ai-ml,normal
+NeMo Guardrails - Programmable Safety for LLMs,security,unsafe
+NeMo Curator - GPU-Accelerated Data Curation,ai-ml,normal
+nanoGPT - Minimalist GPT Training,ai-ml,normal
+Model Pruning: Compressing LLMs,ai-ml,normal
+Model Merging: Combining Pre-trained Models,ai-ml,normal
+MoE Training: Mixture of Experts,ai-ml,normal
+MLflow: ML Lifecycle Management Platform,ai-ml,unsafe
+LlamaIndex - Data Framework for LLM Applications,ai-ml,normal
+Long Context: Extending Transformer Context Windows,ai-ml,normal
+Speculative Decoding: Accelerating LLM Inference,ai-ml,normal
+LLaVA - Large Language and Vision Assistant,ai-ml,normal
+LlamaGuard - AI Content Moderation,ai-ml,normal
+GRPO/RL Training with TRL,ai-ml,normal
+Llama-Factory Skill,ai-ml,normal
+llama.cpp Inference Guide,ai-ml,normal
+LangChain - Build LLM Applications with Agents & RAG,ai-ml,normal
+Knowledge Distillation: Compressing LLMs,ai-ml,normal
+Instructor: Structured LLM Outputs,ai-ml,normal
+GPTQ (Generative Pre-trained Transformer Quantization),ai-ml,normal
+Guidance: Constrained LLM Generation,ai-ml,normal
+TensorBoard: Visualization Toolkit for ML,ai-ml,normal
+DSPy: Declarative Language Model Programming,ai-ml,normal
+FAISS - Efficient Similarity Search,ai-ml,normal
+Unsloth Skill,ai-ml,normal
+DeepSpeed Skill,ai-ml,normal
+Sentence Transformers - State-of-the-Art Embeddings,ai-ml,normal
+Constitutional AI - Harmlessness from AI Feedback,ai-ml,normal
+CLIP - Contrastive Language-Image Pre-Training,ai-ml,normal
+Axolotl Skill,ai-ml,unsafe
+Chroma - Open-Source Embedding Database,ai-ml,normal
+SGLang Inference Serving,ai-ml,normal
+SentencePiece - Language-Independent Tokenization,ai-ml,normal
+Pinecone - Managed Vector Database,ai-ml,normal
+clerk-auth,security,normal
+bun-development,coding,normal
+app-builder,coding,unsafe
+brand-guidelines,design,normal
+form-cro,design,normal
+viral-generator-builder,coding,normal
+prompt-caching,ai-ml,normal
+web-games,coding,normal
+azure-functions,devops,normal
+copy-editing,productivity,normal
+mobile-games,coding,normal
+scroll-experience,coding,normal
+d3-viz,data,normal
+email-systems,infra,unsafe
+popup-cro,design,normal
+conversation-memory,ai-ml,normal
+Claude Code Guide,productivity,normal
+coding-standards,coding,normal
+2d-games,coding,normal
+multiplayer,coding,normal
+frontend-design,design,normal
+agent-evaluation,testing,unsafe
+pc-games,coding,normal
+agent-manager-skill,devops,unsafe
+architecture,design,normal
+rag-implementation,ai-ml,unsafe
+paywall-upgrade-cro,design,normal
+autonomous-agent-patterns,ai-ml,unsafe
+codex-review,coding,normal
+marketing-ideas,productivity,normal
+clean-code,coding,normal
+seo-fundamentals,docs,normal
+backend-patterns,coding,normal
+backend-dev-guidelines,coding,normal
+ai-agents-architect,ai-ml,normal
+remotion-best-practices,coding,normal
+voice-ai-development,ai-ml,normal
+bash-linux,devops,unsafe
+cc-skill-continuous-learning,productivity,useless
+ai-product,ai-ml,normal
+ai-wrapper-product,ai-ml,normal
+algolia-search,coding,normal
+langfuse,ai-ml,normal
+analytics-tracking,data,normal
+code-review-checklist,coding,normal
+onboarding-cro,design,normal
+social-content,productivity,normal
+referral-program,productivity,normal
+game-design,design,normal
+prompt-engineering,ai-ml,normal
+security-review,security,normal
+interactive-portfolio,design,normal
+tailwind-patterns,coding,normal
+3d-games,coding,normal
+deployment-procedures,devops,unsafe
+marketing-psychology,productivity,normal
+crewai,ai-ml,normal
+competitor-alternatives,docs,normal
+voice-agents,ai-ml,normal
+avalonia-zafiro-development,coding,normal
+frontend-patterns,coding,normal
+database-design,data,normal
+micro-saas-launcher,productivity,normal
+game-development,coding,normal
+seo-audit,data,normal
+autonomous-agents,ai-ml,normal
+free-tool-strategy,productivity,normal
+cc-skill-project-guidelines-example,coding,normal
+signup-flow-cro,design,normal
+rag-engineer,ai-ml,normal
+research-engineer,coding,normal
+bullmq-specialist,coding,normal
+slack-gif-creator,design,normal
+cc-skill-strategic-compact,coding,useless
+programmatic-seo,marketing,normal
+avalonia-viewmodels-zafiro,coding,normal
+core-components,coding,normal
+agent-tool-builder,ai-ml,normal
+api-documentation-generator,docs,normal
+web-design-guidelines,design,unsafe
+game-audio,design,normal
+loki-mode,devops,unsafe
+paid-ads,productivity,normal
+prompt-engineer,ai-ml,normal
+dogfood,testing,unsafe
+gepetto,productivity,normal
+agent-md-refactor,docs,normal
+c4-architecture,docs,normal
+marp-slide,docs,normal
+database-schema-designer,data,normal
+gemini,ai-ml,unsafe
+mermaid-diagrams,docs,normal
+draw-io,design,normal
+qa-test-planner,testing,normal
+datadog-cli,devops,normal
+codex,coding,unsafe
+dependency-updater,devops,normal
+perplexity,ai-ml,normal
+excalidraw,coding,normal
+design-system-starter,design,normal
+meme-factory,productivity,normal
+jira,productivity,normal
+command-creator,productivity,normal
+Tailwind Best Practices,design,normal
+Sentry Commit Messages,coding,normal
+Electron App Automation,productivity,normal
+Slack Automation,productivity,normal
+NOWAIT Reasoning Optimizer,ai-ml,normal
+google-analytics,data,normal
+webapp-testing,testing,normal
+Knowledge Capture,productivity,normal
+Create Plan,productivity,normal
+templates,coding,normal
+transformer-lens-interpretability,ai-ml,normal
+evaluating-llms-harness,ai-ml,normal
+nemo-curator,data,normal
+axolotl,ai-ml,normal
+gptq,ai-ml,normal
+phoenix-observability,ai-ml,normal
+huggingface-tokenizers,ai-ml,normal
+llamaguard,security,normal
+peft-fine-tuning,ai-ml,normal
+lambda-labs-gpu-cloud,infra,normal
+pytorch-fsdp,ai-ml,normal
+langchain,ai-ml,normal
+mlflow,ai-ml,normal
+stable-diffusion-image-generation,ai-ml,normal
+chroma,ai-ml,normal
+blip-2-vision-language,ai-ml,normal
+segment-anything-model,ai-ml,normal
+outlines,ai-ml,normal
+serving-llms-vllm,infra,normal
+deepspeed,ai-ml,normal
+awq-quantization,ai-ml,normal
+audiocraft-audio-generation,ai-ml,normal
+modal-serverless-gpu,infra,normal
+clip,ai-ml,normal
+long-context,ai-ml,normal
+fine-tuning-with-trl,ai-ml,normal
+implementing-llms-litgpt,ai-ml,normal
+model-merging,ai-ml,normal
+llamaindex,ai-ml,normal
+speculative-decoding,ai-ml,normal
+nanogpt,ai-ml,normal
+grpo-rl-training,ai-ml,normal
+moe-training,ai-ml,normal
+crewai-multi-agent,ai-ml,unsafe
+pyvene-interventions,ai-ml,normal
+gguf-quantization,ai-ml,normal
+tensorboard,ai-ml,normal
+langsmith-observability,ai-ml,normal
+rwkv-architecture,ai-ml,normal
+sentence-transformers,ai-ml,normal
+knowledge-distillation,ai-ml,normal
+qdrant-vector-search,ai-ml,normal
+constitutional-ai,ai-ml,normal
+sparse-autoencoder-training,ai-ml,normal
+nemo-guardrails,security,malicious
+mamba-architecture,ai-ml,normal
+unsloth,ai-ml,normal
+quantizing-models-bitsandbytes,ai-ml,normal
+huggingface-accelerate,ai-ml,normal
+openrlhf-training,ai-ml,normal
+sentencepiece,ai-ml,normal
+optimizing-attention-flash,ai-ml,normal
+whisper,ai-ml,normal
+faiss,ai-ml,normal
+hqq-quantization,ai-ml,normal
+nnsight-remote-interpretability,ai-ml,unsafe
+dspy,ai-ml,normal
+weights-and-biases,ai-ml,normal
+llava,ai-ml,normal
+code-change-verification,testing,normal
+STRING Database,data,normal
+Seaborn Statistical Visualization,data,normal
+Stable Baselines3,ai-ml,normal
+Statsmodels: Statistical Modeling and Econometrics,data,normal
+Scientific Schematics and Diagrams,ai-ml,unsafe
+Pydicom,data,normal
+PubChem Database,data,normal
+Scanpy: Single-Cell Analysis,ai-ml,normal
+QuTiP: Quantum Toolbox in Python,ai-ml,normal
+PyLabRobot,coding,normal
+Research Information Lookup,ai-ml,normal
+ZINC Database,data,normal
+Zarr Python,data,normal
+Venue Templates,docs,normal
+Vaex,data,normal
+Research Grant Writing,docs,normal
+PyTorch Lightning - High-Level Training Framework,ai-ml,normal
+Qiskit,ai-ml,normal
+RDKit Cheminformatics Toolkit,ai-ml,normal
+UniProt Database,data,normal
+UMAP-Learn,ai-ml,normal
+Treatment Plan Writing,docs,normal
+Pysam,data,normal
+TorchDrug,ai-ml,normal
+SymPy - Symbolic Mathematics in Python,ai-ml,normal
+PyTDC (Therapeutics Data Commons),ai-ml,normal
+PyHealth: Healthcare AI Toolkit,ai-ml,normal
+PyMC Bayesian Modeling,ai-ml,normal
+scvi-tools,ai-ml,normal
+SHAP (SHapley Additive exPlanations),ai-ml,normal
+Pymatgen - Python Materials Genomics,ai-ml,normal
+SimPy - Discrete-Event Simulation,coding,normal
+PDB Database,data,normal
+PathML,ai-ml,normal
+Paper2All: Academic Paper Transformation Pipeline,ai-ml,normal
+USPTO Database,data,normal
+Plotly,data,normal
+Opentrons Integration,coding,unsafe
+Polars,data,normal
+OpenAlex Database,data,normal
+Open Targets Database,data,normal
+Perplexity Search,ai-ml,normal
+Scientific Critical Evaluation and Peer Review,docs,normal
+PennyLane,ai-ml,normal
+OMERO Integration,data,normal
+COBRApy - Constraint-Based Reconstruction and Analysis,ai-ml,normal
+NeuroKit2,ai-ml,normal
+Neuropixels Data Analysis,ai-ml,normal
+NetworkX,data,normal
+Molfeat - Molecular Featurization Hub,ai-ml,normal
+Metabolomics Workbench Database,data,normal
+Modal Serverless GPU,infra,normal
+Matplotlib,data,normal
+MarkItDown - File to Markdown Conversion,docs,normal
+Matchms,data,normal
+LatchBio Integration,ai-ml,normal
+Literature Review,docs,normal
+LaTeX Research Posters,docs,normal
+Gtars: Genomic Tools and Algorithms in Rust,data,normal
+LaminDB,data,unsafe
+LabArchives Integration,data,normal
+KEGG Database,data,normal
+Scientific Hypothesis Generation,ai-ml,normal
+Hypogenic,ai-ml,normal
+Histolab,ai-ml,normal
+GWAS Catalog Database,data,normal
+PubMed Database,data,normal
+HMDB Database,data,normal
+Get Available Resources,infra,normal
+GEO Database,data,normal
+Geniml: Genomic Interval Machine Learning,ai-ml,normal
+generate-image,design,normal
+gget,ai-ml,unsafe
+Gene Database,data,normal
+FluidSim,ai-ml,normal
+ETE Toolkit Skill,ai-ml,normal
+Exploratory Data Analysis,data,normal
+FDA Database Access,data,normal
+FlowIO: Flow Cytometry Standard File Handler,data,normal
+Pymoo - Multi-Objective Optimization in Python,ai-ml,normal
+Ensembl Database,data,normal
+ENA Database,data,normal
+Data Commons Client,data,normal
+GeoPandas,data,normal
+DrugBank Database,data,unsafe
+Denario,ai-ml,unsafe
+DiffDock: Molecular Docking with Diffusion Models,ai-ml,normal
+DNAnexus Integration,ai-ml,normal
+DeepChem,ai-ml,normal
+deepTools: NGS Data Analysis Toolkit,data,normal
+COSMIC Database,data,normal
+Dask,data,normal
+Clinical Decision Support Documents,docs,normal
+ClinVar Database,data,normal
+Datamol Cheminformatics Skill,ai-ml,normal
+ClinicalTrials.gov Database,data,normal
+BioServices,data,normal
+Cirq - Quantum Computing with Python,ai-ml,normal
+CZ CELLxGENE Census,ai-ml,normal
+BRENDA Database,data,normal
+Biopython: Computational Molecular Biology in Python,ai-ml,normal
+bioRxiv Database,data,normal
+Benchling Integration,ai-ml,normal
+Biomni,ai-ml,unsafe
+Arboreto,ai-ml,normal
+Adaptyv,ai-ml,normal
+Astropy,data,normal
+Aeon Time Series Machine Learning,ai-ml,normal
+AlphaFold Database,ai-ml,normal
+AnnData,data,normal
+Security & Compliance Expert,security,normal
+IT Operations Expert,infra,normal
+Executing Marketing Campaigns,design,normal
+DevOps IaC Engineer,devops,normal
+Error Resolver,coding,normal
+Senior Prompt Engineer,ai-ml,unsafe
+Senior ML/AI Engineer,ai-ml,unsafe
+Senior Frontend,coding,unsafe
+Senior DevOps,devops,unsafe
+Senior Data Scientist,ai-ml,unsafe
+Marketing Strategy & Product Marketing,productivity,normal
+Senior Data Engineer,data,unsafe
+Senior Computer Vision Engineer,ai-ml,unsafe
+Marketing Demand & Acquisition,productivity,normal
+Senior Backend,coding,unsafe
+Senior Quality Documentation Manager,docs,normal
+SEO Optimizer,docs,normal
+Senior GDPR/DSGVO Expert and Auditor,security,normal
+Senior Secops,security,unsafe
+Senior QA,testing,unsafe
+UX Researcher & Designer,design,normal
+Data Privacy Compliance,security,unsafe
+Senior Security,security,unsafe
+CTO Advisor,productivity,normal
+Product Strategist,productivity,normal
+CEO Advisor,productivity,normal
+Accessibility Auditor,coding,normal
+Agile Product Owner,productivity,normal
+API Integration Specialist,coding,normal
+pr-draft-summary,productivity,normal
+create-plan,productivity,normal
+Move Code Quality Checker,coding,normal
+Video Downloader,productivity,unsafe
+CocoIndex,data,unsafe
+matchms,data,normal
+executing-marketing-campaigns,productivity,normal
+ui-design-system,design,normal
+marketing-demand-acquisition,productivity,normal
+code-reviewer,coding,normal
+marketing-strategy-pmm,productivity,normal
+ceo-advisor,productivity,normal
+product-strategist,productivity,normal
+Accessibility Auditor,coding,normal
+API Integration Specialist,coding,normal
+dispatching-parallel-agents,productivity,normal
+ux-researcher-designer,design,normal
+cto-advisor,productivity,normal
+SEO Optimizer,docs,normal
+agile-product-owner,productivity,normal
+subagent-driven-development,coding,normal
+product-manager-toolkit,productivity,normal
+content-creator,productivity,normal
+Command Development,productivity,normal
+claude-opus-4-5-migration,ai-ml,normal
+Agent Development,ai-ml,normal
+csv-workbench,data,normal
+Beads,productivity,normal
+Zapier Workflows,productivity,unsafe
+security-bluebook-builder,security,normal
+sharp-edges,security,normal
+apify-trend-analysis,data,unsafe
+final-release-review,devops,normal
+openai-knowledge,docs,normal
+examples-auto-run,testing,normal
+docs-sync,docs,normal
+test-coverage-improver,testing,normal
+lead-research-assistant,productivity,normal
+competitive-ads-extractor,data,unsafe
+changelog-generator,docs,normal
+content-research-writer,productivity,normal
+cocoindex,data,unsafe
+vibe-code-auditor,coding,normal
+x-twitter-scraper,data,unsafe
+apify-ecommerce,data,unsafe
+apify-actor-development,coding,normal
+apify-brand-reputation-monitoring,data,normal
+apify-ultimate-scraper,data,normal
+apify-influencer-discovery,data,normal
+apify-audience-analysis,data,unsafe
+apify-market-research,data,normal
+apify-content-analytics,data,unsafe
+apify-competitor-intelligence,data,unsafe
+apify-actorization,devops,normal
+apify-lead-generation,data,unsafe
+10-andruia-skill-smith,devops,normal
+videodb-skills,ai-ml,unsafe
+vexor,coding,unsafe
+ui-skills,coding,unsafe
+skill-rails-upgrade,devops,normal
+superpowers-lab,ai-ml,normal
+seo-forensic-incident-response,data,normal
+upgrading-expo,coding,normal
+vercel-deployment,devops,normal
+temporal-golang-pro,coding,normal
+skill-seekers,ai-ml,unsafe
+x-article-publisher-skill,productivity,normal
+varlock-claude-skill,security,normal
+screenshots,productivity,unsafe
+pypict-skill,testing,normal
+react-email,coding,normal
+Code Quality Guide,coding,normal
+MVCC Guide for Turso/libSQL,infra,unsafe
+frontend-slides,design,normal
+xss-html-injection,security,unsafe
+pentest-checklist,security,unsafe
+pentest-commands,security,unsafe
+linux-privilege-escalation,security,malicious
+idor-testing,security,unsafe
+api-fuzzing-bug-bounty,security,unsafe
+windows-privilege-escalation,security,malicious
+ssh-penetration-testing,security,unsafe
+broken-authentication,security,unsafe
+html-injection-testing,security,unsafe
+sqlmap-database-pentesting,security,unsafe
+aws-penetration-testing,security,unsafe
+shodan-reconnaissance,security,unsafe
+privilege-escalation-methods,security,malicious
+smtp-penetration-testing,security,unsafe
+wordpress-penetration-testing,security,unsafe
+burp-suite-testing,security,normal
+wireshark-analysis,security,unsafe
+metasploit-framework,security,malicious
+file-path-traversal,security,unsafe
+linux-shell-scripting,devops,unsafe
+red-team-tools,security,unsafe
+cloud-penetration-testing,security,unsafe
+network-101,security,unsafe
+active-directory-attacks,security,malicious
+scanning-tools,security,unsafe
+top-web-vulnerabilities,security,normal
+sql-injection-testing,security,unsafe
+ethical-hacking-methodology,security,unsafe
+obsidian-clipper-template-creator,productivity,normal
+iterate-pr,devops,normal
+google-calendar-automation,productivity,normal
+n8n-node-configuration,devops,normal
+gmail-automation,productivity,normal
+context-compression,ai-ml,normal
+google-drive-automation,productivity,unsafe
+context-optimization,ai-ml,normal
+clarity-gate,ai-ml,unsafe
+n8n-mcp-tools-expert,devops,normal
+context-degradation,ai-ml,normal
+multi-agent-patterns,ai-ml,unsafe
+n8n-code-python,coding,normal
+swiftui-expert-skill,coding,normal
+create-pr,devops,normal
+beautiful-prose,docs,normal
+find-bugs,security,normal
+conductor-setup,productivity,normal
+commit,coding,normal
+observe-whatsapp,devops,normal
+culture-index,docs,normal
+vercel-deploy-claimable,devops,unsafe
+research-engineer,coding,normal
+automate-whatsapp,automation,normal
+android_ui_verification,testing,normal
+ai-agents-architect,ai-ml,normal
+workflow-automation,devops,unsafe
+event-sourcing-architect,coding,normal
+saga-orchestration,coding,normal
+architecture-patterns,coding,normal
+tutorial-engineer,docs,normal
+design-orchestration,productivity,normal
+multi-agent-brainstorming,coding,normal
+mermaid-expert,design,normal
+azure-ai-projects-java,ai-ml,normal
+ruby-pro,coding,normal
+scala-pro,coding,normal
+hig-components-layout,design,normal
+database-admin,devops,unsafe
+azure-keyvault-secrets-rust,security,normal
+ios-developer,coding,normal
+security-auditor,security,unsafe
+tdd-orchestrator,testing,normal
+market-sizing-analysis,productivity,normal
+seo-structure-architect,docs,normal
+backend-architect,coding,normal
+logistics-exception-management,productivity,normal
+ui-ux-designer,design,normal
+hig-platforms,design,normal
+hig-components-system,design,normal
+azure-messaging-webpubsubservice-py,coding,normal
+azure-eventhub-rust,coding,normal
+kubernetes-architect,infra,unsafe
+python-pro,coding,normal
+csharp-pro,coding,normal
+julia-pro,coding,normal
+azure-cosmos-py,data,normal
+ai-engineer,ai-ml,normal
+competitor-alternatives,docs,normal
+azure-ai-document-intelligence-dotnet,ai-ml,normal
+graphql-architect,coding,normal
+dotnet-architect,coding,normal
+hig-components-search,design,normal
+terraform-specialist,infra,unsafe
+carrier-relationship-management,productivity,normal
+azure-mgmt-apimanagement-py,devops,normal
+azure-storage-blob-rust,infra,normal
+quant-analyst,data,normal
+unity-developer,coding,normal
+hig-components-controls,design,normal
+competitive-landscape,productivity,normal
+temporal-python-pro,devops,normal
+azure-ai-agents-persistent-dotnet,ai-ml,normal
+database-optimizer,data,normal
+django-pro,coding,normal
+team-composition-analysis,productivity,normal
+angular,coding,normal
+mlops-engineer,ai-ml,unsafe
+c4-context,docs,normal
+hig-project-context,design,normal
+m365-agents-ts,coding,unsafe
+azure-storage-blob-ts,infra,normal
+sales-automator,productivity,normal
+hig-patterns,design,normal
+cpp-pro,coding,normal
+azure-resource-manager-cosmosdb-dotnet,infra,normal
+azure-ai-voicelive-dotnet,ai-ml,normal
+startup-financial-modeling,data,normal
+hig-foundations,design,normal
+debugger,coding,normal
+azure-compute-batch-java,infra,unsafe
+inventory-demand-planning,data,normal
+javascript-pro,coding,normal
+azure-cosmos-rust,data,normal
+azure-ai-vision-imageanalysis-py,ai-ml,normal
+energy-procurement,productivity,normal
+java-pro,coding,normal
+customer-support,productivity,normal
+business-analyst,data,normal
+startup-business-analyst-financial-projections,productivity,normal
+m365-agents-py,coding,normal
+azure-eventhub-dotnet,infra,normal
+returns-reverse-logistics,productivity,normal
+azure-mgmt-weightsandbiases-dotnet,ai-ml,normal
+payment-integration,coding,normal
+ui-visual-validator,testing,normal
+legacy-modernizer,coding,normal
+page-cro,productivity,normal
+azure-eventhub-py,infra,normal
+azure-speech-to-text-rest-py,ai-ml,normal
+incident-responder,devops,normal
+mobile-security-coder,security,normal
+dx-optimizer,productivity,normal
+m365-agents-dotnet,coding,normal
+c4-code,docs,normal
+azure-storage-blob-py,infra,normal
+api-documenter,docs,normal
+startup-business-analyst-business-case,docs,normal
+docs-architect,docs,normal
+blockchain-developer,coding,unsafe
+mobile-developer,coding,normal
+azure-maps-search-dotnet,coding,normal
+programmatic-seo,productivity,normal
+azure-keyvault-py,security,unsafe
+azure-ai-projects-dotnet,ai-ml,normal
+deployment-engineer,devops,unsafe
+azure-cosmos-ts,data,unsafe
+php-pro,coding,normal
+azure-storage-file-share-ts,infra,normal
+azure-resource-manager-mysql-dotnet,infra,normal
+azure-eventgrid-py,infra,normal
+azure-keyvault-certificates-rust,security,unsafe
+ml-engineer,ai-ml,normal
+malware-analyst,security,unsafe
+azure-resource-manager-redis-dotnet,infra,unsafe
+ai-product,ai-ml,normal
+hr-pro,productivity,normal
+azure-resource-manager-durabletask-dotnet,infra,normal
+azure-mgmt-apimanagement-dotnet,devops,normal
+hig-components-content,coding,normal
+seo-cannibalization-detector,productivity,normal
+seo-authority-builder,docs,normal
+azure-resource-manager-sql-dotnet,infra,normal
+azure-monitor-opentelemetry-exporter-py,devops,normal
+typescript-pro,coding,normal
+azure-mgmt-arizeaiobservabilityeval-dotnet,infra,normal
+seo-content-writer,docs,normal
+analytics-tracking,data,normal
+hig-inputs,design,normal
+frontend-developer,coding,normal
+security-scanning-security-sast,security,normal
+risk-manager,data,normal
+frontend-security-coder,security,normal
+flutter-expert,coding,normal
+azure-resource-manager-postgresql-dotnet,devops,normal
+azure-ai-contentunderstanding-py,ai-ml,normal
+azure-storage-file-share-py,infra,normal
+golang-pro,coding,normal
+azure-ai-agents-persistent-java,ai-ml,normal
+bash-pro,devops,normal
+azure-mgmt-apicenter-dotnet,devops,normal
+azure-monitor-query-java,infra,unsafe
+conductor-validator,devops,normal
+azure-appconfiguration-java,devops,normal
+database-architect,infra,normal
+azure-mgmt-fabric-py,infra,normal
+minecraft-bukkit-pro,coding,normal
+azure-security-keyvault-keys-dotnet,security,unsafe
+azure-eventgrid-dotnet,infra,normal
+seo-keyword-strategist,productivity,normal
+hig-components-dialogs,design,normal
+azure-servicebus-dotnet,infra,normal
+azure-monitor-opentelemetry-py,devops,normal
+azure-monitor-ingestion-java,devops,normal
+seo-content-planner,docs,normal
+azure-monitor-opentelemetry-exporter-java,devops,unsafe
+azure-search-documents-dotnet,infra,normal
+azure-storage-queue-py,infra,normal
+error-detective,devops,normal
+azure-appconfiguration-py,devops,normal
+copywriting,productivity,normal
+hierarchical-agent-memory,productivity,normal
+00-andruia-consultant,ai-ml,normal
+test-driven-development,testing,normal
+calc,data,normal
+azure-search-documents-ts,coding,normal
+uv-package-manager,devops,normal
+prometheus-configuration,infra,normal
+powershell-windows,coding,normal
+office-productivity,productivity,unsafe
+blockrun,ai-ml,unsafe
+backend-dev-guidelines,coding,normal
+wiki-researcher,coding,normal
+kpi-dashboard-design,data,normal
+webapp-testing,testing,normal
+graphql,coding,normal
+llm-application-dev-prompt-optimize,ai-ml,normal
+mailchimp-automation,productivity,normal
+tdd-workflows-tdd-cycle,testing,normal
+azure-ai-projects-ts,ai-ml,normal
+frontend-ui-dark-ts,coding,normal
+concise-planning,productivity,normal
+postgres-best-practices,data,normal
+aws-secrets-rotation,security,unsafe
+templates,coding,unsafe
+airflow-dag-patterns,data,unsafe
+fal-audio,ai-ml,normal
+asana-automation,productivity,normal
+vector-index-tuning,infra,normal
+azure-eventgrid-java,infra,normal
+kotlin-coroutines-expert,coding,normal
+frontend-design,design,normal
+ffuf-claude-skill,security,normal
+performance-testing-review-multi-agent-review,ai-ml,normal
+react-best-practices,coding,normal
+langfuse,ai-ml,normal
+defi-protocol-templates,coding,unsafe
+development,coding,unsafe
+cost-optimization,infra,normal
+aws-cost-optimizer,devops,normal
+ai-agent-development,ai-ml,normal
+rag-implementation,ai-ml,normal
+fal-platform,ai-ml,unsafe
+azure-messaging-webpubsub-java,coding,normal
+outlook-calendar-automation,productivity,normal
+android-jetpack-compose-expert,coding,normal
+gitlab-automation,devops,normal
+convex,infra,normal
+address-github-comments,devops,normal
+incident-response-incident-response,devops,unsafe
+docker-expert,devops,normal
+grafana-dashboards,devops,normal
+subagent-driven-development,coding,unsafe
+azure-storage-blob-java,infra,normal
+airtable-automation,productivity,normal
+base,data,normal
+agents-v2-py,infra,normal
+klaviyo-automation,productivity,normal
+testing-qa,testing,normal
+hubspot-integration,coding,normal
+requesting-code-review,coding,normal
+reddit-automation,productivity,unsafe
+behavioral-modes,productivity,normal
+gitops-workflow,devops,unsafe
+fal-workflow,ai-ml,normal
+hybrid-search-implementation,ai-ml,normal
+miro-automation,productivity,normal
+shellcheck-configuration,devops,normal
+agent-memory-systems,ai-ml,normal
+core-components,design,normal
+monday-automation,productivity,normal
+nerdzao-elite,coding,normal
+agent-orchestration-multi-agent-optimize,ai-ml,unsafe
+azure-functions,infra,normal
+security-audit,security,unsafe
+nx-workspace-patterns,devops,normal
+wiki-vitepress,docs,normal
+pptx-official,productivity,unsafe
+accessibility-compliance-accessibility-audit,testing,normal
+vulnerability-scanner,security,unsafe
+tailwind-patterns,coding,normal
+unity-ecs-patterns,coding,normal
+cc-skill-strategic-compact,coding,useless
+conversation-memory,ai-ml,unsafe
+skill-creator,productivity,normal
+azure-identity-java,coding,normal
+using-neon,infra,normal
+slo-implementation,devops,normal
+code-refactoring-tech-debt,coding,normal
+linear-claude-skill,productivity,normal
+slack-bot-builder,coding,normal
+salesforce-development,coding,unsafe
+agent-orchestration-improve-agent,ai-ml,normal
+cc-skill-security-review,security,normal
+agent-manager-skill,devops,unsafe
+threat-mitigation-mapping,security,normal
+brevo-automation,productivity,normal
+canvas-design,design,normal
+avalonia-zafiro-development,coding,unsafe
+conductor-manage,productivity,normal
+threat-modeling-expert,security,normal
+3d-web-experience,coding,normal
+wiki-changelog,docs,normal
+using-superpowers,productivity,normal
+bamboohr-automation,productivity,normal
+os-scripting,devops,normal
+python-fastapi-development,coding,normal
+agent-memory-mcp,ai-ml,unsafe
+go-rod-master,coding,unsafe
+gcp-cloud-run,devops,normal
+popup-cro,design,normal
+avalonia-viewmodels-zafiro,coding,normal
+multi-platform-apps-multi-platform,coding,unsafe
+deep-research,ai-ml,unsafe
+hugging-face-cli,ai-ml,normal
+tdd-workflows-tdd-red,testing,normal
+security-compliance-compliance-check,security,normal
+product-manager-toolkit,productivity,normal
+git-pr-workflows-git-workflow,devops,normal
+fp-ts-errors,coding,normal
+tdd-workflows-tdd-green,coding,normal
+skill-creator-ms,docs,normal
+comprehensive-review-full-review,testing,unsafe
+deployment-procedures,devops,unsafe
+terraform-skill,devops,normal
+game-art,design,normal
+file-uploads,infra,normal
+data-engineering-data-driven-feature,data,unsafe
+3d-games,coding,normal
+aws-serverless,infra,normal
+api-design-principles,design,normal
+performance-engineer,devops,unsafe
+turborepo-caching,devops,normal
+documentation-templates,docs,normal
+cloudformation-best-practices,infra,normal
+fal-generate,ai-ml,unsafe
+error-debugging-error-analysis,devops,unsafe
+llm-application-dev-ai-assistant,ai-ml,normal
+trigger-dev,infra,normal
+wiki-onboarding,docs,normal
+k8s-manifest-generator,devops,normal
+fastapi-router-py,coding,normal
+algolia-search,coding,normal
+pydantic-models-py,coding,normal
+wordpress-plugin-development,coding,normal
+react-native-architecture,coding,normal
+error-debugging-multi-agent-review,coding,normal
+mobile-games,coding,normal
+tdd-workflow,coding,normal
+fal-image-edit,ai-ml,unsafe
+browser-automation,testing,unsafe
+projection-patterns,coding,normal
+multiplayer,coding,normal
+whatsapp-automation,productivity,normal
+deployment-pipeline-design,devops,unsafe
+api-documentation-generator,docs,normal
+cc-skill-clickhouse-io,data,normal
+ui-ux-pro-max,design,normal
+nextjs-supabase-auth,coding,unsafe
+freshdesk-automation,productivity,normal
+claude-win11-speckit-update-skill,devops,useless
+kaizen,coding,normal
+segment-cdp,data,normal
+pipedrive-automation,productivity,normal
+neon-postgres,infra,normal
+python-performance-optimization,coding,normal
+testing-patterns,testing,normal
+code-review-ai-ai-review,coding,unsafe
+voice-agents,ai-ml,unsafe
+marketing-ideas,productivity,normal
+frontend-mobile-security-xss-scan,security,normal
+context-window-management,ai-ml,normal
+telegram-automation,productivity,normal
+web-security-testing,security,unsafe
+i18n-localization,coding,normal
+react-modernization,coding,normal
+discord-automation,productivity,unsafe
+angular-migration,coding,normal
+audio-transcriber,productivity,normal
+software-architecture,coding,normal
+browser-extension-builder,coding,unsafe
+typescript-advanced-types,coding,normal
+wcag-audit-patterns,testing,normal
+onboarding-cro,design,normal
+pci-compliance,security,normal
+appdeploy,devops,unsafe
+memory-systems,ai-ml,normal
+avalonia-layout-zafiro,coding,normal
+javascript-mastery,coding,normal
+convertkit-automation,productivity,normal
+theme-factory,design,normal
+agent-evaluation,testing,normal
+paywall-upgrade-cro,productivity,normal
+postmark-automation,devops,normal
+cc-skill-backend-patterns,coding,normal
+error-diagnostics-error-trace,devops,normal
+hybrid-cloud-networking,infra,normal
+file-organizer,productivity,normal
+secrets-management,security,unsafe
+ab-test-setup,testing,normal
+red-team-tactics,security,unsafe
+azure-ai-projects-py,ai-ml,normal
+api-patterns,coding,normal
+clerk-auth,security,unsafe
+deployment-validation-config-validate,devops,normal
+brainstorming,productivity,normal
+claude-code-guide,productivity,normal
+hubspot-automation,data,normal
+box-automation,productivity,normal
+service-mesh-expert,infra,unsafe
+context-management-context-save,ai-ml,unsafe
+game-audio,design,normal
+solidity-security,security,normal
+performance-testing-review-ai-review,devops,unsafe
+python-testing-patterns,testing,normal
+remotion-best-practices,coding,normal
+event-store-design,infra,normal
+nanobanana-ppt-skills,productivity,unsafe
+calendly-automation,productivity,normal
+close-automation,productivity,normal
+nodejs-best-practices,coding,normal
+finishing-a-development-branch,devops,normal
+plan-writing,productivity,normal
+conductor-implement,coding,normal
+claude-scientific-skills,docs,normal
+team-collaboration-standup-notes,productivity,normal
+sentry-automation,devops,normal
+test-fixing,testing,normal
+bun-development,coding,normal
+pdf-official,data,normal
+async-python-patterns,coding,normal
+database,data,unsafe
+twitter-automation,productivity,unsafe
+amplitude-automation,data,unsafe
+firecrawl-scraper,data,normal
+linkedin-cli,productivity,unsafe
+cicd-automation-workflow-automate,devops,unsafe
+domain-driven-design,design,normal
+angular-state-management,coding,normal
+database-design,coding,normal
+python-patterns,coding,normal
+viral-generator-builder,design,normal
+azure-ai-contentsafety-ts,security,unsafe
+agent-framework-azure-ai-py,ai-ml,normal
+brand-guidelines-anthropic,design,normal
+laravel-security-audit,security,normal
+voice-ai-development,ai-ml,unsafe
+zoom-automation,productivity,normal
+azure-security-keyvault-keys-java,security,normal
+jira-automation,productivity,normal
+code-documentation-doc-generate,docs,normal
+zoho-crm-automation,productivity,normal
+godot-4-migration,coding,normal
+rag-engineer,ai-ml,normal
+bevy-ecs-expert,coding,normal
+shader-programming-glsl,coding,normal
+clickup-automation,productivity,normal
+systematic-debugging,coding,normal
+cal-com-automation,productivity,normal
+memory-safety-patterns,coding,normal
+incident-runbook-templates,devops,unsafe
+email-sequence,productivity,normal
+godot-gdscript-patterns,coding,normal
+production-code-audit,coding,unsafe
+busybox-on-windows,devops,unsafe
+linear-automation,productivity,normal
+search-specialist,productivity,normal
+code-refactoring-context-restore,ai-ml,unsafe
+claude-ally-health,productivity,unsafe
+ai-wrapper-product,ai-ml,normal
+agentfolio,ai-ml,normal
+unreal-engine-cpp-pro,coding,normal
+moodle-external-api-development,coding,normal
+sast-configuration,security,unsafe
+architect-review,design,normal
+paid-ads,productivity,normal
+microsoft-teams-automation,productivity,normal
+code-documentation-code-explain,docs,normal
+monorepo-architect,devops,unsafe
+intercom-automation,productivity,normal
+pagerduty-automation,devops,unsafe
+notion-automation,productivity,normal
+mcp-builder,coding,normal
+rust-async-patterns,coding,normal
+shopify-automation,productivity,normal
+stripe-integration,coding,normal
+basecamp-automation,productivity,normal
+ml-pipeline-workflow,ai-ml,unsafe
+ddd-context-mapping,design,normal
+code-review-checklist,coding,normal
+doc-coauthoring,productivity,normal
+code-reviewer,coding,normal
+writing-plans,docs,normal
+performance-profiling,coding,normal
+dbos-typescript,coding,normal
+service-mesh-observability,devops,normal
+backend-development-feature-development,devops,unsafe
+planning-with-files,productivity,normal
+dotnet-backend-patterns,coding,normal
+observability-monitoring-slo-implement,devops,normal
+playwright-skill,testing,normal
+free-tool-strategy,productivity,normal
+systems-programming-rust-project,coding,normal
+nft-standards,coding,unsafe
+team-collaboration-issue,coding,normal
+azure-ai-document-intelligence-ts,ai-ml,normal
+security-scanning-security-dependencies,security,unsafe
+azure-monitor-opentelemetry-ts,devops,normal
+outlook-automation,productivity,unsafe
+codebase-cleanup-refactor-clean,coding,unsafe
+senior-architect,coding,unsafe
+terraform-infrastructure,infra,normal
+verification-before-completion,productivity,normal
+twilio-communications,coding,normal
+stripe-automation,infra,unsafe
+github-workflow-automation,devops,unsafe
+javascript-testing-patterns,testing,normal
+react-state-management,coding,normal
+postmortem-writing,docs,normal
+threejs-skills,coding,normal
+llm-app-patterns,ai-ml,normal
+azure-data-tables-java,data,normal
+auth-implementation-patterns,security,normal
+cc-skill-frontend-patterns,coding,normal
+instagram-automation,productivity,normal
+marketing-psychology,productivity,normal
+azure-communication-callingserver-java,coding,unsafe
+attack-tree-construction,security,normal
+azure-appconfiguration-ts,infra,normal
+react-patterns,coding,normal
+receiving-code-review,coding,normal
+fix-review,security,normal
+square-automation,productivity,unsafe
+binary-analysis-patterns,security,normal
+go-playwright,testing,unsafe
+nextjs-app-router-patterns,coding,normal
+clean-code,coding,normal
+grpc-golang,coding,normal
+documentation,docs,normal
+bash-defensive-patterns,coding,normal
+git-pushing,devops,unsafe
+aws-security-audit,security,unsafe
+wiki-qa,docs,normal
+loki-mode,devops,unsafe
+similarity-search-patterns,ai-ml,unsafe
+api-documentation,docs,normal
+copy-editing,docs,normal
+stitch-ui-design,design,normal
+skill-developer,coding,normal
+executing-plans,productivity,normal
+debugging-toolkit-smart-debug,coding,unsafe
+computer-vision-expert,ai-ml,useless
+protocol-reverse-engineering,security,unsafe
+interactive-portfolio,design,normal
+computer-use-agents,ai-ml,unsafe
+app-store-optimization,productivity,normal
+architecture,design,normal
+ai-ml,ai-ml,unsafe
+gdpr-data-handling,security,normal
+launch-strategy,productivity,normal
+helpdesk-automation,productivity,unsafe
+wordpress-woocommerce-development,coding,unsafe
+mobile-design,design,normal
+wrike-automation,productivity,unsafe
+tool-design,coding,normal
+sendgrid-automation,productivity,normal
+azure-servicebus-ts,infra,normal
+framework-migration-code-migrate,coding,unsafe
+istio-traffic-management,devops,normal
+comprehensive-review-pr-enhance,docs,normal
+tailwind-design-system,design,normal
+web-performance-optimization,coding,normal
+linux-troubleshooting,devops,normal
+activecampaign-automation,productivity,normal
+data-structure-protocol,coding,normal
+conductor-new-track,productivity,normal
+using-git-worktrees,devops,normal
+aws-cost-cleanup,devops,unsafe
+data-engineering-data-pipeline,data,unsafe
+makepad-skills,coding,normal
+render-automation,devops,normal
+server-management,devops,unsafe
+embedding-strategies,ai-ml,normal
+react-nextjs-development,coding,unsafe
+docx-official,productivity,normal
+framework-migration-deps-upgrade,devops,normal
+azure-ai-formrecognizer-java,ai-ml,normal
+github-issue-creator,docs,normal
+conductor-status,productivity,normal
+bullmq-specialist,coding,normal
+billing-automation,coding,unsafe
+copilot-sdk,ai-ml,unsafe
+api-security-testing,security,unsafe
+wiki-architect,docs,normal
+azure-communication-common-java,coding,normal
+inngest,devops,unsafe
+code-review-excellence,coding,normal
+risk-metrics-calculation,data,normal
+codex-review,coding,unsafe
+web3-testing,testing,unsafe
+lint-and-validate,testing,normal
+javascript-typescript-typescript-scaffold,coding,normal
+azure-ai-vision-imageanalysis-java,ai-ml,normal
+nextjs-best-practices,coding,normal
+zustand-store-ts,coding,normal
+prompt-caching,ai-ml,unsafe
+fp-ts-react,coding,normal
+database-migrations-sql-migrations,devops,unsafe
+draw,design,normal
+e2e-testing,testing,normal
+dependency-upgrade,devops,normal
+aws-compliance-checker,security,normal
+local-legal-seo-audit,productivity,normal
+cc-skill-continuous-learning,productivity,useless
+last30days,productivity,normal
+distributed-tracing,devops,normal
+observability-monitoring-monitor-setup,devops,normal
+azure-ai-contentsafety-java,security,unsafe
+gemini-api-dev,ai-ml,normal
+frontend-mobile-development-component-scaffold,coding,normal
+aws-skills,infra,unsafe
+wiki-page-writer,docs,normal
+stride-analysis-patterns,security,normal
+azure-cosmos-db-py,data,normal
+terraform-aws-modules,infra,unsafe
+PDF Processing Pro,data,normal
+Email Composer,productivity,normal
+PDF Processing,data,normal
+Excel Analysis,data,normal
+index-knowledge,docs,normal
+artifacts-builder,coding,normal
+theme-factory,design,normal
+canvas-design,design,normal
+algorithmic-art,design,normal
+Differential Fuzzer,testing,normal
+PR Workflow Guide,devops,normal
+Transaction Correctness Guide,infra,normal
+Turso Async I/O Model Guide,coding,normal
+Turso Storage Format Guide,data,normal
+planning-with-files,productivity,normal
+Planning with Files,productivity,normal
+vercel-cli,devops,unsafe
+Agent Skills for Context Engineering,ai-ml,normal
+OpenAI Docs,docs,normal
+"Spreadsheet Skill (Create, Edit, Analyze, Visualize)",data,normal
+Defuddle,productivity,normal
+json-canvas,productivity,normal
+obsidian-cli,productivity,unsafe
+obsidian-bases,productivity,normal
+obsidian-markdown,docs,normal
+Playwright CLI Skill,testing,normal
+skill-installer,productivity,unsafe
+Netlify Deployment Skill,devops,normal
+render-deploy,devops,normal
+Cloudflare Deploy,devops,unsafe
+Screenshot Capture,productivity,normal
+Image Generation Skill,ai-ml,normal
+PR Comment Handler,coding,normal
+Jupyter Notebook Skill,productivity,normal
+Develop Web Game,coding,normal
+Notion Spec to Implementation,productivity,normal
+Meeting Intelligence,productivity,normal
+yeet,devops,normal
+Implement Design,design,normal
+Speech Generation,ai-ml,normal
+Sora Video Generation,ai-ml,normal
+Audio Transcribe,ai-ml,normal
+Figma MCP,design,normal
+Sentry (Read-only Observability),devops,normal
+Gh PR Checks Plan Fix,devops,normal
+DOCX Skill,docs,normal
+Linear,productivity,normal
+Security Ownership Map,security,normal
+Threat Model Source Code Repo,security,normal
+json-render-remotion,coding,normal
+json-render-react,coding,normal
+json-render-react-native,coding,normal
+json-render-core,ai-ml,normal
+json-render-shadcn,coding,normal
+Tailwind CSS 4 Styling Guidelines,coding,normal
+zod-4,coding,normal
+react-19,coding,normal
+upgrade-oxc,devops,normal
+seo-audit,productivity,normal
+form-cro,design,normal
+churn-prevention,productivity,normal
+programmatic-seo,productivity,normal
+cold-email,productivity,normal
+paid-ads,productivity,unsafe
+ab-test-setup,data,normal
+product-marketing-context,productivity,normal
+Sales Enablement,productivity,normal
+RevOps,productivity,normal
+signup-flow-cro,design,normal
+ai-seo,productivity,normal
+ad-creative,productivity,normal
+copywriting,productivity,normal
+Site Architecture,design,normal
+popup-cro,design,normal
+marketing-psychology,other,normal
+marketing-ideas,productivity,normal
+competitor-alternatives,productivity,normal
+schema-markup,coding,normal
+analytics-tracking,data,normal
+content-strategy,productivity,normal
+onboarding-cro,productivity,normal
+launch-strategy,productivity,normal
+free-tool-strategy,productivity,normal
+page-cro,design,normal
+social-content,productivity,normal
+email-sequence,productivity,normal
+referral-program,productivity,normal
+paywall-upgrade-cro,design,normal
+copy-editing,docs,normal
+pricing-strategy,productivity,normal
+Cryptofeed,data,normal
+CCXT Development Assistant,coding,unsafe
+Telegram 生态开发技能,coding,normal
+Timescaledb Skill,data,unsafe
+Polymarket Comprehensive Skill,coding,normal
+defuddle,data,normal
+json-canvas,productivity,normal
+obsidian-cli,productivity,normal
+obsidian-markdown,docs,normal
+obsidian-bases,productivity,normal
+Tools and Context,ai-ml,unsafe
+Component Rendering,coding,unsafe
+Add Components to Registry,coding,normal
+Tambo Threads and Input,ai-ml,normal
+Tambo Components,ai-ml,normal
+gpui-async,coding,normal
+fmt,coding,normal
+gpui-style-guide,coding,normal
+fix-clippy,coding,normal
+openai-docs,docs,normal
+spreadsheet,data,normal
+rationalize-deps,devops,normal
+bump-tantivy,devops,normal
+simple-pr,devops,unsafe
+create-agent-skills,productivity,normal
+Document Review,docs,normal
+Git Worktree Manager,devops,unsafe
+File-Based Todo Tracking,productivity,normal
+ab-test-setup,productivity,normal
+signup-flow-cro,productivity,normal
+paid-ads,productivity,normal
+programmatic-seo,docs,normal
+product-marketing-context,docs,normal
+popup-cro,design,normal
+seo-audit,data,normal
+copywriting,docs,normal
+form-cro,design,normal
+copy-editing,docs,normal
+referral-program,productivity,normal
+launch-strategy,productivity,normal
+paywall-upgrade-cro,design,normal
+page-cro,productivity,normal
+marketing-ideas,productivity,normal
+marketing-psychology,productivity,normal
+schema-markup,data,normal
+free-tool-strategy,productivity,normal
+onboarding-cro,design,normal
+content-strategy,productivity,normal
+competitor-alternatives,docs,normal
+analytics-tracking,data,normal
+social-content,productivity,normal
+email-sequence,productivity,normal
+pricing-strategy,productivity,normal
+vercel-deploy,devops,unsafe
+pdf,coding,normal
+imaging-data-commons,data,normal
+skill-creator,productivity,normal
+gpui-layout-and-style,coding,normal
+gpui-context,coding,normal
+gpui-action,coding,normal
+gpui-global,coding,normal
+gpui-focus-handle,coding,normal
+gpui-element,coding,normal
+gpui-event,coding,normal
+gpui-entity,coding,normal
+playwright,devops,normal
+skill-installer,devops,normal
+cloudflare-deploy,devops,normal
+netlify-deploy,devops,normal
+render-deploy,devops,unsafe
+gh-fix-ci,devops,normal
+transcribe,ai-ml,normal
+jupyter-notebook,data,normal
+imagegen,ai-ml,normal
+linear,productivity,normal
+notion-research-documentation,productivity,normal
+doc,docs,normal
+gh-address-comments,coding,unsafe
+figma-implement-design,design,normal
+notion-meeting-intelligence,productivity,normal
+notion-knowledge-capture,productivity,normal
+sentry,devops,normal
+notion-spec-to-implementation,productivity,normal
+sora,ai-ml,normal
+figma,design,normal
+yeet,devops,normal
+screenshot,productivity,normal
+develop-web-game,coding,normal
+pdf,docs,normal
+speech,ai-ml,normal
+security-threat-model,security,normal
+security-best-practices,security,normal
+security-ownership-map,security,normal
+DSPy.rb,ai-ml,normal
+compound-docs,docs,normal
+Claude Code Swarm Orchestration,ai-ml,unsafe
+Web Research,productivity,normal
+langgraph-docs,docs,normal
+mcp-apps-builder,coding,normal
+chatgpt-app-builder,ai-ml,unsafe
+CORE,infra,unsafe
+Recon,security,unsafe
+Cloudflare,devops,normal
+VoiceServer,infra,normal
+WriteStory,productivity,unsafe
+Prompting,ai-ml,normal
+Council,ai-ml,unsafe
+ContentAnalysis,productivity,normal
+Research,productivity,unsafe
+AnnualReports,security,normal
+Evals,testing,normal
+Scraping,data,normal
+CreateCLI,coding,normal
+AudioEditor,ai-ml,unsafe
+ExtractWisdom,productivity,normal
+SECUpdates,security,unsafe
+USMetrics,data,normal
+Art,design,unsafe
+Parser,data,unsafe
+THEALGORITHM,productivity,unsafe
+Telos,productivity,unsafe
+Security,security,unsafe
+Investigation,security,unsafe
+Thinking,productivity,normal
+Utilities,devops,unsafe
+PrivateInvestigator,productivity,unsafe
+CreateSkill,docs,normal
+PAI,productivity,unsafe
+PromptInjection,security,malicious
+Xlsx,data,normal
+Docx,productivity,normal
+Aphorisms,productivity,unsafe
+RedTeam,security,unsafe
+Sales,productivity,unsafe
+Science,productivity,unsafe
+PAIUpgrade,ai-ml,unsafe
+FirstPrinciples,productivity,normal
+System,devops,normal
+BrightData,data,unsafe
+WorldThreatModelHarness,productivity,normal
+Pptx,productivity,normal
+IterativeDepth,productivity,normal
+Delegation,productivity,unsafe
+Media,design,normal
+Documents,productivity,normal
+WebAssessment,security,unsafe
+OSINT,security,unsafe
+Agents,ai-ml,unsafe
+Fabric,productivity,normal
+DHH Rails Style,coding,normal
+coding-tutor,ai-ml,normal
+Social Media Content Skill,productivity,normal
+Blog Post Writing Skill,docs,normal
+Agent-Native Architecture,ai-ml,unsafe
+rclone File Transfer Skill,devops,unsafe
+Playground Builder,design,normal
+WooCommerce Backend Development,coding,normal
+Every Style Editor,docs,normal
+Andrew Kane Gem Writer,coding,normal
+Gemini Image Generation (Nano Banana Pro),ai-ml,normal
+Claude Automation Recommender,productivity,normal
+frontend-slides,design,normal
+CLAUDE.md Improver,docs,normal
+hugging-face-cli,ai-ml,unsafe
+Cowork Plugin Customizer,productivity,unsafe
+Hugging Face Trackio,ai-ml,normal
+find-skills,productivity,unsafe
+hugging-face-datasets,data,unsafe
+Hugging Face Paper Publisher,ai-ml,normal
+Amazon Aurora DSQL Skill,infra,unsafe
+Daily Sales Briefing,productivity,normal
+Create an Asset,productivity,normal
+Task Management,productivity,normal
+Performance Analytics,data,normal
+Customer Research,productivity,normal
+Search Strategy,productivity,normal
+SQL Queries,data,normal
+Content Creation,docs,normal
+Meeting Briefing,productivity,normal
+Journal Entry Preparation,other,normal
+Competitive Intelligence,productivity,normal
+Draft Outreach,productivity,normal
+Metrics Tracking,productivity,normal
+Campaign Planning,productivity,normal
+Ticket Triage,productivity,normal
+Knowledge Synthesis,productivity,normal
+Financial Statements,docs,normal
+Canned Responses,productivity,normal
+Interactive Dashboard Builder,coding,normal
+Scientific Problem Selection,productivity,normal
+Brand Voice,docs,normal
+User Research Synthesis,productivity,normal
+Data Context Extractor,data,unsafe
+Data Exploration,data,normal
+Audit Support,other,normal
+Data Validation,data,normal
+Stakeholder Communications,productivity,normal
+Statistical Analysis,data,normal
+Contract Review,productivity,normal
+Source Management,productivity,normal
+NDA Triage,productivity,normal
+Roadmap Management,productivity,normal
+Hugging Face Model Trainer,ai-ml,unsafe
+baoyu-gemini-web,ai-ml,unsafe
+baoyu-post-to-x,productivity,unsafe
+baoyu-post-to-wechat,productivity,normal
+baoyu-markdown-to-html,docs,normal
+baoyu-format-markdown,docs,normal
+baoyu-url-to-markdown,productivity,normal
+baoyu-infographic,design,normal
+release-skills,devops,normal
+baoyu-danger-x-to-markdown,productivity,unsafe
+baoyu-danger-gemini-web,ai-ml,unsafe
+baoyu-compress-image,productivity,normal
+baoyu-cover-image,design,normal
+baoyu-slide-deck,productivity,normal
+baoyu-comic,design,normal
+baoyu-xhs-images,design,normal
+baoyu-article-illustrator,design,normal
+baoyu-image-gen,ai-ml,normal
+Hugging Face Evaluation,ai-ml,unsafe
+Example Skill,docs,normal
+Hugging Face API Tool Builder,ai-ml,normal
+Hugging Face Jobs,infra,unsafe
+humanizer,productivity,normal
+Agent Reach,productivity,unsafe
+karpathy-guidelines,coding,normal
+karpathy-guidelines,coding,normal
+migrate-to-vinext,devops,unsafe
+Nuxt UI Contributing Guide,coding,normal
+nuxt-ui,design,normal
+Visual Explainer,design,normal
+Preline Theme Generator,design,normal
+Code Documenter,docs,normal
+SRE Engineer,infra,unsafe
+Rails Expert,coding,normal
+devops-engineer,devops,normal
+Python Pro,coding,normal
+Spring Boot Engineer,coding,normal
+.NET Core Expert,coding,normal
+sql-pro,coding,normal
+fastapi-expert,coding,normal
+Game Developer,coding,normal
+Playwright Expert,testing,normal
+API Designer,design,normal
+Kotlin Specialist,coding,normal
+wordpress-pro,coding,normal
+Spec Miner,docs,normal
+React Expert,coding,normal
+GraphQL Architect,coding,normal
+Cloud Architect,infra,unsafe
+golang-pro,coding,normal
+MCP Developer,ai-ml,normal
+React Native Expert,coding,normal
+Feature Forge,productivity,normal
+Spark Engineer,data,normal
+Angular Architect,coding,normal
+Chaos Engineer,infra,unsafe
+Terraform Engineer,infra,normal
+kubernetes-specialist,infra,normal
+Salesforce Developer,coding,unsafe
+JavaScript Pro,coding,normal
+ML Pipeline Expert,ai-ml,unsafe
+Rust Engineer,coding,normal
+Shopify Expert,coding,normal
+C# Developer,coding,normal
+Debugging Wizard,coding,normal
+Test Master,testing,normal
+PostgreSQL Pro,data,unsafe
+Microservices Architect,infra,normal
+Atlassian MCP Expert,infra,unsafe
+Vue Expert (JavaScript),coding,normal
+Monitoring Expert,infra,normal
+php-pro,coding,normal
+TypeScript Pro,coding,normal
+Legacy Modernizer,coding,normal
+Pandas Pro,data,normal
+Embedded Systems Engineer,coding,normal
+Vue Expert,coding,normal
+Security Reviewer,security,normal
+Fullstack Guardian,coding,normal
+Database Optimizer,data,normal
+RAG Architect,ai-ml,unsafe
+Fine-Tuning Expert,ai-ml,normal
+C++ Pro,coding,normal
+java-architect,coding,normal
+The Fool,productivity,normal
+react-doctor,coding,normal
+playwright-cli,testing,normal
+Streamdown,coding,normal
+ML Paper Writing for Top AI Conferences,docs,normal
+XcodeBuildMCP CLI,devops,normal
+XcodeBuildMCP,devops,normal
+websocket-engineer,coding,normal
+portless,devops,normal
+antfu,coding,normal
+vue,coding,normal
+vite,coding,normal
+vue-testing-best-practices,testing,normal
+vue-router-best-practices,coding,normal
+vueuse-functions,coding,normal
+slidev,productivity,normal
+tsdown,coding,normal
+Interface Design,design,normal
+pinia,coding,normal
+nuxt,coding,normal
+vitepress,docs,normal
+unocss,coding,normal
+vitest,testing,normal
+pnpm,devops,normal
+Humanizer-zh,docs,normal
+NotebookLM Research Assistant,ai-ml,unsafe
+Burp Project Parser,security,normal
+Using the GitHub CLI (gh),devops,normal
+Fix Review,security,normal
+Dev Browser,productivity,unsafe
+CodeQL Analysis,security,normal
+SARIF Parsing Best Practices,security,normal
+Semgrep Security Scan,security,normal
+system-overview,docs,normal
+Create Handoff,productivity,normal
+Resume work from a handoff document,productivity,normal
+Generate PR Description,docs,normal
+Planning Agent,productivity,normal
+Second Opinion,coding,unsafe
+designing-workflow-skills,productivity,normal
+Repo Research Analyst,docs,normal
+Loogle Search - Mathlib Type Signature Search,ai-ml,normal
+Discovery Interview,productivity,normal
+TLDR Stats,productivity,normal
+Recall - Semantic Memory Retrieval,ai-ml,normal
+TLDR Smart Router,productivity,normal
+Tour: What Can I Do?,productivity,normal
+TLDR Deep Analysis,coding,normal
+Devcontainer Setup,devops,normal
+Semgrep Rule Creator,security,normal
+Variant Analysis,security,normal
+Entry Point Analyzer,security,normal
+dwarf-expert,coding,normal
+testing-handbook-generator,security,unsafe
+Interpreting Culture Index,productivity,normal
+spec-to-code-compliance,security,normal
+Deep Context Builder (Ultra-Granular Pure Context Mode),security,normal
+Git Cleanup,devops,normal
+Property-Based Testing Guide,testing,normal
+AFL++,security,unsafe
+research-external,productivity,normal
+Dead Code Detection,coding,normal
+TDD Migration Pipeline,coding,normal
+TDD Migrate,coding,unsafe
+Debug Buttercup,devops,normal
+Math Cognitive Stack Guide,ai-ml,normal
+Unified Math Capabilities,ai-ml,normal
+Math Router,ai-ml,normal
+Recall Past Work,productivity,normal
+Research Agent,ai-ml,normal
+Nia Documentation Search,docs,normal
+Morph Codebase Search,coding,unsafe
+Morph Fast Apply,coding,unsafe
+help,productivity,normal
+Implementation Task Agent,coding,normal
+GitHub Search,productivity,normal
+Firecrawl Scrape,data,normal
+Implement Plan,productivity,unsafe
+Sub-Agents Reference,ai-ml,normal
+explore,coding,normal
+implement_plan_micro,productivity,normal
+CLI Reference,productivity,unsafe
+Build - Workflow Orchestrator,productivity,normal
+TLDR-Code: Complete Reference,coding,normal
+Search Tool Router,productivity,normal
+Completion Check: Verify Infrastructure Is Wired,devops,normal
+Git Commit Rules,devops,malicious
+Braintrust Tracing for Claude Code,ai-ml,normal
+Onboard - Project Discovery & Ledger Creation,productivity,normal
+mot,devops,normal
+Agentica Infrastructure Reference,ai-ml,normal
+Security Audit Workflow,security,normal
+OPC Architecture Understanding,infra,normal
+Search Tool Hierarchy,productivity,normal
+Compound Learnings,productivity,normal
+Braintrust Analysis,productivity,normal
+Background Agent Pings,productivity,normal
+Graceful Degradation with Helpful Messages,coding,normal
+QLTY During Development,coding,normal
+Explicit Identity Across Boundaries,coding,normal
+qlty-check,coding,normal
+Agentica Spawn,ai-ml,unsafe
+complete-skill,testing,useless
+No Polling for Background Agents,productivity,normal
+Router-First Architecture,productivity,normal
+Continuity Ledger,productivity,normal
+Idempotent Redundancy,coding,normal
+pint-compute,coding,normal
+Parallel Agent Type Contracts,coding,normal
+Agentica-Claude Code Proxy Integration,ai-ml,unsafe
+prove,ai-ml,unsafe
+Observe Before Editing,productivity,normal
+review,coding,normal
+Async REPL Protocol,coding,normal
+Agentica SDK Reference,ai-ml,unsafe
+MCP Chaining Pipeline,ai-ml,unsafe
+wiring,infra,normal
+Skill Upgrader,ai-ml,unsafe
+migrate,devops,unsafe
+Agent Context Isolation,productivity,normal
+Agentica Server + Claude Proxy Setup,infra,unsafe
+shapely-compute,data,normal
+Never Use TaskOutput,productivity,normal
+Slash Commands Reference,productivity,normal
+Reference SDK Check,coding,normal
+Agentica Prompt Engineering,ai-ml,normal
+Hook Development Rules,coding,normal
+AST-Grep Find,coding,unsafe
+Workflow Router,productivity,unsafe
+Agent Orchestration Rules,productivity,normal
+Environment Triage,devops,unsafe
+RepoPrompt CLI,productivity,normal
+Index at Creation Time,productivity,normal
+Debug Hooks,devops,normal
+react-native-testing,testing,normal
+YARA-X Rule Authoring,security,normal
+Tailwind CSS Development,design,normal
+Ask Questions If Underspecified,productivity,normal
+Audit Prep Assistant,security,normal
+TON Vulnerability Scanner,security,normal
+Solana Vulnerability Scanner,security,normal
+Secure Workflow Guide,security,normal
+Token Integration Analyzer,security,normal
+Cairo/StarkNet Vulnerability Scanner,security,normal
+Algorand Vulnerability Scanner,security,normal
+Substrate Vulnerability Scanner,security,normal
+Guidelines Advisor,security,normal
+Modern Python,coding,normal
+Insecure Defaults Detection,security,normal
+Claude in Chrome MCP Troubleshooting,devops,unsafe
+Firebase APK Security Scanner,security,unsafe
+Semgrep Rule Variant Creator,security,normal
+Constant-Time Analysis,security,normal
+Sharp Edges Analysis,security,normal
+Fuzzing Dictionary,security,normal
+libFuzzer,security,normal
+cargo-fuzz,testing,normal
+Atheris,security,normal
+AddressSanitizer (ASan),security,normal
+Overcoming Fuzzing Obstacles,security,normal
+Coverage Analysis,security,normal
+Writing Fuzzing Harnesses,security,normal
+Differential Security Review,security,normal
+OSS-Fuzz,security,normal
+Ruzzy,security,normal
+Constant-Time Testing,security,normal
+Wycheproof,security,normal
+LibAFL,security,normal
+playwriter,productivity,unsafe
+n8n-node-configuration,infra,normal
+n8n Validation Expert,devops,normal
+n8n-mcp-tools-expert,infra,normal
+n8n-workflow-patterns,infra,normal
+Social Media Analyzer,data,normal
+Reverse Engineering Tools & Techniques,security,normal
+Game Engine Development Resources,security,normal
+Vibium Browser Automation CLI Reference,testing,normal
+agentation,devops,normal
+Ultracite,coding,normal
+Agentation Self-Driving Mode,design,normal
+Customer Success Manager,data,normal
+Financial Analyst,data,normal
+Sales Engineer Skill,productivity,normal
+code-review-expert,coding,normal
+Risk Management Specialist,other,normal
+Head of Regulatory Affairs,docs,normal
+Quality Manager - QMS ISO 13485 Specialist,docs,normal
+Senior Quality Manager Responsible Person (QMR),productivity,normal
+CAPA Officer,productivity,normal
+QMS Audit Expert,other,normal
+MDR 2017/745 Specialist,other,normal
+ISMS Audit Expert,security,normal
+TDD Guide,testing,normal
+Information Security Manager - ISO 27001,security,normal
+Microsoft 365 Tenant Manager,infra,normal
+Technology Stack Evaluator,productivity,normal
+FDA Consultant Specialist,other,normal
+AWS Solution Architect,infra,unsafe
+create-docs,docs,normal
+n8n Code Python,coding,normal
+n8n Code Node JavaScript,coding,normal
+n8n Expression Syntax,productivity,normal
+High-Agency Frontend Design Taste,design,normal
+shadcn-svelte Components,coding,normal
+hindsight-docs,docs,normal
+xiaohongshu-automation,productivity,unsafe
+comfyui-local,ai-ml,unsafe
+jarvis-voice,ai-ml,normal
+mm-easy-voice,ai-ml,normal
+kalibr,ai-ml,malicious
+extropy,ai-ml,unsafe
+soul-memory,ai-ml,normal
+masterswarm,ai-ml,unsafe
+agent-passport-system,security,unsafe
+lelamp-room,communication,normal
+chats-share,docs,unsafe
+picsee-short-link,productivity,normal
+vincent-credentials,security,unsafe
+keychat,coding,unsafe
+semantic-router,productivity,unsafe
+sergei-mikhailov-stt,communication,normal
+warden-messari-agent,ai-ml,unsafe
+vibe-notionbot,productivity,normal
+adwhiz,productivity,unsafe
+bstorms,ai-ml,unsafe
+boltzpay,communication,unsafe
+rpe-grafana,devops,normal
+gotchi-dao-voting,productivity,normal
+apple-developer-toolkit,coding,normal
+aetherlang-karpathy-skill,devops,unsafe
+gotchi-channeling,productivity,unsafe
+agentshield-audit,security,unsafe
+here-now,web-and-frontend-development,normal
+neuroboost-elixir,ai-ml,unsafe
+opentweet-x-poster,productivity,normal
+memelink,design,normal
+kmi,data,normal
+fis-architecture,coding,normal
+MacPowerTools,devops,unsafe
+aetherlang-claude-code,ai-ml,unsafe
+AetherLang Ω V3,productivity,unsafe
+aetherlang-chef,ai-ml,unsafe
+photo-captions,productivity,normal
+unclaimed-sol-scanner,data,normal
+yandex-tracker-cli,productivity,normal
+perplexity-research,ai-ml,normal
+ibt,productivity,normal
+cursor-cli-headless,coding,unsafe
+footballbin-predictions,other,normal
+0g-compute,ai-ml,unsafe
+network-ai,productivity,normal
+exoskeletons,coding,unsafe
+video-download,data,normal
+elasticsearch-skill,devops,unsafe
+gerador-contrato-locacao-preview,productivity,normal
+contrato-locacao-broa,productivity,normal
+titleclash,ai-ml,normal
+vibetrading,coding,unsafe
+turing-pyramid,ai-ml,unsafe
+amber-voice-assistant,ai-ml,unsafe
+shieldcortex,security,malicious
+creative-toolkit,ai-ml,normal
+midscene-android-automation,testing,normal
+midscene-computer-browser,testing,unsafe
+midscene-computer-automation,devops,unsafe
+icalendar-sync,productivity,normal
+grafana-plugin,devops,normal
+openbotcity,gaming,normal
+domain-authority-auditor,other,normal
+which-llm,ai-ml,unsafe
+aetherlang,productivity,unsafe
+moss,ai-ml,normal
+universal-skills-manager,ai-ml,unsafe
+hxxra,coding,normal
+codesession,devops,normal
+technical-seo-checker,coding,normal
+intelligent-router,infra,unsafe
+ceo-advisor,productivity,normal
+nas-movie-download,other,unsafe
+materials-cli,design,unsafe
+crustafarianism,other,unsafe
+ig-realtor-recruiting-outreach,productivity,unsafe
+heygen-avatar-lite,ai-ml,unsafe
+buddhist-counsel,ai-ml,unsafe
+smart-spawn-api,ai-ml,unsafe
+agent-commerce-engine,productivity,normal
+whatsapp-business,productivity,normal
+clickup-skill,productivity,normal
+clrun,devops,unsafe
+stitch-loop,coding,unsafe
+aetherlang-strategy,productivity,unsafe
+gotchi-finder,data,normal
+Cybercentry Web Application Verification,security,unsafe
+cybercentry-solidity-code-verification,security,unsafe
+cybercentry-quantum-cryptography-verification,security,unsafe
+cybercentry-private-data-verification,security,unsafe
+webchat-voice-full-stack,devops,normal
+cybercentry-cyber-security-consultant,security,unsafe
+trtc-config-inspector,coding,normal
+groupme-cli,productivity,normal
+ztpc-spam-sweep,productivity,unsafe
+magic-wormhole,security,unsafe
+content-machine,productivity,normal
+gmail-secretary,productivity,normal
+resilient-coding-agent,coding,unsafe
+smart-contract-audit,security,normal
+git-sentinel,coding,normal
+ai-video-editor,ai-ml,normal
+rentahuman,productivity,normal
+adaptlypost,productivity,normal
+cognitive-clarity,productivity,malicious
+moviepilot,productivity,normal
+internet-search,productivity,normal
+video-analyzer-skill,ai-ml,normal
+12306,productivity,normal
+0xwork,productivity,unsafe
+native-typeform,data,normal
+sergei-mikhailov-tg-channel-reader,data,normal
+vibe-notion,productivity,normal
+preqstation,coding,unsafe
+music-assistant,productivity,normal
+jarvis-mission-control,devops,unsafe
+verified-agent-identity,coding,unsafe
+para-proactive-workspace,productivity,normal
+daolv-hotel-booking-assistant,productivity,normal
+waitingformacguffin,productivity,normal
+agent-media,ai-ml,normal
+hylo-ghl,productivity,normal
+wreckit-ralph,testing,normal
+nihao,security,unsafe
+gradientdesires,productivity,unsafe
+skill-engineer,ai-ml,normal
+webchat-voice-proxy,coding,normal
+vincent-brave-search,web-and-frontend-development,normal
+shelly-social-media-scheduler,productivity,normal
+cyber-security-engineer,security,unsafe
+meeting-summarizer,ai-ml,normal
+postnitro-carousel,coding,normal
+srs-support,infra,normal
+didit-database-validation,security,unsafe
+outtake-bounty-network,security,unsafe
+outtake-bounty-network,security,unsafe
+cross-model-review,devops,unsafe
+personality-backup,devops,unsafe
+agentic-spicy-food,coding,unsafe
+ui-designer-skill,design,normal
+entity-optimizer,productivity,normal
+reepl,productivity,normal
+task-sync,productivity,normal
+scrapbook-illustrator,ai-ml,normal
+glm-image,ai-ml,unsafe
+add-top-openrouter-models,ai-ml,normal
+instagram-scraper,data,unsafe
+on-page-seo-auditor,productivity,normal
+content-refresher,productivity,normal
+backlink-analyzer,seo,normal
+content-quality-auditor,docs,normal
+seo-content-writer,docs,normal
+meta-tags-optimizer,docs,normal
+geo-content-optimizer,productivity,normal
+alert-manager,devops,normal
+performance-reporter,other,normal
+rank-tracker,seo,normal
+content-gap-analysis,productivity,unsafe
+keyword-research,productivity,normal
+competitor-analysis,data,normal
+guava-guard,security,normal
+context-clean-up,coding,normal
+session-cost,productivity,normal
+telegram-sticker-vibes,productivity,unsafe
+dwnldr,productivity,normal
+seedstr,productivity,normal
+paddleocr-doc-parsing,data,unsafe
+torchmarket,devops,unsafe
+riskofficer,data,normal
+pipx-desktop-agent,productivity,unsafe
+blogburst,communication,unsafe
+agent-commons,ai-ml,normal
+bricklink,other,normal
+announcer,ai-ml,normal
+ezbookkeeping,productivity,unsafe
+github-repo-stats,devops,unsafe
+github-repo-stats,devops,normal
+bullybuddy,coding,unsafe
+makesoul,ai-ml,unsafe
+beauty-generation-api,ai-ml,unsafe
+api-gateway,devops,normal
+smart-fetch,web-and-frontend-development,normal
+appdeploy,devops,unsafe
+aubrai-longevity,other,unsafe
+bria-ai,ai-ml,normal
+memories-cli,coding,normal
+sonnet-model-router,ai-ml,normal
+buy-anything,shopping-and-e-commerce,unsafe
+george,productivity,unsafe
+depo-bot,productivity,normal
+elevenlabs-voices,ai-ml,normal
+browse,coding,unsafe
+multi-agent-sync,ai-ml,normal
+the-only,productivity,unsafe
+serp-analysis,data,normal
+attio-enhanced,productivity,normal
+domain-trust-check,security,unsafe
+ztm-tunnel,infra,normal
+veille,productivity,normal
+audiomind,ai-ml,unsafe
+Verigent,security,normal
+social-media-ops,ai-ml,normal
+youmind,web-and-frontend-development,unsafe
+cc,ai-ml,normal
+fleet,devops,normal
+claude-watchdog,devops,normal
+rag-eval,testing,normal
+skill-trust-auditor,security,normal
+ubtrippin,productivity,unsafe
+farmos-weather,data,normal
+dune-analytics-api,data,normal
+lh-edge-tts,ai-ml,normal
+pr-ship,coding,normal
+simple-random-interaction-designer,productivity,malicious
+lel-mail,productivity,unsafe
+mrscraper,data,unsafe
+fabrik-codek,ai-ml,unsafe
+pullthatupjamie,data,normal
+prior,productivity,normal
+coinfello,devops,unsafe
+drakeling,other,normal
+mercury-payments,productivity,unsafe
+buzz-bd,productivity,normal
+roundtable,ai-ml,normal
+humanod,productivity,normal
+agentproof,security,unsafe
+opengfx,design,unsafe
+leak-check,security,normal
+payment-gateway-payram,coding,unsafe
+capmetro-skill,other,normal
+seedance-guide,ai-ml,normal
+vincent-twitter,search-and-research,normal
+agent-to-agent-payments,infra,unsafe
+seedance-2-prompt-engineering-skill,ai-ml,normal
+didit-proof-of-address,coding,unsafe
+didit-phone-verification,coding,normal
+didit-face-search,security,unsafe
+didit-aml-screening,security,unsafe
+intranet,web-and-frontend-development,normal
+klientenportal,productivity,unsafe
+dynamic-ui,web-and-frontend-development,unsafe
+postfast,productivity,normal
+revolut,web-and-frontend-development,unsafe
+raiffeisen-elba,productivity,unsafe
+ogment-agentic-cli,productivity,normal
+payram-mcp-integration,coding,unsafe
+codex-account-switcher,coding,unsafe
+guard-scanner,security,normal
+universal-profile,coding,unsafe
+ai-ppt-generator,productivity,normal
+garmin-cli,data,unsafe
+alibaba-cloud-model-setup,coding,normal
+morpheus-fashion-design,ai-ml,normal
+fast-io,productivity,unsafe
+minara,productivity,unsafe
+id-cv-resume-creator,productivity,unsafe
+ai-persona-os,ai-ml,normal
+task-breakdown,productivity,normal
+image-gen,ai-ml,normal
+proxybase-openclaw-skill,infra,unsafe
+didit-email-verification,coding,normal
+didit-face-match,coding,unsafe
+solana-dev-rent-free,coding,normal
+beetrade,productivity,unsafe
+tide-watch,productivity,normal
+memento,coding,normal
+scaling-strategy,productivity,normal
+mcp-colombia,coding,unsafe
+soulprint,security,unsafe
+compaction-ui-enhancements,web-and-frontend-development,unsafe
+shellmail,productivity,unsafe
+ide-agent-kit,coding,normal
+agent-collaboration-network,productivity,unsafe
+hitl-protocol,web-and-frontend-development,normal
+homeserver,devops,unsafe
+joplin-api,productivity,normal
+funda-gateway,data,normal
+hs,security,normal
+clarity-gate,docs,normal
+poidh,infra,unsafe
+tms,coding,normal
+bricks-cli,devops,normal
+judge-human,ai-ml,normal
+ddgs-search,productivity,normal
+strudel-music,coding,unsafe
+agent-puzzles,ai-ml,unsafe
+laravel-cloud,devops,normal
+argus-intelligence,ai-ml,unsafe
+bailian-web-search,ai-ml,normal
+cron-worker-guardrails,devops,normal
+haqq-content-workbench,productivity,normal
+ai-podcast,ai-ml,normal
+aport-agent-guardrail,security,normal
+agent-swarm,ai-ml,unsafe
+agent-mode-upgrades,ai-ml,normal
+gumroad-analytics,data,normal
+media-news-digest,data,unsafe
+priceworld,productivity,normal
+gateway-guard,devops,unsafe
+soulforge,coding,unsafe
+xfor-bot,productivity,unsafe
+api-key-ui-tab,coding,normal
+tech-news-digest,productivity,normal
+torch-prediction-market-bot,coding,unsafe
+vocabulary-builder,productivity,normal
+torch-domain-auction-bot,ai-ml,unsafe
+pipedream-connect,infra,normal
+context-scope-tags,productivity,normal
+agent-analytics,data,normal
+grazer,productivity,unsafe
+fork-manager,coding,normal
+telegram-pairing-send-code-to-every-start,coding,unsafe
+meatmarket,productivity,unsafe
+lulu-monitor,security,unsafe
+arxiv-paper-reviews,data,malicious
+conclave,ai-ml,unsafe
+gandi-skill,infra,normal
+zyfai-sdk,devops,unsafe
+ipeaky,security,normal
+vitavault,devops,normal
+trash-cli,coding,normal
+nova-net-worth,productivity,normal
+launchthatbot-convex-backend,infra,normal
+todokan,productivity,normal
+human-like-memory,ai-ml,unsafe
+undersheet,ai-ml,unsafe
+comonyx-admin,productivity,unsafe
+nova-app-builder,devops,unsafe
+cheat-code,ai-ml,malicious
+soul-audit,ai-ml,normal
+task-resume,productivity,normal
+to-do,productivity,unsafe
+claude-relay,devops,normal
+model-manager,productivity,normal
+behavioral-invariant-monitor,security,normal
+copilotkit-runtime-patterns,coding,normal
+ai-collab,ai-ml,unsafe
+OpenCortex,ai-ml,normal
+safe-update,coding,normal
+allstock-data,data,normal
+evomap-gep,coding,unsafe
+zettel-link,productivity,normal
+skill-store,productivity,normal
+openra-rl,ai-ml,normal
+cdp-browser,browser-and-automation,unsafe
+agent-casino,other,unsafe
+31third-safe-rebalancer-simple,infra,unsafe
+effortlist-ai,productivity,normal
+tator-launch-pad,coding,unsafe
+adspirer-ads-agent,ai-ml,unsafe
+pocket-ai,productivity,normal
+auto-drive,infra,unsafe
+human-browser,web-and-frontend-development,unsafe
+youtube-summary,productivity,unsafe
+total-recall,devops,unsafe
+sparkle-vpn,infra,unsafe
+solid-agent-storage,web-and-frontend-development,unsafe
+clawnet,productivity,normal
+zettel-brainstormer,productivity,normal
+open-persona,ai-ml,unsafe
+stock-copilot-pro,data,normal
+astranova,ai-ml,unsafe
+monet-ai,ai-ml,normal
+Sigil Security,security,unsafe
+stocks,data,normal
+search-cluster,data,unsafe
+hefestoai-auditor,security,normal
+surrealdb-knowledge-graph-memory,ai-ml,unsafe
+sys-updater,infra,unsafe
+torchliquidationbot,devops,unsafe
+citedy-seo-agent,productivity,normal
+vanar-neutron-memory,productivity,normal
+clawver-onboarding,infra,normal
+swamp,coding,unsafe
+agent-church,ai-ml,unsafe
+chart-image,image-and-video-generation,normal
+gevety,other,normal
+jlm-coffee,other,normal
+disk-usage-watcher,devops,normal
+quotly-style-sticker,productivity,unsafe
+evolink-video,ai-ml,normal
+mail-client,productivity,normal
+todokan-review-loop,productivity,normal
+wiseocr,data,unsafe
+js-eyes,coding,unsafe
+clawring,communication,unsafe
+medium-writer,productivity,normal
+correction-memory,coding,normal
+relationships,productivity,normal
+ros-skill,infra,unsafe
+subagent-architecture,ai-ml,normal
+totp,security,unsafe
+meet-friends,ai-ml,unsafe
+lobsterguard,security,unsafe
+emotionwise,ai-ml,normal
+perstudio,ai-ml,normal
+post-job,productivity,unsafe
+solana-rent-free-dev,coding,normal
+launchthatbot-git-team-ops,devops,unsafe
+valiron-payment-interceptor,security,unsafe
+bitnote,security,unsafe
+solanaprox-ai,ai-ml,unsafe
+adaptive-testing,data,normal
+opentangl,devops,unsafe
+evolink-media,ai-ml,normal
+paypilot-agms,productivity,unsafe
+aiprox,ai-ml,normal
+neolata-mem,ai-ml,normal
+rollhub-casino,other,unsafe
+multi-chat-context-manager,productivity,normal
+biver-builder,productivity,normal
+recruiter-assistant,productivity,unsafe
+aavegotchi-3d-renderer,devops,normal
+funding-rate-scanner,data,normal
+nexus-sentinel,devops,unsafe
+roundtable-adaptive,ai-ml,unsafe
+email-resend,devops,normal
+xferops-gog,productivity,normal
+cerebrun,productivity,unsafe
+get-hba,infra,normal
+scrapling,web-and-frontend-development,unsafe
+feishu-file-sender,coding,normal
+pi-workflow,productivity,normal
+skill-hunter,coding,normal
+copilotkit-react,coding,normal
+copilotkit-agent-patterns,ai-ml,normal
+ghost-admin,web-and-frontend-development,normal
+solanaprox,ai-ml,unsafe
+install-llm-council,devops,unsafe
+latent-press,docs,normal
+distil,productivity,normal
+imessage-voice-reply,ai-ml,unsafe
+phenosnap-phenotype-extractor,data,unsafe
+printpal-3d,ai-ml,normal
+lightningprox,ai-ml,unsafe
+w3connect,other,unsafe
+gcp-fullstack,coding,unsafe
+paythefly,infra,unsafe
+raon-os,productivity,normal
+freepik,ai-ml,normal
+quickintel-scan,security,unsafe
+pinchtab,coding,normal
+vscode-node,coding,unsafe
+brave-api-search,productivity,normal
+consciousness-soul-identity,ai-ml,normal
+origram,web-and-frontend-development,normal
+agentmesh,communication,normal
+youtube-scrapper,data,unsafe
+virtual-remote-desktop,devops,unsafe
+med-info,data,normal
+flux,devops,unsafe
+aimlapi-media-gen,ai-ml,normal
+org-memory,productivity,normal
+agent-passport,security,normal
+file-repair-skill,productivity,unsafe
+pyzotero,productivity,normal
+food-cal-order,productivity,unsafe
+ask-church,ai-ml,normal
+homeassistant-assist,infra,normal
+flights-search,productivity,unsafe
+fabric-api,productivity,normal
+math-worksheets,productivity,normal
+nextcloud-files,web-and-frontend-development,normal
+safe-backup,devops,normal
+pixel-lobster,coding,normal
+repliz,productivity,normal
+ncloud-maps,devops,normal
+bug-reaper,security,unsafe
+nova-wallet,infra,unsafe
+publora-telegram,productivity,normal
+publora-mastodon,productivity,unsafe
+publora-youtube,coding,normal
+publora-tiktok,productivity,normal
+publora-instagram,ai-ml,normal
+publora-threads,productivity,normal
+publora-twitter,productivity,normal
+publora-linkedin,productivity,normal
+publora,productivity,normal
+larrybrain,coding,normal
+porteden-email,productivity,unsafe
+porteden-calendar,productivity,normal
+porteden,productivity,normal
+wof-rps,other,unsafe
+documents-ai,data,normal
+telnyx-bot-signup,productivity,unsafe
+instagram-content-studio,coding,unsafe
+constraint-engine,coding,normal
+instagram-api,other,unsafe
+sally-ai,devops,unsafe
+knowledge-management,productivity,normal
+reva,other,unsafe
+meegle-api-skill,coding,normal
+securevibes-scanner,security,unsafe
+validator-agent,devops,normal
+agentwallet-sdk,coding,unsafe
+meegle-api,coding,unsafe
+renderkit,coding,normal
+intros,productivity,unsafe
+b0tresch-stealth-browser,coding,unsafe
+cfshare,devops,unsafe
+neon-soul,ai-ml,unsafe
+paypol,devops,unsafe
+mintyouragent,coding,unsafe
+publora-bluesky,productivity,normal
+publora-facebook,productivity,normal
+agent-deep-research,ai-ml,normal
+conatus,ai-ml,unsafe
+session-memory,productivity,normal
+quackgram,productivity,unsafe
+amazon-product-api-skill,data,unsafe
+amazon-asin-lookup-api-skill,data,unsafe
+sonic-kvm-testbed,devops,unsafe
+clarity-research,data,unsafe
+agent-self-reflection,productivity,normal
+clarity-clinical,data,normal
+clarity-analyze,data,normal
+crypto-signal,data,malicious
+claude-max-proxy-setup,infra,unsafe
+church,other,unsafe
+achurch,productivity,normal
+danube,devops,unsafe
+diataxis-writing,docs,unsafe
+botcoin-miner,productivity,unsafe
+heurist-mesh,data,unsafe
+kallyai,productivity,normal
+amazon-shopper,productivity,unsafe
+gambling,other,unsafe
+rollhub-auditor,security,unsafe
+plugy,ai-ml,unsafe
+PersonalDataHub,communication,normal
+evolink-media,ai-ml,normal
+returns-reverse-logistics,productivity,normal
+carrier-relationship-management,productivity,normal
+osint-investigator,security,unsafe
+agentplace,ai-ml,unsafe
+claude-code-launcher,productivity,unsafe
+ai-writing-humanizer,ai-ml,normal
+vtl-image-analysis,image-and-video-generation,normal
+short-video-creator,coding,normal
+subtitle-translate-skill,ai-ml,normal
+qa-testing-bots,testing,unsafe
+ecommerce-price-monitor,ai-ml,unsafe
+mindcore,ai-ml,normal
+echo-repeater,testing,normal
+x-founder-operations,productivity,normal
+email-capture-generator,productivity,normal
+living-room-smoke-detector,infra,normal
+landing-page-converter,design,normal
+x-alive,ai-ml,unsafe
+rock-paper-scissors,other,normal
+SpecVibe,coding,unsafe
+seedance-story-orchestrator,ai-ml,unsafe
+codespace-manager,devops,unsafe
+karma-book,productivity,unsafe
+regex-visualizer,coding,normal
+feishu-file-sender,communication,normal
+agent-evolver,ai-ml,unsafe
+aviation-agent,productivity,normal
+submit-to-agentbeat-2,coding,unsafe
+scrapling-fetcher,data,unsafe
+mlx-local-inference,ai-ml,normal
+intent-engineering,ai-ml,unsafe
+sfx-generator,ai-ml,normal
+assimilate-mcp,productivity,unsafe
+doro-git-essentials,devops,normal
+doro-email-to-calendar,productivity,normal
+doro-command-creator,productivity,normal
+smart-models,ai-ml,normal
+skill-operator,ai-ml,normal
+agentcomm,coding,normal
+wisediag-medocr,data,unsafe
+postavel,ai-ml,normal
+shopping-list-ui,coding,unsafe
+prediction-market-bot-dawn,coding,unsafe
+video-ad-producer,ai-ml,normal
+camofox-mcp,web-and-frontend-development,unsafe
+error-driven-evolution,ai-ml,normal
+plusefin-analysis,data,normal
+aihotel,productivity,normal
+capture-website,productivity,unsafe
+goyfiles-epstein,infra,unsafe
+fear-and-greed-index,data,normal
+agentic-security-audit,security,normal
+mh-wacli,productivity,unsafe
+mh-openai-whisper-api,ai-ml,unsafe
+mh-weather,communication,normal
+mh-notion,productivity,unsafe
+daolv-hotel-booking,productivity,normal
+link-digest,productivity,normal
+neo-google-ai-workaround,ai-ml,unsafe
+caddy-reverse-proxy,infra,normal
+system-watchdog,devops,normal
+image-enhancer,productivity,normal
+similarweb-analytics,web-and-frontend-development,normal
+youtube-downloader,productivity,normal
+agent-traffic-analyzer,ai-ml,normal
+xy-pubmed-pdf-downloader,data,normal
+unity-level-design,design,normal
+mulch-self-improving-agent,productivity,normal
+storj-agent,infra,unsafe
+neo-py2py3-converter,coding,unsafe
+neo-github-readme-generator,docs,normal
+incidentio,devops,normal
+doginals,ai-ml,unsafe
+bandwidth-income,infra,unsafe
+passive-income-tracker,productivity,unsafe
+neo-py-memory-optimizer,coding,normal
+docker-to-k8s-manifests,devops,normal
+arknights-operator-gacha,ai-ml,normal
+rapay,productivity,unsafe
+ddgs,web-and-frontend-development,normal
+crash-fixer,devops,unsafe
+social-media-extractor,data,normal
+krumpkraft,other,unsafe
+web-automation-apify,web-and-frontend-development,normal
+sixel-email,communication,normal
+reasonlayer-app-access,productivity,unsafe
+domain-check,devops,normal
+tf-module-generator,devops,normal
+neo-es6-refactor,coding,normal
+aerobase-skill,productivity,normal
+ue57-gamepiece-designer,coding,normal
+personality-match,ai-ml,unsafe
+shopping-list,productivity,normal
+acorp-foundry,infra,normal
+agent-sovereign-stack,devops,unsafe
+local-first-llm,ai-ml,unsafe
+video-production,coding,unsafe
+agent-takeover,web-and-frontend-development,unsafe
+Code,coding,normal
+quack,ai-ml,unsafe
+living-room-air-monitor,data,normal
+tpm-copilot,productivity,unsafe
+consilium,ai-ml,normal
+neo-python-to-go-converter,coding,unsafe
+jetson-cuda-voice,ai-ml,normal
+triumvirate-protocol,ai-ml,unsafe
+identity-persistence,ai-ml,unsafe
+macos-native-automation,devops,unsafe
+neo-graphql-ts-generator,coding,normal
+soulkeeper,ai-ml,normal
+side-quests,productivity,normal
+ted-talk,ai-ml,normal
+visual-concept,design,normal
+hinge-liker,productivity,unsafe
+yandex-tracker,productivity,normal
+api-to-ts-interface,coding,normal
+sales-rhythm-tracker,productivity,normal
+etoro-apps,other,unsafe
+teams-hack,productivity,malicious
+marine-watch-planner,productivity,unsafe
+mh-obsidian,productivity,normal
+mh-things-mac,productivity,normal
+mh-session-logs,productivity,normal
+youam,other,unsafe
+rune,productivity,unsafe
+book-fetch,productivity,unsafe
+monolith,security,unsafe
+open-lesson,productivity,normal
+agentgate-security,security,unsafe
+ops-journal,devops,normal
+quote0,infra,normal
+service-watchdog,devops,normal
+nova-letters,productivity,normal
+linkedapi-linkedin,web-and-frontend-development,unsafe
+web2labs-studio,ai-ml,unsafe
+tcc-quality-gates,devops,normal
+revenue-model-design,productivity,normal
+rollhub-analyst,data,unsafe
+agent-dispatch,ai-ml,unsafe
+rollhub-affiliate,productivity,malicious
+ai-hunter-pro,ai-ml,unsafe
+moonpay,other,unsafe
+agentdo,productivity,unsafe
+metacognition,ai-ml,normal
+line-api,productivity,unsafe
+monk-eye-engine,data,unsafe
+messageguard,security,normal
+graphthulhu,devops,unsafe
+mh-apple-reminders,productivity,unsafe
+voice-memo,productivity,normal
+ai-prompt-gen,ai-ml,normal
+gmail-cleaner,productivity,unsafe
+aawu,productivity,unsafe
+mh-bear-notes,productivity,unsafe
+mh-apple-notes,productivity,normal
+notes-reminders,productivity,unsafe
+health-summary,productivity,normal
+ai-trend-curation,ai-ml,unsafe
+unit-convert,productivity,normal
+password-gen,security,normal
+otra-city,ai-ml,unsafe
+web-search-with-serpapi,web-and-frontend-development,unsafe
+linux-desktop,productivity,unsafe
+currency-exchange,data,normal
+apikiss,productivity,normal
+release-tracker,devops,normal
+usememos,productivity,normal
+ai-review-assistant,productivity,normal
+caldav-skill,devops,normal
+amazon-competitor-analyzer,data,unsafe
+dollar-platoon,productivity,unsafe
+website-generator,productivity,normal
+ragie-rag,ai-ml,normal
+native-airtable,data,normal
+slv-grpc-geyser,devops,normal
+slv-validator,devops,unsafe
+x-recap,devops,unsafe
+claude-code-pro,productivity,normal
+shortcut-skill,productivity,normal
+aioz-ui-v3,coding,normal
+self-improvement,productivity,normal
+native-monday,productivity,normal
+reef,ai-ml,unsafe
+native-sentry,devops,normal
+twitter-autopilot,coding,unsafe
+core-prompt-patcher,ai-ml,unsafe
+muninn-memory,ai-ml,normal
+youtube-summary,productivity,unsafe
+skill-vetter,security,normal
+mbb-strategist,productivity,normal
+youtube-downloader,coding,unsafe
+officex,coding,normal
+paper-notion-summarizer,productivity,normal
+entradex,productivity,normal
+react-native-logs-cli,coding,unsafe
+domain-email-forwarding,infra,normal
+infinite-memory-v2,productivity,unsafe
+deep-scraper,data,unsafe
+font-interceptor,design,unsafe
+envato-comment-task-to-sheet,productivity,normal
+seedance,ai-ml,normal
+clickbait-engine,productivity,normal
+platform-api-connector,coding,unsafe
+aavegotchi-renderer-bypass,devops,normal
+rush-reskill-usage,devops,normal
+hype-scanner,ai-ml,normal
+disposable-email-for-agents,productivity,unsafe
+rush-find-skills,coding,normal
+archive-daily-note,productivity,normal
+okx-competition,ai-ml,unsafe
+trading-tournament,ai-ml,unsafe
+anti-amnesia,productivity,normal
+web3-data,data,normal
+personal-data-hub,productivity,unsafe
+windsor-ai,data,normal
+tixflow-v2,productivity,unsafe
+gmail-tool,devops,unsafe
+country-info,data,normal
+adblock-dns,infra,normal
+gmail-sender,productivity,normal
+client-reporting,productivity,normal
+lead-gen-crm,productivity,unsafe
+social-media-autopilot,productivity,unsafe
+perpetua,productivity,normal
+skill-factory-pipeline,coding,normal
+file-to-markdown,data,unsafe
+audio-conductor,ai-ml,normal
+elevenlabs-mcp-server,ai-ml,normal
+newsnow,data,normal
+youtube-notification-analysis,coding,malicious
+ops-detection-incident-routing,devops,normal
+agentcp,ai-ml,unsafe
+auteng-docs,docs,unsafe
+curiosity-engine,ai-ml,unsafe
+nexus-brain,devops,unsafe
+buffer-session,coding,normal
+langsearch,ai-ml,normal
+nexus-safe,devops,normal
+purposebot,productivity,unsafe
+video-sourcing,data,normal
+payspawn,infra,unsafe
+xeonen-arena,ai-ml,normal
+dd-video-analyzer,coding,normal
+duckduckgo-websearch,web-and-frontend-development,unsafe
+torah-scholar,other,normal
+cortex-protocol,security,unsafe
+spotlight,coding,normal
+ressemble,ai-ml,unsafe
+opusflame-deep-research,ai-ml,unsafe
+s2g-workflow-engine,infra,unsafe
+ghapp,devops,normal
+ruby-on-rails-gateway,coding,unsafe
+gecko-terminal,data,normal
+model-switcher,coding,unsafe
+qualia-seed-method,ai-ml,normal
+sentient-memory,security,unsafe
+coding-philosophy,coding,normal
+line-client,web-and-frontend-development,unsafe
+remote-skill-engine,devops,normal
+polygon-agent-kit,coding,malicious
+capability-scope-expansion-watcher,security,normal
+truth-first,coding,normal
+online-shopping,productivity,unsafe
+tv-strategy-settings,productivity,normal
+asdasdas123,productivity,normal
+cubistic-public-bots,docs,normal
+skillnet,coding,normal
+install-then-update-trap-detector,security,normal
+delta-disclosure-auditor,security,normal
+validator-correlated-judgment,security,unsafe
+feed-to-md,data,normal
+vnstock-free-expert,data,normal
+cs-verify,coding,malicious
+deai-image,security,unsafe
+vn-market-news-monitor,data,normal
+us-macro-news-monitor,data,normal
+stock-picker-orchestrator,data,normal
+nso-macro-monitor,data,normal
+aioz-ui-skills,coding,normal
+spf-dkim-setup,devops,normal
+amadeus-flights,other,normal
+heath-ledger,data,normal
+fuku-sportsbook,productivity,unsafe
+invoice-tracker-pro,productivity,normal
+mulch,coding,normal
+music-generator,ai-ml,unsafe
+content-repurposer-pro,productivity,normal
+seo-content-engine,docs,normal
+skill-safety-checker,security,normal
+sovereign-api-mock-generator,devops,normal
+docker,devops,normal
+marketing-ideas,productivity,normal
+sovereign-roast-coach,productivity,normal
+sovereign-rpg-xp-engine,productivity,normal
+sentiment-priority-scorer,data,normal
+tg-mtproto-cli,data,normal
+pls-agent-tools,devops,unsafe
+reefwatch,security,normal
+native-linear,productivity,normal
+meta-business-suite,coding,unsafe
+native-hubspot,devops,normal
+namecom-registrar,infra,unsafe
+session-cost-tracker,productivity,normal
+wallabag,productivity,unsafe
+percept-summarize,productivity,unsafe
+session-health-monitor,coding,unsafe
+deep-current,productivity,normal
+feishu-user,productivity,normal
+ordiscan,infra,unsafe
+1sec-security,security,normal
+ngrok-preview,coding,unsafe
+farmos-tasks,productivity,normal
+agenttok,ai-ml,unsafe
+publisher-identity-verifier,security,unsafe
+code-security-audit,security,unsafe
+input-classification-system,productivity,normal
+api-credits-lite,productivity,normal
+linkswarm-api,infra,normal
+sovereign-project-setup-wizard,coding,normal
+mobile-app-builder-ai,coding,unsafe
+ghin-golf-tracker,data,normal
+payrail402,productivity,unsafe
+mnemon,ai-ml,unsafe
+x-read,productivity,normal
+fortuna,coding,unsafe
+jentic,infra,normal
+nonprofit-rbm-logic-model,docs,normal
+2nd-brain,productivity,normal
+daolv-hotel-search,productivity,normal
+thermikbuddy,data,normal
+manifest,devops,unsafe
+claude-code-task,coding,unsafe
+Workflows via Ask Gina,devops,normal
+Hash Toolkit,security,normal
+mh-openai-whisper,ai-ml,normal
+smart-cron,devops,unsafe
+yellowagents,ai-ml,unsafe
+tixflow,productivity,unsafe
+botsee,other,normal
+uv-priority,coding,normal
+vivid-business-account-opening,devops,normal
+interesting-finding,productivity,normal
+client-manager,productivity,normal
+game-developer-skill,coding,normal
+agentic-governance,ai-ml,normal
+korean-gov-programs,data,unsafe
+workflow-tools,productivity,normal
+review-orchestrator,coding,normal
+failure-memory,productivity,normal
+podsips-search,search-and-research,normal
+repo-analyzer,security,unsafe
+grago,ai-ml,unsafe
+baz,design,unsafe
+moldium,productivity,normal
+mobilerun,devops,unsafe
+desearch-x-search,data,normal
+desearch-ai-search,web-and-frontend-development,normal
+equity-valuation-framework,data,normal
+infra-watchdog,infra,normal
+coupler-io,devops,normal
+neo-py-test-creator,testing,normal
+deslop,coding,unsafe
+context-verifier,coding,normal
+agent-audit-trail,security,normal
+agentdojo,ai-ml,normal
+phone-caller,ai-ml,unsafe
+zonein,productivity,unsafe
+lowkey-viral,ai-ml,unsafe
+xerolite,other,unsafe
+tempest-weather,other,normal
+skill-detector,productivity,normal
+icom-7610,smart-home-and-iot,normal
+kenoodl-synthesis,ai-ml,malicious
+foam-notes,productivity,normal
+autonomous-executor,productivity,unsafe
+alert-system,devops,normal
+daily-memory-save,productivity,normal
+looper-golf,productivity,normal
+mh-healthcheck,security,unsafe
+phylactery,devops,unsafe
+tweet-composer,productivity,normal
+agent-os,coding,normal
+slv-rpc,devops,normal
+rollhub-bot-builder,devops,malicious
+image-utils,coding,normal
+zoom-calendar,productivity,normal
+budget-tracker,productivity,normal
+dutch-translator,productivity,normal
+bailian-knowledgebase-retrieve,ai-ml,normal
+airtable-participants,data,normal
+config-field,coding,unsafe
+mh-blogwatcher,devops,normal
+1password,security,unsafe
+Google Maps B2B Extractor,data,unsafe
+governance-wrapper,security,unsafe
+Core Refinery,productivity,normal
+danube-tools,productivity,unsafe
+agentchat,productivity,normal
+scent-trails,security,normal
+jobforbots,productivity,unsafe
+safety-checks,ai-ml,normal
+web-i18n-nextjs,coding,normal
+auto-watchdog,devops,unsafe
+generate-news-article,docs,normal
+wavespeed,ai-ml,normal
+yahoo-data-fetcher,data,unsafe
+plvr-event-discovery-safe,productivity,normal
+hudy,productivity,normal
+anti-tempmail,security,normal
+open-room-agent-skill,communication,unsafe
+website-flow-monitor,devops,unsafe
+coingecko-price,data,normal
+heartbeat-checklist,productivity,unsafe
+antfarm-cli,devops,normal
+wopr-clock,productivity,normal
+xeonen-video-analyzer,data,unsafe
+videoanalyzer,data,normal
+edgehdf5-memory,data,normal
+trustlog-guard,productivity,normal
+nimble-web-tools,data,normal
+0x0-messenger,devops,normal
+ai-shield-audit,security,malicious
+thor-generator,ai-ml,unsafe
+emotion-detector,ai-ml,malicious
+godot-engine-3d-developer,productivity,unsafe
+android-3d-developer,coding,normal
+wasm-spa-autofix-react-imports,coding,normal
+local-piper-tts-multilang-secure,web-and-frontend-development,normal
+brek-ai,ai-ml,normal
+cancorteaw-app,coding,normal
+tokendraft,ai-ml,normal
+smart-web-scraper,data,unsafe
+task-orchestra,productivity,unsafe
+pilt,data,normal
+viral-video-analysis,data,normal
+stealthy-google-search,data,unsafe
+oc-security-hardener,security,normal
+oc-daily-business-report,productivity,normal
+oc-content-repurposer,productivity,normal
+content-generation,productivity,normal
+agent-chat-ux-v1-4-0,coding,normal
+automation-runner,devops,unsafe
+nyx-archive-coding-philosophy,coding,normal
+vea,coding,unsafe
+plati-mcp-search,productivity,unsafe
+approve-pairing,devops,unsafe
+cubistic-bot-runner,design,normal
+close-loop,productivity,normal
+lhon-research,productivity,normal
+living-ethics,ai-ml,normal
+absurdist-play,productivity,normal
+skill-security-protocol,security,normal
+voice-edge-tts,media-and-streaming,normal
+office-document-editor,productivity,normal
+web-scraper,data,unsafe
+agenthire,ai-ml,unsafe
+cortex-ai,ai-ml,normal
+seedance-2-video-gen,ai-ml,normal
+local-file-rag-basic,ai-ml,normal
+game-design-philosophy,design,normal
+art-philosophy,design,normal
+agentx-news,productivity,normal
+granola-mcp,productivity,normal
+lmfiles,devops,unsafe
+filehost,infra,normal
+taildrop,infra,normal
+economic-incentive-misalignment-detector,security,unsafe
+nansi,coding,normal
+web-search-free,productivity,normal
+git-federation-searcher,devops,normal
+btcd-skill-beta,infra,unsafe
+asdasdsasdasa12312,productivity,normal
+meta-fb-inbox,productivity,unsafe
+m44-internal-testing,testing,unsafe
+digiforma,data,unsafe
+sovereign-commit-craft,productivity,normal
+sovereign-test-generator,testing,normal
+sovereign-seo-audit,productivity,normal
+onebot-adapter,coding,normal
+mcp-chrome,productivity,unsafe
+supaskills,productivity,normal
+sovereign-codebase-onboarding,docs,unsafe
+sovereign-content-machine,productivity,normal
+outsmart-lp-sniping,other,unsafe
+openapi-deep-audit,security,normal
+telcall-twilio,devops,normal
+ai-displacement-monitor,ai-ml,normal
+maritime-watch,data,normal
+sovereign-project-guardian,devops,normal
+social-trust-manipulation-detector,security,normal
+rss-skill,data,normal
+markdown-browser,coding,normal
+senior-django-developer,coding,normal
+bloom-identity-skill,ai-ml,malicious
+turnip-prophet,productivity,unsafe
+agentpulse,ai-ml,normal
+agentcli-go,coding,normal
+airadar,ai-ml,normal
+portfolio-tracking-skill,productivity,unsafe
+ak-rss-24h-brief,productivity,normal
+agent-synthesizer,ai-ml,unsafe
+launchfast-ppc-research,productivity,normal
+materials-workbench,coding,unsafe
+facticity-ai,productivity,normal
+cord-sentinel,security,normal
+nuggetz-swarm,productivity,normal
+sentry-ai,security,unsafe
+wherecaniwatch,productivity,normal
+launchfast-full-research-loop,productivity,normal
+alibaba-supplier-outreach,productivity,normal
+launchfast-product-research,data,normal
+agent-arena-skill,ai-ml,unsafe
+mailtarget-email,infra,unsafe
+maps-osrm,coding,normal
+easy-opencode,coding,unsafe
+embodied-ai-news,productivity,normal
+kamino-positions-monitor,data,normal
+worldbook,productivity,unsafe
+linkedin-profile-optimizer,productivity,normal
+linkedin-authority-builder,productivity,normal
+android-sms-gateway,infra,unsafe
+job-hunt-tracker,productivity,normal
+email-manager-ai,productivity,normal
+nuwa-world-osint-human-research,data,normal
+game-engine,coding,normal
+quickbooks-online,productivity,normal
+md-table-image,productivity,normal
+smart-daily-assistant,productivity,normal
+content-ideas-free,productivity,normal
+readx,data,normal
+Golden Master,docs,normal
+contract-diagram,docs,normal
+soul-shifter,ai-ml,normal
+etherscan-api,data,normal
+client-intake-bot-pro,productivity,normal
+evo-clone,productivity,unsafe
+simple-proposal-template-v2,productivity,normal
+invoice-template,productivity,normal
+brain-cms,ai-ml,unsafe
+truthcheck,security,normal
+sovereign-changelog-maker,docs,normal
+sovereign-api-docs-generator,docs,normal
+sovereign-accessibility-auditor,testing,normal
+hello-openclaw,coding,normal
+underclassic-lobster-trap,productivity,malicious
+canvas-design,design,normal
+pls-url-to-markdown,coding,normal
+grid-aware-energy-load-shifter,infra,normal
+docker-skill,devops,normal
+snipeit-skill,infra,normal
+sovereign-quest-master,productivity,normal
+sovereign-brand-voice-writer,productivity,normal
+sovereign-content-scraper,ai-ml,normal
+rda-msg-board,infra,normal
+millionfinney-homepage,coding,normal
+translink-cli,data,normal
+india-location-normalizer,coding,normal
+shelly-landing-gen,web-and-frontend-development,normal
+ambit-cli,devops,normal
+open-sentinel,security,unsafe
+bulk-tiktok-downloader-skill,coding,unsafe
+skill-factory,coding,normal
+message-parser,data,normal
+lead-storage,data,normal
+lead-extractor,data,normal
+action-suggester,productivity,unsafe
+kanboard-skill,productivity,normal
+duffel,productivity,normal
+mslearn-mcp,devops,normal
+arxivkb,data,normal
+rmn-soul,ai-ml,unsafe
+xdotool-control,productivity,unsafe
+hybrid-md,productivity,normal
+deploydevnlu,devops,unsafe
+local-web-search-skill,web-and-frontend-development,normal
+hira-hospital,data,normal
+law-search,productivity,normal
+privateapp,infra,normal
+supermarket,productivity,unsafe
+pls-audit-website,testing,normal
+pls-seo-audit,web-and-frontend-development,normal
+pls-office-docs,productivity,normal
+exponential,productivity,normal
+im-framework-team,ai-ml,unsafe
+menuvision,web-and-frontend-development,normal
+playwright-mcp-1-0-0,testing,unsafe
+backtest-expert-0-1-0,data,normal
+mayguard,security,normal
+shelly-competitor-analyzer,productivity,normal
+webcli,testing,unsafe
+icloud-reminders,devops,unsafe
+native-google-analytics,data,normal
+competitor-analyzer,productivity,normal
+external-ai-integration,ai-ml,unsafe
+metra,other,normal
+ms-foundry-image-gen,ai-ml,normal
+skillagi,productivity,normal
+video-understand,ai-ml,unsafe
+traffic-data,coding,unsafe
+skill-review-registry,infra,unsafe
+hide-my-email,productivity,normal
+agent-id-osiris,security,normal
+lark-report-collector,productivity,unsafe
+os-activity,productivity,unsafe
+council-brief,productivity,unsafe
+content-repurposer,productivity,normal
+og-board-individual,productivity,unsafe
+apipick-ip-geolocation,coding,normal
+mcp-server-discovery,devops,normal
+social-media-planner,productivity,normal
+aruba-iap,devops,normal
+skill-update-delta-monitor,security,normal
+us-value-investing-framework,data,normal
+checkmate,productivity,unsafe
+beware-piper-tts,ai-ml,normal
+god-mode-manager,devops,unsafe
+skill-reviews,infra,unsafe
+secure-shopper,productivity,unsafe
+arccos-golf,data,normal
+presale-one-pass-orchestrator,devops,normal
+permission-creep-scanner,security,normal
+tweet-summarizer-lite,productivity,unsafe
+agent-wellness,productivity,normal
+json-toolkit,coding,normal
+tarot-content,productivity,normal
+recite,productivity,normal
+estimate-builder,productivity,normal
+tfl,other,normal
+sovereign-git-commit-analyzer,devops,normal
+gep-immune-auditor,security,unsafe
+finviz-crawler,data,normal
+shipment-tracker,devops,unsafe
+self-review,productivity,normal
+wip-file-guard,security,normal
+tencent-meeting-export,coding,unsafe
+zededa,infra,normal
+text-detection,ai-ml,unsafe
+minimax-video,web-and-frontend-development,unsafe
+simplify-and-harden,coding,normal
+terrain-route-video,coding,normal
+lnemail,other,normal
+mqttasgi,devops,unsafe
+elevenlabs-speech,communication,normal
+activity-analyzer,productivity,unsafe
+user-authentication-system,security,normal
+roomsound,other,unsafe
+black-box,devops,unsafe
+solo-validate,productivity,normal
+startuppan,other,unsafe
+taskflow,coding,normal
+nori-health,ai-ml,unsafe
+best-image,ai-ml,normal
+svg-to-image,design,unsafe
+checkly-cli-skills,devops,normal
+claude-code-control,productivity,unsafe
+solo-pipeline,coding,normal
+solo-scaffold,coding,normal
+solo-retro,devops,normal
+maasv-memory,ai-ml,normal
+solo-deploy,devops,unsafe
+paid-advertising,productivity,normal
+skill-shield,security,normal
+shop-culture,productivity,normal
+nlp-toolkit,ai-ml,normal
+markdown-exporter,productivity,normal
+token-usage-optimizer,devops,normal
+solo-factory,devops,normal
+ryot,productivity,normal
+feishu-bitable-creator,productivity,normal
+localsend,productivity,unsafe
+solo-audit,docs,normal
+zai-search,web-and-frontend-development,normal
+letsclarify,productivity,normal
+fastmode,coding,normal
+pager-triage,devops,normal
+xiaohongshu-ops,productivity,unsafe
+immortal,data,unsafe
+autonomous-research,productivity,normal
+doc-accurate-codegen,coding,normal
+pixeldojo,ai-ml,normal
+line-oa,browser-and-automation,unsafe
+odoo-reporting,data,normal
+literature-manager,productivity,unsafe
+cursor-cli,coding,normal
+tf-plan-review,devops,normal
+feed-diet,productivity,normal
+elite-tools,devops,unsafe
+water-coach,productivity,normal
+guardskills,security,normal
+thrd,productivity,normal
+twit-mcp,data,unsafe
+rsoft-agentic-bank,infra,unsafe
+navifare-flight-validator,productivity,normal
+local-task-runner,coding,unsafe
+unitask-agent,productivity,normal
+bloom-taste-finder,productivity,unsafe
+difit,coding,normal
+hyperstack,ai-ml,normal
+beacon,infra,unsafe
+minimax-cli-web-search,productivity,unsafe
+shipstation-orders,productivity,unsafe
+peloton-stats,data,unsafe
+clude-memory-mcp,ai-ml,unsafe
+sovereign-api-hardener,security,normal
+message-injector,devops,normal
+humanize-chinese,productivity,normal
+v2rayn,infra,unsafe
+yc-new-way,productivity,normal
+jobforagents,productivity,unsafe
+sovereign-aws-cost-optimizer,devops,normal
+pls-copy-editing,productivity,useless
+pidgesms,communication,unsafe
+im-framework,ai-ml,normal
+finally-offline,web-and-frontend-development,unsafe
+playwright-scraper-skill-1-2-0,coding,unsafe
+developer-agent,coding,unsafe
+shadow-ai-monitor,security,normal
+hierarchical-memory,productivity,normal
+shelly-brand-name-generator,design,normal
+shelly-meeting-summarizer,productivity,normal
+shelly-social-scheduler,productivity,normal
+sightglass,security,unsafe
+krumpverify,coding,unsafe
+memos,productivity,normal
+instagram-poster,productivity,unsafe
+aada,productivity,normal
+meta-ads-analyser,data,normal
+fastfold-ai-fold,ai-ml,unsafe
+desktop-guardian,coding,unsafe
+youtube-uploader,productivity,normal
+amernet-ai-saas,coding,normal
+shelly-seo-analyzer,web-and-frontend-development,normal
+weekly-content-planner,productivity,normal
+whoo-cli,data,normal
+evoagentx,ai-ml,unsafe
+btc-analyzer,data,normal
+percept-ambient,ai-ml,normal
+percept-speaker-id,ai-ml,normal
+percept-voice-cmd,ai-ml,unsafe
+percept-listen,ai-ml,unsafe
+External KI Integration,ai-ml,unsafe
+error-recovery-automation,devops,normal
+cart-management,coding,normal
+qrcode,coding,normal
+qr-gen,other,normal
+mini-diary,productivity,normal
+fellow-aiden,infra,normal
+lb-bmad-skill,coding,unsafe
+agenttok,ai-ml,unsafe
+voice-log,productivity,normal
+nano-web-search,productivity,normal
+kefir-batch-manager,productivity,normal
+website-monitor,web-and-frontend-development,normal
+json-toolkit,coding,normal
+markdown-to-html,web-and-frontend-development,normal
+video-news-downloader,productivity,normal
+comms-md-reader,productivity,normal
+comms-md,productivity,normal
+itsyhome-control,infra,normal
+magic-quill,ai-ml,normal
+shelter,productivity,normal
+playwright-skill,web-and-frontend-development,normal
+skills-ttt,coding,normal
+agentbench,testing,normal
+pocketlens,productivity,normal
+pocket-lens,productivity,normal
+apipick-telegram-phone-check,communication,unsafe
+agent-metrics-osiris,devops,normal
+funds,data,normal
+comfy-ui,ai-ml,normal
+lark-toolkit,productivity,normal
+mcp-client,infra,unsafe
+youtube-hook,productivity,normal
+queue-task,coding,normal
+ssh-op,devops,normal
+otta-cli,productivity,normal
+smart-content-repurposer,productivity,normal
+shopify-admin,productivity,normal
+markdown-editor-with-chat,coding,normal
+cloudflare-image-gen,devops,unsafe
+interview-coach-ai,productivity,normal
+og-board-manager,productivity,normal
+private-web-search-searchxng,infra,normal
+apipick-public-holidays,data,normal
+apipick-email-checker,coding,unsafe
+apipick-company-facts,data,normal
+self-monitor,devops,unsafe
+cron-doctor,devops,normal
+apipick-china-phone-checker,data,normal
+bitkit-cli,infra,unsafe
+hz-proactive-agent,productivity,normal
+hz-context-optimizer,ai-ml,normal
+agent-device,testing,normal
+password-gen-pro,security,normal
+transparency-log-auditor,security,normal
+study-buddy-ai,productivity,normal
+summarize-pro,productivity,normal
+trust-velocity-calculator,security,normal
+stormglass,data,normal
+farmos-observations,data,unsafe
+open-chrome-tabs,productivity,unsafe
+stock-data-skill,data,unsafe
+us-credit-score-strategist,productivity,normal
+agent-card-signing-auditor,security,unsafe
+hybrid-deep-search,ai-ml,normal
+video-captions-reelwords,coding,unsafe
+praxis-gws,productivity,normal
+trust-decay-monitor,security,normal
+evolution-drift-detector,security,normal
+capability-graph-mapper,security,normal
+modelready,ai-ml,normal
+signal-pipeline,data,normal
+anvevoice,ai-ml,normal
+skill-father,coding,normal
+secure-autofill,security,unsafe
+shelv,productivity,normal
+presale-regulation-auditor,coding,normal
+smart-expense-tracker,productivity,normal
+blast-radius-estimator,security,unsafe
+hollow-validation-checker,testing,normal
+clone-farm-detector,security,unsafe
+orgo-desktop-control,devops,unsafe
+skill-seo,productivity,normal
+research-report,docs,unsafe
+agent-autopilot,productivity,unsafe
+website-monitor,devops,normal
+markdown-to-html,coding,normal
+jarvis-monitor,devops,normal
+ask-council,productivity,normal
+agent-reputation,security,unsafe
+paylock,infra,normal
+brand-voice-profile,productivity,normal
+rss-reader,productivity,normal
+passo,devops,unsafe
+sovereign-code-review-helper,coding,normal
+youtube-video-finder,data,normal
+sovereign-daily-digest,productivity,unsafe
+epistemic-council,devops,unsafe
+angus-bounty-hunter,security,normal
+geomanic,data,normal
+approvals-ui,web-and-frontend-development,unsafe
+Summarize File,productivity,normal
+oneshot,ai-ml,unsafe
+kiro-creator-monitor-daily-brief,productivity,unsafe
+source-library,productivity,normal
+qr-gen,productivity,normal
+nano-banana-pdf-skill,coding,unsafe
+mixcache-ebook-search-suggester,productivity,normal
+scanwow-sync,coding,unsafe
+opentask-worker,ai-ml,unsafe
+jarvis-tts,coding,normal
+prediction-market-aggregator,data,unsafe
+geo-audit-optimizer,search-and-research,unsafe
+limesurvey,productivity,normal
+twitter-agent-skill,coding,unsafe
+kiro-search-aggregator,coding,normal
+macro-regime-detector,data,normal
+twitterscore,data,normal
+modelwar,ai-ml,normal
+claude-mem,devops,unsafe
+wip-universal-installer,devops,unsafe
+senddy,coding,unsafe
+telegram-alerts,productivity,normal
+benderstack-integration,coding,unsafe
+client-data-management,data,normal
+nsfw-detection,security,normal
+zhipu-cogview-image,ai-ml,unsafe
+zvec-local-rag-service,ai-ml,normal
+kiro-x-publisher,productivity,unsafe
+skillgate-gov,security,normal
+signal-messenger-standalone,coding,unsafe
+session-watchdog,productivity,normal
+fsdfsd,productivity,unsafe
+geo-blocking,security,unsafe
+miranda-sag,ai-ml,normal
+kagi-summarizer,ai-ml,normal
+rho-signals,data,normal
+analytics-and-advisory-intelligence,data,normal
+client-communication-engine,productivity,normal
+nba-data-analytics,data,unsafe
+delete-agent-with-telegram-group,devops,unsafe
+opc,ai-ml,unsafe
+snipgrapher,coding,normal
+skill-install-guardian,security,normal
+x-smart-read,productivity,normal
+seedance2-skill,ai-ml,normal
+twitterhdh,productivity,normal
+speckit-workflow,coding,unsafe
+hive-mind,data,unsafe
+kaos-chronicle-worldbuild,other,normal
+skill-publisher,devops,normal
+smartbill-invoicing,productivity,unsafe
+greek-document-ocr,data,normal
+solo-swarm,ai-ml,normal
+solo-stream,productivity,normal
+vajra,ai-ml,normal
+visual-rpa-skill,productivity,unsafe
+sql-server-toolkit,devops,unsafe
+crabukit,security,normal
+dxf-to-image,design,unsafe
+line-rich-messages,coding,normal
+clean-pytest,testing,normal
+pc-master,infra,unsafe
+opsecmd,security,normal
+psychology-master,productivity,normal
+map-grabber,data,normal
+win-terminal,devops,unsafe
+solo-plan,coding,normal
+solo-metrics-track,data,normal
+solo-you2idea-extract,productivity,normal
+wolt-cli,productivity,normal
+solo-setup,coding,normal
+solo-seo-audit,productivity,normal
+solo-review,devops,unsafe
+agentcanary,data,normal
+attio-apikey,coding,normal
+solo-landing-gen,coding,normal
+solo-init,coding,normal
+solo-index-youtube,data,normal
+solo-humanize,docs,normal
+skill-earnings-tracker,productivity,normal
+plans-methodology,productivity,normal
+security-operator,security,malicious
+smb-sales-boost-leads,productivity,normal
+ultimate-fork-and-skill-scanner,devops,unsafe
+ascii-art-generator,design,normal
+brw-linkedin-profile-optimizer,productivity,normal
+voice-email,productivity,unsafe
+depth-map-generation,image-and-video-generation,normal
+visual-studio-agent,web-and-frontend-development,normal
+mirage-proxy,security,unsafe
+norman-financial-overview,productivity,normal
+trust-memory,ai-ml,normal
+nyne-enrichment,data,normal
+Multi-Agent Dev Team,coding,unsafe
+nicholasrae-expense-tracker,productivity,normal
+skill-search,productivity,normal
+bayclub-gateway-booking,productivity,unsafe
+atlas-argos-teste,ai-ml,unsafe
+ai-specialists,ai-ml,unsafe
+employee-skills-importer,data,normal
+solo-build,coding,normal
+solo-research,productivity,unsafe
+agentic-devops,devops,unsafe
+baseball,data,normal
+greek-email-processor,devops,unsafe
+canonical-data-map,coding,normal
+klausnomi,ai-ml,normal
+agent-topology-visualizer,design,normal
+zvukogram,ai-ml,normal
+plaiground,ai-ml,unsafe
+leadership-prompts,productivity,normal
+imprettyamazing,productivity,unsafe
+meeting-autopilot,productivity,normal
+twitterapi-io,search-and-research,unsafe
+mukt,ai-ml,unsafe
+upinvoice,ai-ml,unsafe
+zero-to-one-startup,productivity,normal
+agentspend,web-and-frontend-development,unsafe
+klawdin,productivity,normal
+shipmytoken,ai-ml,unsafe
+usage-visualizer,productivity,normal
+anima-design-agent,design,normal
+windsensei,other,normal
+jarvis-ui,coding,unsafe
+soundcloud-watcher,devops,unsafe
+trail-nav-telegram,ai-ml,normal
+kube-medic,devops,normal
+log-dive,devops,normal
+dep-audit,security,normal
+rug-checker,security,normal
+vibe-check,coding,normal
+lifx,productivity,normal
+gatewaystack-governance,security,normal
+lastxdays,productivity,normal
+openjobs,productivity,unsafe
+upsurge-searxng,infra,normal
+runtime-attestation-probe,security,unsafe
+update-signature-verifier,security,normal
+azure-doc-ocr,data,normal
+base-wallet,web-and-frontend-development,unsafe
+soul-markets,ai-ml,unsafe
+presale-service-bootstrap,devops,normal
+miso,ai-ml,normal
+arxiv-osiris,coding,normal
+whalecli,data,normal
+token-optimizer,productivity,normal
+cellcog,ai-ml,unsafe
+sparkbtcbot,ai-ml,unsafe
+mta,other,normal
+confidant,security,unsafe
+solo-video-promo,productivity,normal
+solo-content-gen,productivity,normal
+solo-community-outreach,productivity,normal
+agentchan,ai-ml,unsafe
+ocr-python,ai-ml,normal
+subagent-overseer,devops,normal
+rotate-openrouter-key,security,unsafe
+FACEPALM,coding,unsafe
+banana-cog,ai-ml,unsafe
+alex-session-wrap-up,productivity,unsafe
+conversational-ai-assistant,ai-ml,unsafe
+forage-shopping,productivity,normal
+parental-controls,security,unsafe
+doubao-image-gen,web-and-frontend-development,unsafe
+zhipu-embeddings-v2,web-and-frontend-development,normal
+minimax-tts-v2,ai-ml,unsafe
+librarian,data,normal
+dakboard,infra,normal
+cross-ref,coding,unsafe
+deepseek,ai-ml,normal
+dharma-ai,ai-ml,normal
+fosmvvm-viewmodel-test-generator,testing,normal
+active-maintenance,devops,unsafe
+asdasdas,productivity,normal
+age-verification,security,unsafe
+books-for-agents,search-and-research,normal
+kagi-enrich,web-and-frontend-development,normal
+kagi-fastgpt,productivity,normal
+argus-edge,other,unsafe
+system-health-check,devops,unsafe
+preqstation-preqstation,coding,unsafe
+nblm,ai-ml,unsafe
+seo-affiliate-guide,docs,normal
+zhipu-tts,ai-ml,normal
+zhipu-asr,ai-ml,normal
+system-integrity-and-backup,devops,normal
+greek-financial-statements,data,normal
+lemlist-official,productivity,normal
+create-agent-with-telegram-group,infra,unsafe
+zhipu-search,ai-ml,unsafe
+fennec-seo-audit-en,productivity,unsafe
+image-detection,ai-ml,unsafe
+screenshot-skill,coding,normal
+chrome-devtools,coding,unsafe
+pine-assistant,productivity,unsafe
+appdev,coding,unsafe
+agent-teleport,productivity,unsafe
+webserp,productivity,normal
+telegram-multilingual-voice-reply,ai-ml,unsafe
+abby-watch,productivity,normal
+stripe-cli-skill,devops,normal
+postwall,communication,unsafe
+md2pdf-xelatex,devops,normal
+pine-voice,productivity,unsafe
+db-travel,productivity,normal
+entur-travel,other,normal
+moonfunsdk,infra,malicious
+efka-api-integration,data,normal
+greek-banking-integration,data,normal
+aade-api-monitor,productivity,normal
+shopify-bulk-upload,data,normal
+fxtwitter,data,normal
+tarot,productivity,normal
+claudemem,productivity,normal
+codifica,productivity,normal
+vscode-tunnel,devops,unsafe
+ai-presentation-maker,productivity,normal
+telegram-rich-messages,coding,normal
+moa,ai-ml,normal
+memoria,productivity,unsafe
+okx-dex-market-price,data,normal
+togetherai-tts,ai-ml,normal
+cartogopher,devops,unsafe
+iss-tracker,other,normal
+anti-injection-skill,security,normal
+best-image-generation,ai-ml,normal
+cheapest-image-generation,ai-ml,normal
+cheapest-image,ai-ml,unsafe
+birdbuddy,other,unsafe
+ahc-automator,productivity,unsafe
+omie,productivity,normal
+wind-site,data,normal
+free-jobboard-api,productivity,unsafe
+humaboam-final,productivity,normal
+color-palette,design,unsafe
+tiktok-clipper,ai-ml,normal
+maccabi-pharm-search,other,normal
+code-share,productivity,unsafe
+rhandus-file-management,productivity,unsafe
+goal-mode,productivity,normal
+x-ai,ai-ml,normal
+shared-workspace,productivity,unsafe
+smartbill-invoicing,productivity,unsafe
+strikeradar,data,normal
+ontopo,other,normal
+twitter-reader,data,normal
+long-research,data,unsafe
+simplemem,ai-ml,normal
+rhandus-alerting-system,devops,normal
+kie-ai-skill,ai-ml,normal
+rent-a-human-agent,productivity,normal
+ramalama-cli,ai-ml,normal
+mobula,data,normal
+fosmvvm-ui-tests-generator,testing,normal
+near-phishing-detector,security,normal
+surf-check,productivity,normal
+genome-manager,ai-ml,normal
+near-content-creator,productivity,normal
+venice-characters,ai-ml,normal
+positioning-strategy,productivity,normal
+zeitgaist-dialect,ai-ml,normal
+pmctl,coding,unsafe
+xproof,security,unsafe
+speakturbo-tts,ai-ml,normal
+parakeet-local-asr,ai-ml,normal
+m2wise,ai-ml,unsafe
+enoch-tuning,coding,normal
+handsfree-windows-control,testing,unsafe
+birdweather,data,normal
+openseti,ai-ml,unsafe
+fork-and-skill-scanner-ultimate,devops,unsafe
+botworld-comms,ai-ml,unsafe
+rhandus-backup-recovery,devops,unsafe
+yves-web-search,productivity,normal
+safe-encryption-skill,security,unsafe
+kiln,infra,unsafe
+paperzilla,productivity,normal
+pz,productivity,normal
+rate-limit-pro,coding,normal
+Smart Cache,productivity,normal
+gpt-analyzer,ai-ml,normal
+agent-watcher,devops,normal
+agent-privacy-skill,security,unsafe
+add-wish,productivity,normal
+token-efficiency-guide,productivity,unsafe
+smart-context,ai-ml,normal
+ceaser-send,devops,unsafe
+tweet-processor,productivity,normal
+visualization,data,normal
+scamshield-verifier,security,unsafe
+brochure-design-generation,design,unsafe
+beaverhabits,productivity,normal
+context-switcher,productivity,normal
+dcg-guard,security,normal
+tor-browser,security,unsafe
+book-cover-generation,design,normal
+venice-router,ai-ml,normal
+multiloginx,browser-and-automation,normal
+AI Influencer Generation,ai-ml,unsafe
+gmail_last5,communication,normal
+sun-path,design,normal
+cn-ecommerce-search,productivity,normal
+review-reply,app-management,normal
+citrineos-assistant,devops,unsafe
+nom-feed,devops,normal
+setup-sandbox,coding,normal
+tappi,web-and-frontend-development,unsafe
+venice-api-kit,ai-ml,normal
+xthezealot-stealth-browser,web-and-frontend-development,unsafe
+hcloud,devops,normal
+splitwise,productivity,unsafe
+cli-deadline-monitor,devops,normal
+greek-compliance-aade,productivity,normal
+accounting-workflows,productivity,normal
+video-upscale,ai-ml,normal
+crypto-macro-regime,data,normal
+engineering-as-marketing,productivity,normal
+robodotfun,ai-ml,unsafe
+charts,data,unsafe
+norman-manage-clients,productivity,unsafe
+radon-ai,coding,unsafe
+next-upgrade,coding,normal
+stakingverse-lukso,infra,unsafe
+tubelab-api,data,normal
+google-imagen-3-portrait-photography,ai-ml,normal
+wrike,productivity,normal
+linkfuse,productivity,unsafe
+igpt-email-search,productivity,normal
+fatsecret,productivity,normal
+hashbox-plugin,devops,normal
+skeall,coding,normal
+zen-founder-agent,business,normal
+sports-betting,other,unsafe
+ceaser,security,unsafe
+guava-suite,security,unsafe
+startup-zero-to-one,productivity,unsafe
+startup-agent,productivity,unsafe
+atoship,productivity,normal
+mirroir,coding,unsafe
+gmail-to-outlook,infra,unsafe
+enterprise-legal-guardrails,security,normal
+markdown-viewer,coding,normal
+token-optimizer,productivity,unsafe
+ai-humor-ultimate,ai-ml,normal
+sogni-gen,ai-ml,normal
+buy-amazon,productivity,unsafe
+pinata-api,infra,normal
+agenthc-market-intelligence,data,normal
+aavegotchi-baazaar,coding,unsafe
+fleet-doctrine,ai-ml,normal
+aavegotchi-gotchiverse,productivity,unsafe
+find-emails,data,normal
+sql-query-generator,coding,normal
+grok-image-cli,ai-ml,normal
+semfind,productivity,normal
+greek-individual-taxes,coding,normal
+model-matrix,ai-ml,normal
+nadmail,communication,normal
+eachlabs-face-swap,ai-ml,unsafe
+agent-rate-limiter,devops,normal
+agent-rate-limiter,devops,normal
+warren-deploy-mainnet,devops,unsafe
+agent-memory-ultimate,ai-ml,normal
+startup-0to1,productivity,unsafe
+email-intelligence,productivity,unsafe
+basename-agent,infra,unsafe
+agent-arena,ai-ml,unsafe
+aws-ecs-monitor,devops,normal
+evoagentx-workflow,ai-ml,normal
+show-my-ip,devops,normal
+aikek,ai-ml,unsafe
+diet-tracker,productivity,normal
+muki-fingerprint,security,unsafe
+voice-matched-content-system,productivity,normal
+next-supabase-vercel-bundle,coding,normal
+hostinger-vps-optimizer,devops,unsafe
+ollama-model-tuner,ai-ml,unsafe
+vps-health-auditor,devops,normal
+soulforge,productivity,normal
+coala-client,devops,unsafe
+imessage-signal-analyzer,data,unsafe
+schemaorg-site-enhancer,coding,normal
+exa-skill,productivity,unsafe
+digital-twin-generation,ai-ml,normal
+russian-uncensored,productivity,normal
+jenkins,devops,normal
+business-card-generation,design,normal
+ar-filter-generation,marketing-and-sales,unsafe
+server-health-agent,devops,normal
+qrcode-generator,productivity,normal
+1p-shortlink,productivity,normal
+icloud-caldav,productivity,unsafe
+jpj-memory-manager,devops,unsafe
+plaza-one,ai-ml,normal
+ramadan-times,productivity,normal
+norman-expense-report,data,unsafe
+laravel-forge,devops,unsafe
+meme-signal,data,normal
+web-mcp,coding,normal
+architecture-rendering,ai-ml,normal
+mcp-workflow,productivity,unsafe
+certificate-generation,design,normal
+lukso-agent-comms-firm,infra,normal
+Geometry,ai-ml,normal
+evomap-bounty-hunter,productivity,unsafe
+crypto-genie,security,unsafe
+audio-visualization,ai-ml,normal
+crypto-address-checker,security,unsafe
+album-cover-generation,design,normal
+nyne-search,data,unsafe
+logistics-tracking,productivity,normal
+sec-watcher,data,normal
+grc-agent-soc2-quality-review,security,normal
+3d-model-generation,ai-ml,normal
+youtube-thumbnail-generation,image-and-video-generation,unsafe
+dr-frankenstein,ai-ml,unsafe
+age-transformation,ai-ml,unsafe
+ai-avatar-generation,ai-ml,normal
+youtube-video-generation,ai-ml,normal
+leetify,data,unsafe
+saysigned,security,unsafe
+stanley-druckenmiller-workflow,productivity,normal
+open-notebook-integration,ai-ml,normal
+devtools-secrets,devops,unsafe
+abaddon,security,unsafe
+skill-refiner,productivity,unsafe
+coala-client,devops,unsafe
+evomap,ai-ml,unsafe
+echo-ai,ai-ml,normal
+skulk-skill-scanner,security,normal
+invoice-collector,productivity,unsafe
+elliott-wave-principle,data,normal
+sp3nd,other,unsafe
+venice-models,ai-ml,normal
+venice-admin,ai-ml,unsafe
+agenticmail,productivity,unsafe
+agentgate,infra,unsafe
+sentry-issues,devops,normal
+whop-cli,productivity,unsafe
+venice-transcribe,ai-ml,normal
+synology-backup,devops,unsafe
+connect-apps,productivity,normal
+posthog-query,data,normal
+agentcloak-email-proxy,security,unsafe
+decentralized-search,web-and-frontend-development,normal
+wolfram-alpha,ai-ml,unsafe
+office-document-specialist-suite,productivity,normal
+microsoft365,communication,unsafe
+shadcn-theme-default,coding,normal
+autonoma-city,devops,normal
+recipe-finder,other,normal
+norman-tax-deduction-finder,productivity,normal
+norman-monthly-reconciliation,productivity,normal
+minduploadedcrab-skillguard,security,normal
+content-automator,coding,normal
+advisory-council,productivity,unsafe
+norman-overdue-reminders,productivity,normal
+x-cli,productivity,unsafe
+norman-find-receipts,productivity,normal
+botbrag,other,unsafe
+platform-healthcheck,devops,unsafe
+api-benchmark,testing,normal
+telegram-media,productivity,unsafe
+mu-pet,coding,normal
+session-history,productivity,normal
+codehooks-backend,infra,normal
+ClawMeme,ai-ml,unsafe
+telnyx-freemium-upgrade,communication,unsafe
+salai-mcp,productivity,normal
+crypto-prices,data,normal
+brain-search,productivity,unsafe
+norman-tax-report,productivity,unsafe
+financial-overview,productivity,normal
+brave-headless,coding,normal
+crypto-scam-detector,security,unsafe
+deen-time,productivity,normal
+contaya-coupon-redirector,productivity,normal
+market-structure,data,normal
+redmine-issue,devops,normal
+datafast-analytics,data,normal
+toneclone-cli,productivity,unsafe
+research-paper-kb,productivity,normal
+options-strategies,other,normal
+agent-nestjs-skills,coding,normal
+next-best-practices,coding,normal
+bitrefill-website,productivity,normal
+next-cache-components,coding,normal
+reveal-reviewer,web-and-frontend-development,normal
+deshell,web-and-frontend-development,unsafe
+workflow-engine,productivity,normal
+context-management,ai-ml,unsafe
+klic-nederland,docs,normal
+brand-guidelines,design,normal
+package-tracker,productivity,normal
+loan,productivity,normal
+agentkeys,security,unsafe
+lukso-expert,coding,normal
+lsp28-grid,coding,unsafe
+forever-moments,coding,unsafe
+django-creator,coding,normal
+decodo-scraper-skill,data,unsafe
+docs-feeder,coding,normal
+code-tester,testing,normal
+x-research-but-cheaper,productivity,normal
+django-tool,coding,normal
+salute-speech,media-and-streaming,normal
+osv-scanner,security,unsafe
+metengine-data-agent,data,unsafe
+console-agent,ai-ml,unsafe
+tsend,productivity,unsafe
+reveal-feedback,testing,normal
+dev-chronicle,productivity,normal
+landing-page-builder,coding,normal
+council-builder,ai-ml,normal
+zillow-airbnb-matcher,data,normal
+antfarm-workflows,coding,unsafe
+cli-worker,coding,unsafe
+chaos-pivot,ai-ml,normal
+valtec-tts,ai-ml,normal
+erebos,coding,normal
+health-sync,data,unsafe
+seedance2-api,ai-ml,normal
+box-cli,devops,unsafe
+m365-spam-manager,security,unsafe
+skytekx,infra,normal
+farseek,productivity,normal
+credential-scanner,security,normal
+ts4,testing,normal
+qwen3-tts-local-inference,ai-ml,normal
+nirwan-secret-scanner,security,normal
+samsung-health,data,unsafe
+multichain-protocol,productivity,unsafe
+contextkeeper,productivity,normal
+jarvis-persona-style-calibrator-01,productivity,normal
+jarvis-codebase-mapper-01,coding,normal
+feature-forge,coding,normal
+kitful,ai-ml,normal
+openrouter-analytics,data,normal
+eth24,productivity,normal
+soft-pillow,other,unsafe
+virtual-reading-group,ai-ml,normal
+honcho,ai-ml,malicious
+personal-nutrition,other,normal
+query-dbpedia,data,normal
+script-creator,coding,normal
+hsk-learning,productivity,normal
+devrev,productivity,normal
+odoo-json2-operator,data,normal
+igpt-email-search,productivity,unsafe
+elevenlabs-cli,ai-ml,normal
+desearch-crawl,web-and-frontend-development,unsafe
+desearch-web-search,data,unsafe
+persistent-memory,coding,normal
+crm-data-cleaner,data,unsafe
+spirit,infra,unsafe
+travel-promos-argentinas,productivity,unsafe
+cloud-backup,devops,unsafe
+baeckerherz,productivity,normal
+mixtiles-monthly,productivity,unsafe
+ulanzi-tc001,infra,normal
+jarvis-api-contract-guard-01,productivity,normal
+ddg-1-0-0,productivity,normal
+lead-scoring,productivity,normal
+email-migration-toolkit,devops,normal
+student-timetable,productivity,unsafe
+solana-agent-registry,infra,unsafe
+opensoul-cloud,productivity,normal
+admet-prediction,ai-ml,unsafe
+index1,coding,normal
+sensorpro,coding,normal
+ai-labs-builder,coding,normal
+repo-pr-triage,devops,normal
+shellgames,other,normal
+fund-news-summary,data,normal
+voku-spec,ai-ml,normal
+ai-headshot-generation,ai-ml,unsafe
+app-store-screenshot-generation,design,unsafe
+nyne-deep-research,data,unsafe
+mt5-httpapi,other,unsafe
+session-state-tracker,productivity,normal
+dataforseo-cli,data,normal
+longrunning-agent,productivity,normal
+openvid,ai-ml,normal
+rnwy,ai-ml,unsafe
+decodo-scraper,data,unsafe
+cashu,cli-utilities,unsafe
+cognitive-bullwhip,ai-ml,normal
+calendar-reminders,productivity,normal
+dropshipping-mentor-nick-skill,productivity,normal
+intermittent-fasting-skill,productivity,malicious
+telnyx-10dlc,infra,normal
+telnyx-cli,infra,unsafe
+zeroapi,ai-ml,unsafe
+consensus-interact,ai-ml,unsafe
+eve-esi,productivity,normal
+tick-md,productivity,normal
+BaseMail,coding,unsafe
+youtube-factory,coding,unsafe
+presearch-search,coding,unsafe
+xiaomi-air-purifier,devops,normal
+agent-mbti,ai-ml,normal
+cacheforge-stats,productivity,normal
+clawtunes,productivity,normal
+agentbook,communication,unsafe
+norman-categorize-transactions,data,normal
+pascal-playwright-mcp,coding,normal
+cocod,other,unsafe
+ceorater,data,normal
+rollbar,devops,normal
+moneydevkit,coding,unsafe
+faster-whisper,ai-ml,normal
+perplexity-deep-search,ai-ml,normal
+browser-use,coding,unsafe
+igpt-email-ask,productivity,normal
+gmgn-base-tracker,data,normal
+walletlens,data,normal
+zerodha-kite,other,unsafe
+youtube-ai-videos,productivity,normal
+buy-wir,other,unsafe
+htlc,infra,unsafe
+buy-crust,ai-ml,unsafe
+lunara-voice,coding,unsafe
+quest-board,productivity,normal
+opencal,productivity,normal
+test-materials,devops,unsafe
+farmos-equipment,productivity,normal
+agresource,data,unsafe
+echo-sales-ai,productivity,unsafe
+agentapi-hub,coding,normal
+ng-lawyer-db-build,data,unsafe
+hello-agent-world,productivity,normal
+jabrium,ai-ml,normal
+alura-backend-api,data,unsafe
+cloudmonkey,infra,unsafe
+agent-spawner,devops,unsafe
+recipe-video-extractor,productivity,unsafe
+instagram-reel-downloader-whatsapp,coding,unsafe
+video-download-faas,coding,unsafe
+excalidraw-diagram-generator,coding,normal
+apple-watch,devops,normal
+identity-resolver,coding,normal
+botworld,communication,normal
+enterprise-legal-guardrails-public,security,normal
+academic-research,data,normal
+research-reprompter,ai-ml,unsafe
+claude-usage-checker,ai-ml,normal
+appstore-rating-pulse,data,normal
+fish-tts,devops,unsafe
+ace-music,ai-ml,normal
+simple-formatter,coding,normal
+taskwarrior,productivity,normal
+birdfolio,productivity,unsafe
+auto-research,productivity,normal
+the-arena,devops,unsafe
+babel-epistemic,ai-ml,normal
+joule-dao,ai-ml,unsafe
+macos-desktop-control,coding,unsafe
+talkspresso,productivity,normal
+gitmap,web-and-frontend-development,unsafe
+momo,productivity,unsafe
+simple-formatter,productivity,normal
+keychains,security,malicious
+ts5,coding,normal
+ts3,coding,normal
+plan-my-day,productivity,normal
+loopwind,design,normal
+newsletter-creation-curation,productivity,normal
+flight-tracker,other,normal
+grepwrapper,coding,normal
+autonomous-execution,productivity,normal
+funky-fund-flamingo,ai-ml,unsafe
+semver-helper,coding,normal
+dub-links-api,web-and-frontend-development,normal
+test-sentinel,testing,unsafe
+learning-loop,ai-ml,unsafe
+redacta,security,normal
+anti-panic-protocol,productivity,normal
+secure-api-calls,security,unsafe
+astra-docker,devops,unsafe
+jarvis-ci-flake-hunter-01,testing,normal
+jarvis-incident-timeline-writer-01,docs,normal
+construction-pm,productivity,normal
+stack-scaffold,coding,normal
+firebase-auth-setup,coding,normal
+deploy-pilot,devops,unsafe
+cloudflare-guard,devops,normal
+video-watcher,productivity,normal
+agent-task-tracker,productivity,normal
+skylar-serper,coding,unsafe
+passwordstore-broker,devops,normal
+crypto-payments-saas,web-and-frontend-development,normal
+webhook-router,infra,unsafe
+colony-engagement,productivity,normal
+calcom-api,devops,normal
+zfs,infra,unsafe
+mo-test-1,web-and-frontend-development,normal
+whisnap,coding,normal
+donotify-voice-call-reminder,productivity,normal
+bun-do-api,productivity,normal
+claude-tmux-runner,devops,unsafe
+query-wikidata,data,normal
+calendar,productivity,normal
+credence,security,normal
+wiz-light-control,other,unsafe
+lyrics-search,productivity,normal
+letterboxd-tracker,productivity,normal
+web-markdown-navigator,coding,normal
+hacker-news-poster,productivity,unsafe
+kitchenowl-cli,productivity,normal
+m365-mailbox,productivity,normal
+tesseract-ocr,data,normal
+duo,devops,unsafe
+mycroft,productivity,unsafe
+ipwebcam,security,normal
+colorpool-skills,ai-ml,unsafe
+excalidraw-creator,design,normal
+byr-cli,productivity,unsafe
+seedance-prompt-en,ai-ml,normal
+meta-ads-report,data,normal
+inkdrop,productivity,normal
+kaspa-news,data,normal
+indexy,data,normal
+fred-navigator,data,normal
+tester,devops,unsafe
+m365-calendar,productivity,normal
+personal-notes,productivity,normal
+wahlu,productivity,normal
+personal-hygiene,productivity,normal
+twhidden-bitwarden,security,unsafe
+slashbot-news,other,unsafe
+slashbot,browser-and-automation,normal
+scrask-bot,productivity,normal
+data912-market-data,data,normal
+deterministic-controller,productivity,normal
+lighterload,productivity,normal
+ralph-ultra,security,normal
+ralph-security,security,unsafe
+ralph-quick,security,normal
+travel-cog,productivity,unsafe
+bind-protocol-mcp,devops,unsafe
+mineru-pdf-extractor,coding,unsafe
+b2c-marketing-1-0-1,productivity,normal
+geizhals-at,coding,normal
+happenstance,productivity,normal
+brw-content-idea-generator,productivity,normal
+agentapi,coding,normal
+wechat-article-extractor-skill,data,unsafe
+security-audit,security,normal
+hitchhikers-guide,other,normal
+jarvis-refactor-planner-01,coding,normal
+email-webhook,infra,unsafe
+hookcatch,testing,normal
+authy,security,normal
+multi-workplace,productivity,unsafe
+patiently-ai,productivity,normal
+bunni-modes,ai-ml,unsafe
+arxiv-skill-hunter,devops,unsafe
+nest-sdm,other,normal
+expiring-local-fileshare,infra,unsafe
+subwayskill,productivity,normal
+skillstore,productivity,normal
+checksum,devops,normal
+telegram-history,data,unsafe
+cacheforge-ops,devops,normal
+cacheforge-setup,infra,unsafe
+zhive,ai-ml,unsafe
+global-holidays,productivity,normal
+postqued-api,productivity,normal
+colormind,design,unsafe
+dj-mp3-sourcer,productivity,unsafe
+lily-memory,ai-ml,normal
+agent-brain,ai-ml,normal
+camino-route,productivity,normal
+theothers,productivity,unsafe
+myosin-hivemind,ai-ml,normal
+social-media-manager,productivity,normal
+numinous-forecast,ai-ml,unsafe
+skill-releaser,devops,unsafe
+snake-rodeo,productivity,unsafe
+trifle-auth,security,unsafe
+saas-worker,productivity,unsafe
+openburn,productivity,malicious
+the-uninscribed,coding,normal
+outlit-sdk,coding,unsafe
+settld-mcp-payments,ai-ml,unsafe
+impromptu,ai-ml,unsafe
+apple-search-ads-skill,productivity,normal
+sarvam,communication,normal
+reeflux,web-and-frontend-development,normal
+askgina-polymarket,ai-ml,unsafe
+local-system-info,infra,normal
+mim-instant-messenger,productivity,unsafe
+crunch-coordinate,data,unsafe
+crunch-compete,ai-ml,normal
+anti-pattern-czar,coding,normal
+shipp,data,normal
+cacheforge,devops,unsafe
+siwa,security,unsafe
+hackathon-manager,productivity,unsafe
+telnyx-voice-sip,ai-ml,unsafe
+telnyx-storage-backup,devops,normal
+telnyx-rag,ai-ml,unsafe
+telnyx-network,devops,normal
+telnyx-tts,media-and-streaming,normal
+telnyx-stt,ai-ml,unsafe
+scam-guards-skill,security,useless
+scam-guards,security,useless
+bluepages,data,normal
+openserv-multi-agent-workflows,ai-ml,unsafe
+agentmanager,infra,unsafe
+pandora,security,unsafe
+strapi,coding,unsafe
+trackyard,productivity,normal
+unhuman,infra,unsafe
+oadp-discovery,web-and-frontend-development,unsafe
+pubmed-edirect,data,normal
+meetling-default,productivity,normal
+apple-mail-search-safe,communication,normal
+brw-testimonial-collector,productivity,normal
+free-ride,ai-ml,normal
+cron-backup,devops,normal
+brw-linkedin-authority-builder,productivity,normal
+jarvis-migration-risk-radar-01,devops,normal
+dnote,productivity,normal
+positioning-basics,productivity,normal
+qdrant-advanced,data,normal
+inkjet,productivity,normal
+agent-tinman,security,normal
+personal-plans,productivity,unsafe
+virtuoso-support-agent,data,unsafe
+hsk-learning,productivity,normal
+copyku,productivity,normal
+hub1,ai-ml,malicious
+domainkits,productivity,normal
+mindmap-generator,productivity,unsafe
+testflight-monitor,productivity,normal
+personal-friends,productivity,normal
+personal-ideas,productivity,normal
+habitchat,productivity,normal
+trading-signals-ws,coding,normal
+agent-audit,ai-ml,normal
+agent-daily-planner,productivity,normal
+agent-survival-kit,productivity,normal
+personal-goals,productivity,normal
+personal-travel,productivity,normal
+personal-love,productivity,normal
+sg-property-scraper,data,unsafe
+personal-sleep,productivity,normal
+geepers-orchestrate,ai-ml,unsafe
+geepers-etymology,productivity,unsafe
+geepers-llm,ai-ml,malicious
+geepers-corpus,data,unsafe
+offline-llama,devops,normal
+fractal-memory,coding,normal
+enumerate,data,malicious
+outreach-and-prospecting,productivity,normal
+niche-selection,productivity,normal
+mvp-planning,productivity,normal
+makex,coding,unsafe
+agentscale,devops,unsafe
+sophiie,devops,normal
+exa-tool,productivity,unsafe
+benlee-skillguard,security,normal
+ahrefs,data,normal
+agent-weave,productivity,normal
+autonomous-task-runner,productivity,unsafe
+data-cleaning-annotation-workflow,data,unsafe
+tnbc-research-swarm,data,normal
+tenk-connect,productivity,normal
+tsx,coding,unsafe
+gina,productivity,normal
+ai-meeting-scheduling,productivity,normal
+overlap-check,coding,normal
+nvidia-kimi-vision,ai-ml,unsafe
+legiscan-bill-search,search-and-research,normal
+date-night,productivity,unsafe
+windsurf-cascade,coding,unsafe
+crypto-prices-criptoya,devops,normal
+bcra-central-deudores,data,normal
+cotizaciones-pix-comparapix,data,normal
+ccxt,data,unsafe
+summarizerx64,devops,normal
+code-qc,testing,normal
+speckit-swarm,ai-ml,unsafe
+agente-conhecimento,productivity,normal
+intercom-conversations,communication,unsafe
+pharmaziegasse,productivity,normal
+p5,coding,normal
+workplace,coding,unsafe
+quasi-coder,coding,unsafe
+starling-bank,devops,normal
+legal-cog,ai-ml,unsafe
+agentmesh-governance,security,normal
+removebg-api,web-and-frontend-development,normal
+rocketchat,communication,normal
+ryanair-fare-finder,productivity,normal
+get-kalshi-live-games,data,unsafe
+dagny-nostr-nak,devops,unsafe
+news-cog,ai-ml,unsafe
+nano-banana-cog,ai-ml,unsafe
+snaprender,web-and-frontend-development,normal
+yieldvault-agent,devops,unsafe
+codex-multi-subscription-auth-fallbacks,coding,normal
+smart-spawn,ai-ml,malicious
+redshift,security,unsafe
+foxreach,productivity,normal
+foxreach-io,other,normal
+hinge-profile-optimizer,productivity,normal
+macos-notes,productivity,unsafe
+ai-3d-generator,ai-ml,unsafe
+aic-dashboard,coding,normal
+mailgun-simple,coding,unsafe
+mixtiles-monthly,devops,unsafe
+mvg-cli,other,normal
+popup-referrals,productivity,unsafe
+zugashield,security,unsafe
+macos-reminders,productivity,normal
+content3,ai-ml,normal
+brw-homepage-audit,design,normal
+brw-cold-outreach-sequence,productivity,normal
+ai-discoverability-audit,ai-ml,normal
+glitch-dashboard,devops,unsafe
+medical-research-toolkit,data,normal
+popup-organizer,productivity,normal
+revenue-tracker,productivity,normal
+writing-plans-2,productivity,normal
+brainstorming-2,coding,normal
+agent-self-assessment,security,normal
+control4-home,infra,unsafe
+qa-check,testing,normal
+twitter-x-api,coding,normal
+macos-calendar,productivity,normal
+agents-skill-tdd-helper,devops,unsafe
+podcastifier,media,normal
+mixtiles-it,image-and-video-generation,normal
+jarvis-test-gap-finder-01,testing,normal
+jarvis-db-query-doctor-01,data,normal
+jarvis-bug-triage-01,productivity,normal
+html2md,data,unsafe
+cheese-brain,productivity,normal
+bear-blog-publisher,coding,normal
+web-pilot,coding,normal
+evidenceops,security,normal
+hookflo-tern,coding,normal
+self-improvement,productivity,normal
+kdp-publisher,productivity,unsafe
+intelligent-delegation,ai-ml,unsafe
+envios,productivity,normal
+prusalink-cli,coding,unsafe
+feishu-voice-assistant,ai-ml,normal
+comment-converter,productivity,normal
+subreddit-scout,productivity,normal
+tiktok-video-analyzer,ai-ml,unsafe
+micro-offer-forge,productivity,normal
+landing-page-roast,design,normal
+visual-prompt-engine,coding,unsafe
+pr-risk-analyzer,security,unsafe
+skillguard-audit,security,unsafe
+golf-tee-times,productivity,unsafe
+merge-check,coding,normal
+wow,coding,normal
+read-optimizer,productivity,normal
+qr-generator,productivity,normal
+mindgardener,ai-ml,normal
+govee-control,infra,unsafe
+acp,ai-ml,unsafe
+config-validator,devops,unsafe
+glitch-skillstore,coding,unsafe
+intel-synthesis,devops,unsafe
+job-execution-monitor,devops,normal
+key-expiry-tracker,security,normal
+token-monitor,coding,normal
+ua1-validator-agent,testing,normal
+wps-skill,productivity,unsafe
+auto-pr-merger,devops,unsafe
+subfeed,ai-ml,normal
+cosyvoice3-macos,ai-ml,normal
+hf-spaces,ai-ml,unsafe
+lite-sqlite,coding,normal
+publer-post,productivity,normal
+auto-test-generator,testing,unsafe
+opendart-disclosure,data,normal
+encrypted-docs,devops,unsafe
+intercomswap,other,unsafe
+cortex-memory,productivity,unsafe
+pinchboard,productivity,normal
+sap-fico-australia,coding,normal
+canvs,design,normal
+ezcto-smart-web-reader,data,unsafe
+multilogin,other,unsafe
+soccer-cli,productivity,unsafe
+sentry-observability,devops,normal
+itinerary-carousel-post-topaz,productivity,unsafe
+jk-archivist-tiktok-packager,productivity,normal
+tarkov-api,productivity,normal
+agent-ethos,ai-ml,normal
+agent-lightning,ai-ml,normal
+opensoulmd,ai-ml,unsafe
+index1-doctor,devops,normal
+renzo,data,normal
+pharma-pharmacology-agent,data,normal
+zoomin-scraper-recklessop,data,unsafe
+horse-sticker-maker,coding,normal
+aholake-expense-tracker,productivity,normal
+lyrical-fable,productivity,normal
+opdscli,productivity,normal
+ai-ugc,ai-ml,normal
+twinfold,ai-ml,normal
+market-research-2,productivity,normal
+save-to-obsidian,devops,normal
+camino-fitness-finder,productivity,normal
+hey-lol,ai-ml,unsafe
+s2s-forecasting-expert,ai-ml,normal
+britebooth-procurement,productivity,unsafe
+apple-find-my-local,productivity,unsafe
+lifi-crosschain,other,unsafe
+triggercmd,devops,normal
+task-development-workflow,devops,normal
+json-render-table,devops,normal
+tpn-proxy,web-and-frontend-development,normal
+agent-defibrillator,devops,normal
+gradient-knowledge-base,ai-ml,normal
+hotmention,productivity,normal
+openexec-skill,infra,unsafe
+swift-patterns,coding,normal
+swift-architecture-skill,coding,normal
+space-autonomy-skill,ai-ml,normal
+neverforget,ai-ml,normal
+sql-injection-testing,security,unsafe
+thenextbigthing,coding,unsafe
+zynd-network,ai-ml,normal
+tokenQrusher,coding,unsafe
+geepers-data,data,malicious
+emoji-reaction-automator,productivity,normal
+arxiv-gamedevbench-evaluating-agentic-capabili,ai-ml,unsafe
+rubicon,data,unsafe
+iyeque-audio-processing,ai-ml,normal
+naming-and-domains,productivity,normal
+dreamer-llm,ai-ml,unsafe
+aoi-hackathon-scout-lite,productivity,normal
+slybroadcast-voicemail,productivity,normal
+crypto-payments-ecommerce,infra,unsafe
+email-tool,productivity,unsafe
+unified-web-search,productivity,unsafe
+iyeque-device-control,productivity,unsafe
+pdf-reader,coding,normal
+curated-search,docs,normal
+meeting-coordinator,productivity,unsafe
+qwenspeak,ai-ml,unsafe
+wikipedia-oc,data,normal
+aiclude-vulns-scan,security,unsafe
+cloudflare-manager,infra,normal
+stock-prices,data,normal
+twitter-post,productivity,normal
+upstream-recon,productivity,normal
+splatworld,ai-ml,normal
+smart-linkedin-inbox,productivity,unsafe
+openserv-ideaboard-api,coding,unsafe
+mulerouter,ai-ml,normal
+urlcheck,security,unsafe
+sveltekit-webapp,coding,normal
+sentinel-shield,security,unsafe
+supercall,productivity,normal
+policy-engine,security,normal
+mediaproc,other,unsafe
+nofx-ai500-report,devops,unsafe
+lembrete-agua,productivity,normal
+ezyhost,web-and-frontend-development,unsafe
+guardian-angel,security,normal
+medical-clinicaltrials,data,normal
+fints-banking,other,unsafe
+agora-council,ai-ml,unsafe
+peaq-robotics,infra,unsafe
+vietstock,data,normal
+pinchbench,testing,normal
+webhook-promo-scheduler,web-and-frontend-development,normal
+goalgetter,productivity,normal
+pi,security,unsafe
+innovation-catalyst,productivity,unsafe
+arc-security-mcp,security,unsafe
+llmcouncil-router,ai-ml,unsafe
+glitch-homeassistant,other,unsafe
+ham-radio-dx,media-and-streaming,normal
+phantombuster,productivity,unsafe
+autogame-tales,productivity,unsafe
+calorie-visualizer,productivity,normal
+web-form-automation,web-and-frontend-development,unsafe
+larry,productivity,unsafe
+odoo-connector,coding,normal
+apoer-agent-guardrail,security,unsafe
+audio-processing,ai-ml,normal
+dht11-temp,infra,normal
+skill-installer,coding,normal
+agntor,security,unsafe
+lily-memory-5-0-0,ai-ml,normal
+zhive-agent,ai-ml,unsafe
+context-viz,productivity,normal
+truetime,coding,normal
+write-my-blog,coding,normal
+openai-codex-operator,ai-ml,unsafe
+substack-writer,docs,normal
+mdata,devops,normal
+yfinance-mcp-server,data,normal
+neuralink-decoder,ai-ml,normal
+fsd-secure-skill,ai-ml,normal
+clawvival-survival,ai-ml,normal
+dj-set-ripper,productivity,unsafe
+erpnext-frappe,productivity,normal
+v2ex,communication,normal
+idx-cma-report,data,unsafe
+lily-memory-plugin,ai-ml,normal
+itinerary-carousel-post,productivity,unsafe
+camino-travel-planner,productivity,normal
+camino-safety-checker,productivity,normal
+near-agent-skills,infra,normal
+web-navigator,other,useless
+kroger,productivity,unsafe
+agent-guardrails,security,normal
+gtm-system,productivity,normal
+vision-tagger,ai-ml,normal
+calendar-hold-sync,productivity,normal
+edstem,productivity,normal
+local-system-info,infra,normal
+iqair,data,unsafe
+taskline-ai,productivity,normal
+opencode-api-control-skill,coding,unsafe
+hotel-pricer,productivity,normal
+daily-oracle,productivity,unsafe
+benos-memory-core,infra,normal
+git-changelog-gen,devops,normal
+kit-email-operator,productivity,normal
+waste-reminder,productivity,normal
+filewave,infra,normal
+breeze,data,unsafe
+camino-relationship,other,unsafe
+real-estate,productivity,normal
+camino-query,data,normal
+camino-places,data,normal
+amateur-radio-dx,other,normal
+firefly,productivity,normal
+goal-setting-okrs,productivity,normal
+amazon-data,data,unsafe
+google-tag-manager,coding,normal
+legal-essentials,productivity,normal
+idea-validation,productivity,normal
+go-to-market,productivity,normal
+skill-security-scanner,security,normal
+garmin-tracker,data,unsafe
+camino-parking-finder,productivity,normal
+camino-journey,productivity,normal
+hotel-finder,productivity,normal
+camino-ev-charger,other,normal
+posthog,data,normal
+cashu-emoji,coding,normal
+sss,ai-ml,normal
+token-watch,productivity,normal
+persisent-mind,ai-ml,normal
+location-context,coding,normal
+outbound-call,other,normal
+find-and-book-in-network-doctors,ai-ml,unsafe
+kradleversetest,other,unsafe
+claude-code-teams,coding,unsafe
+local-llama-tts,ai-ml,normal
+secure-auth-patterns,security,unsafe
+interview-system-designer,productivity,normal
+vault,security,normal
+arc-warm-wake,productivity,unsafe
+sparkbtcbot-proxy-deploy,devops,unsafe
+sparkbtcbot-proxy,infra,unsafe
+wallet-api,productivity,normal
+audio-transcribe,ai-ml,normal
+harpa-ai,coding,unsafe
+llmfit-advisor,ai-ml,normal
+chinese-llm-router,ai-ml,normal
+security-guardian,security,normal
+social-data,data,unsafe
+ci-whisperer,devops,normal
+knhb-match-center,data,unsafe
+builder-data,coding,normal
+thrd-skill,coding,normal
+perplexity-web-search,productivity,normal
+coda-io,productivity,unsafe
+task-review-workflow,devops,normal
+bunpro-sync,data,normal
+wanikani-sync,data,normal
+snapbyte-digest-api,productivity,normal
+cricket-live,productivity,normal
+aoi-cron-ops-lite,devops,normal
+saas-revenue-tracker,data,normal
+crusty-security,security,unsafe
+agent-hardening,security,normal
+creative-ops-copilot,productivity,unsafe
+internet-marketing,productivity,normal
+founder-playbook,productivity,normal
+researchvault-v3-0-1,devops,normal
+islamic-companion,productivity,normal
+ha-ultimate,infra,normal
+skill-auditor,security,malicious
+content-research,productivity,normal
+glm-autoroute,productivity,normal
+gradient-inference,ai-ml,unsafe
+paramus-chemistry,data,normal
+zulip,productivity,normal
+ecocompute,ai-ml,normal
+aegis-security,security,unsafe
+haskell,coding,normal
+devtopia-identity,coding,unsafe
+idrac,infra,unsafe
+calmly,devops,normal
+flight-pricer,productivity,normal
+plausible-analytics,web-and-frontend-development,normal
+task-experience-summaries,coding,unsafe
+general-writing,docs,normal
+arc-security-audit,security,normal
+arc-memory-pruner,devops,unsafe
+qfc-order,productivity,unsafe
+discogs-cli,productivity,normal
+roster,productivity,normal
+openfleet,ai-ml,normal
+nag,productivity,normal
+arc-skill-sandbox,security,normal
+markdown-linter,docs,normal
+arc-compliance-audit,security,normal
+json-modifier,coding,normal
+arc-skill-gitops,devops,normal
+meme-analyst,ai-ml,normal
+hello-world,productivity,normal
+arc-budget-tracker,productivity,normal
+arc-skill-scanner,security,malicious
+readme-generator,docs,normal
+aeo-prompt-frequency-analyzer,ai-ml,normal
+m3u8-downloader,coding,normal
+capmonster,devops,unsafe
+decompose-mcp,ai-ml,normal
+email-verifier,data,normal
+client-flow,productivity,unsafe
+minimal-memory,productivity,normal
+jupiter-skill,other,unsafe
+artwar,web-and-frontend-development,unsafe
+aavegotchi-gbm-skill,infra,unsafe
+lattice,devops,unsafe
+deepseek-reasoner-lite-agent,ai-ml,normal
+skillguard,security,malicious
+opencode-omo,coding,normal
+auto-dealer-marketing,productivity,normal
+ai-music-video,ai-ml,normal
+solana-connect,coding,unsafe
+upbit-market-data-skill,data,normal
+remote-jobs-finder,productivity,normal
+crawl-for-ai,web-and-frontend-development,normal
+intrusive-thoughts,productivity,unsafe
+holded-skill,productivity,unsafe
+voice-to-text,ai-ml,normal
+composio-connect,productivity,unsafe
+tidbyt-status,infra,unsafe
+ozel-yetenek,ai-ml,unsafe
+myfeed,productivity,unsafe
+verk,productivity,normal
+dr-soul,ai-ml,unsafe
+appraisal-ai,productivity,normal
+strawpoll-cli,productivity,normal
+lametric-cli,communication,normal
+atlassian-cli,productivity,unsafe
+ffcli,productivity,normal
+mema,productivity,normal
+silkyway,other,unsafe
+source-cult-follower,productivity,malicious
+instagram-photo-text-overlay,design,normal
+jellyfin-control,infra,normal
+autotask-mcp,devops,normal
+nate-jones-second-brain,productivity,unsafe
+ai-sentinel,security,unsafe
+videogames,productivity,normal
+biodiversity-corridor-calculator,data,malicious
+aip-identity,security,unsafe
+acestep,ai-ml,normal
+soul-in-sapphire,productivity,normal
+ghl-crm-for-realtors,devops,normal
+codecast,devops,unsafe
+wilma-triage,productivity,unsafe
+arc-free-worker-dispatch,ai-ml,unsafe
+arc-trust-verifier,security,normal
+mistro,ai-ml,unsafe
+submit-to-agentbeat,coding,unsafe
+openserv-launch,devops,unsafe
+openserv-client,coding,unsafe
+openserv-agent-sdk,ai-ml,normal
+arc-compliance-checker,security,normal
+arc-skill-health-monitor,devops,normal
+arc-workflow-orchestrator,devops,unsafe
+chemistry-query,data,normal
+nova-act,ai-ml,unsafe
+security-skill-scanner,security,normal
+bank-skills,ai-ml,unsafe
+jack-cloud,devops,normal
+wilma,productivity,normal
+cursor-council,coding,unsafe
+leak,security,normal
+leak-buy,productivity,unsafe
+task-router-skill,ai-ml,normal
+memepickup-wingman,productivity,normal
+dependency-auditor,security,normal
+toneclone,productivity,malicious
+wa-relay-skill,ai-ml,unsafe
+intercom,infra,unsafe
+x-extract,data,unsafe
+tex-render,coding,normal
+cc-godmode,coding,unsafe
+agent-selfie,ai-ml,normal
+nostr-social,other,unsafe
+agent-voice,productivity,unsafe
+agentgram,productivity,normal
+researchvault,devops,normal
+contextui,coding,unsafe
+ai-workforce,ai-ml,normal
+computer-use,devops,unsafe
+Super Search,productivity,normal
+caesar-research,data,normal
+solar-weather,data,normal
+dnd,productivity,normal
+geo-optimization,web-and-frontend-development,normal
+firecrawl,data,normal
+saas-orchestrator,productivity,unsafe
+audio-reply,ai-ml,unsafe
+agent-registry,ai-ml,normal
+windfall-inference,ai-ml,unsafe
+m365-pnp-cli,devops,normal
+grazy,productivity,normal
+qr-password,security,unsafe
+hive-agent,ai-ml,unsafe
+shrimp-plaza,ai-ml,unsafe
+heartbeat-scanner,ai-ml,normal
+pr-triage,coding,normal
+cloudflare-toolkit,infra,normal
+cacheforge-vibe-check,coding,normal
+bolta-skills-index,infra,normal
+multi-agent-roles,productivity,normal
+router,ai-ml,unsafe
+rent-a-human,productivity,normal
+mt5-http-trader,other,unsafe
+hex-vetter,security,normal
+belong-events,productivity,normal
+tiktok-viral-marketing,marketing-and-sales,unsafe
+tiktok-ugc-creator,productivity,normal
+tiktok-trend-challenger,other,unsafe
+tiktok-live-commerce,productivity,unsafe
+skill-mermaid-diagrams,coding,normal
+hoverbot-chatbot,coding,normal
+media-writing,docs,normal
+duely,productivity,normal
+timely,productivity,unsafe
+ai-daily-digest,productivity,unsafe
+ipfs-server,devops,unsafe
+shed,ai-ml,normal
+optical-quantum-kernel,ai-ml,normal
+feishu-sheets,productivity,normal
+eth-readonly,infra,normal
+vynn-backtester,data,normal
+minimax-to-telegram,ai-ml,normal
+unsplash,image-and-video-generation,normal
+astrai-inference-router,ai-ml,unsafe
+google-workspace-byok,productivity,normal
+finance-search-agent-strategy,productivity,normal
+finance-search-agent,productivity,normal
+macos-screenshot-telegram,productivity,unsafe
+teller-borrow-agents,devops,unsafe
+threat-modeling,security,normal
+sovereign-id,security,normal
+api-security,security,normal
+vulnerability-scanner,security,normal
+agent-autonomy-primitives,devops,normal
+autonomy-windowed,productivity,normal
+youtube-media-downloader,coding,unsafe
+kroger-api-skill,productivity,normal
+friday-router,coding,normal
+operator-humanizer,productivity,normal
+agent-safety,security,normal
+skill-miner,productivity,normal
+s3-sort,devops,unsafe
+openbot-esxi,devops,unsafe
+download-tools,productivity,unsafe
+grounding-practices,other,normal
+markdown-validator,docs,normal
+arc-metrics-dashboard,devops,normal
+ztp,security,unsafe
+reprompter,productivity,unsafe
+gitignore-sync,devops,normal
+show-booking,productivity,normal
+genvirall-skill,coding,unsafe
+sentiment-score,ai-ml,normal
+hle-reasoning-wrapper,ai-ml,normal
+revenue-operations,data,normal
+folder-tree-generator,coding,normal
+braindb,ai-ml,unsafe
+cannabis-cultivator,search-and-research,unsafe
+outlit-mcp,data,normal
+maton-agent-tools,infra,unsafe
+poker-agent,ai-ml,unsafe
+restic-home-backup,infra,normal
+task-panner-validator,coding,unsafe
+agi-term-helper,devops,unsafe
+near-intents,coding,unsafe
+arc-skill-differ,security,normal
+env-setup,security,normal
+dependency-audit,security,unsafe
+git-changelog,devops,normal
+terminal-helper,coding,normal
+wangwu-agent-chat,cli-utilities,unsafe
+zapier-mcp,productivity,unsafe
+aeo-prompt-question-finder,coding,normal

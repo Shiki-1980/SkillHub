@@ -1,0 +1,8 @@
+{
+  "split": "8400/2101",
+  "test_anomalous": 443,
+  "IF_test_f1": 0.1256,
+  "LOF_test_f1": 0.1103,
+  "XGBoost_cv_f1": 0.6249,
+  "XGBoost_test_f1": 0.6481
+}
