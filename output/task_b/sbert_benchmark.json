@@ -1,0 +1,42 @@
+[
+  {
+    "method": "IF-TF-IDF(500d)",
+    "f1": 0.0641,
+    "precision": 0.0655,
+    "recall": 0.0627,
+    "accuracy": 0.8087
+  },
+  {
+    "method": "LOF-TF-IDF(500d)",
+    "f1": 0.1192,
+    "precision": 0.1218,
+    "recall": 0.1167,
+    "accuracy": 0.82
+  },
+  {
+    "method": "XGB-TF-IDF(500d)",
+    "cv_f1_mean": 0.4429,
+    "cv_f1_std": 0.0773,
+    "cv_acc_mean": 0.9038
+  },
+  {
+    "method": "IF-SBERT(384d)",
+    "f1": 0.0712,
+    "precision": 0.0727,
+    "recall": 0.0697,
+    "accuracy": 0.8101
+  },
+  {
+    "method": "LOF-SBERT(384d)",
+    "f1": 0.1477,
+    "precision": 0.1509,
+    "recall": 0.1446,
+    "accuracy": 0.8258
+  },
+  {
+    "method": "XGB-SBERT(384d)",
+    "cv_f1_mean": 0.4779,
+    "cv_f1_std": 0.0577,
+    "cv_acc_mean": 0.9071
+  }
+]
