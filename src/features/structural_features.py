@@ -22,8 +22,9 @@ def extract(df):
     """Extract 45 structural features from skill DataFrame."""
     feats = pd.DataFrame(index=df.index)
 
-    # Risk metadata
-    risk_parsed = df["risks"].apply(parse_risks)
+    # Risk metadata (handle missing column in synthetic data)
+    risk_col = df.get("risks", pd.Series([""] * len(df)))
+    risk_parsed = risk_col.apply(parse_risks)
     feats["n_danger"] = risk_parsed.apply(lambda x: x["danger"])
     feats["n_warn"] = risk_parsed.apply(lambda x: x["warn"])
     feats["n_medium"] = risk_parsed.apply(lambda x: x["medium"])
@@ -31,15 +32,17 @@ def extract(df):
     feats["danger_ratio"] = feats["n_danger"] / (feats["n_danger"] + feats["n_safe"] + 1e-6)
     feats["total_risks"] = feats["n_danger"] + feats["n_warn"] + feats["n_medium"] + feats["n_safe"]
 
-    # Text lengths
-    feats["name_len"] = df["name"].fillna("").apply(len)
-    feats["desc_len"] = df["description"].fillna("").apply(len)
-    feats["actions_len"] = df["actions"].fillna("").apply(len)
-    feats["perm_len"] = df["permissions"].fillna("").apply(len)
+    # Text lengths (handle missing columns)
+    def _col(col_name, default=""):
+        return df[col_name].fillna(default) if col_name in df.columns else pd.Series([default]*len(df))
+    feats["name_len"] = _col("name").apply(len)
+    feats["desc_len"] = _col("description").apply(len)
+    feats["actions_len"] = _col("actions").apply(len)
+    feats["perm_len"] = _col("permissions").apply(len)
     feats["desc_ratio"] = feats["desc_len"] / (feats["actions_len"] + 1e-6)
 
     # Permission counts
-    perm_str = df["permissions"].fillna("").str.lower()
+    perm_str = _col("permissions").str.lower()
     feats["perm_os_count"] = perm_str.str.count(r"\[warn\].*?(?:linux|macos|windows)")
     feats["perm_shell_count"] = perm_str.str.count(r"shell")
     feats["perm_network_count"] = perm_str.str.count(r"网络|network")
@@ -47,8 +50,7 @@ def extract(df):
     feats["total_perm_items"] = perm_str.str.count(r"\[warn\]|\[ok\]|\[danger\]")
 
     # Security signal patterns
-    text_all = (df["name"].fillna("") + " " + df["description"].fillna("") + " "
-                + df["actions"].fillna("")).str.lower()
+    text_all = (_col("name") + " " + _col("description") + " " + _col("actions")).str.lower()
 
     patterns = {
         "sig_reverse_shell": r"\b(reverse\s*shell|bind\s*shell)\b",
@@ -73,18 +75,20 @@ def extract(df):
     ) / (feats["actions_len"] + 1e-6)
 
     # Metadata
-    feats["stars_log"] = np.log1p(df["stars"].fillna(0))
-    feats["score"] = df["score"].fillna(0)
-    feats["form_workflow"] = (df["form"] == "workflow").astype(int)
-    feats["form_prompt"] = (df["form"] == "prompt").astype(int)
-    feats["form_reference"] = (df["form"] == "reference").astype(int)
-    feats["form_config"] = (df["form"] == "tool-config").astype(int)
+    feats["stars_log"] = np.log1p(_col("stars", "0").apply(lambda x: float(x) if x else 0))
+    feats["score"] = _col("score", "0").apply(lambda x: float(x) if x else 0)
+    form_col = _col("form", "workflow")
+    feats["form_workflow"] = (form_col == "workflow").astype(int)
+    feats["form_prompt"] = (form_col == "prompt").astype(int)
+    feats["form_reference"] = (form_col == "reference").astype(int)
+    feats["form_config"] = (form_col == "tool-config").astype(int)
 
     # Category one-hot (top 10)
-    top_cats = df["category"].value_counts().head(10).index
+    cat_col = _col("category", "other")
+    top_cats = df["category"].value_counts().head(10).index if "category" in df.columns else ["other"]
     for cat in top_cats:
         safe_name = "cat_" + re.sub(r"[^a-z0-9]", "_", cat.lower())
-        feats[safe_name] = (df["category"] == cat).astype(int)
+        feats[safe_name] = (cat_col == cat).astype(int)
 
-    feats["non_english"] = (df["language"] != "en").astype(int)
+    feats["non_english"] = (_col("language", "en") != "en").astype(int)
     return feats
