@@ -1,0 +1,26 @@
+idx,name,label,orig_kri,orig_risk_level,derisked_kri,derisked_risk_level,kri_delta,threat_delta,impact_delta,exposure_delta,semantic_similarity,semantic_elasticity,detection_delta,has_tc_variant,tc_kri_delta
+0,notion,unsafe,0.589,high,0.5915,high,-0.0025,0.0,0.0,-0.25,0.8704,2.6292,0,False,
+5,Weather,unsafe,0.547,high,0.517,high,0.03,0.0,0.0,0.0,0.8807,3.3753,0,False,
+8,OpenClaw Host Hardening,unsafe,0.4785,medium,0.3885,medium,0.09,0.0,0.0,0.0,0.9445,5.3954,0,True,0.0
+15,wacli,unsafe,0.72,critical,0.66,high,0.06,0.0,0.0,0.0,0.9459,5.4776,0,False,
+18,Trello,unsafe,0.714,critical,0.684,high,0.03,0.0,0.0,0.0,0.9442,5.4594,0,False,
+33,feishu-drive,unsafe,0.589,high,0.6215,high,-0.0325,0.0,0.0,-0.25,0.9554,5.9078,0,False,
+34,feishu-perm,unsafe,0.4973,medium,0.4073,medium,0.09,0.0,0.0,0.0,0.8652,2.6426,0,False,
+37,voice-call,unsafe,0.408,medium,0.3472,medium,0.0608,0.0,-0.0833,0.0,0.9321,3.4667,0,False,
+81,pirate-skill,unsafe,0.3018,medium,0.2402,low,0.0616,0.0,-0.1666,0.0,0.776,1.9681,0,False,
+85,code-reviewer,unsafe,0.583,high,0.493,medium,0.09,0.0,0.0,0.0,0.8521,2.6815,0,False,
+96,Remote Browser Automation for Sandboxed Agents,unsafe,0.565,high,0.505,high,0.06,0.0,0.0,0.0,0.9558,8.3736,0,True,0.0909
+177,Security Scan,unsafe,0.651,high,0.6535,high,-0.0025,0.0,0.0,-0.25,0.9618,8.6931,0,True,0.06
+226,dispatching-parallel-agents,unsafe,0.1688,low,0.2013,low,-0.0325,0.0,0.0,-0.25,0.9317,4.0907,0,True,0.0
+271,typescript-write,unsafe,0.2143,low,0.1535,low,0.0608,0.0,-0.0833,0.0,0.9028,3.1262,0,False,
+273,GitHub Triage — Unified Issue & PR Processor,unsafe,0.595,high,0.505,high,0.09,0.0,0.0,0.0,0.9186,5.7411,0,True,-0.0025
+297,Web3 Smart Contract Testing,unsafe,0.589,high,0.529,high,0.06,0.0,0.0,0.0,0.9373,5.277,0,True,0.0608
+322,Secrets Management,unsafe,0.595,high,0.565,high,0.03,0.0,0.0,0.0,0.9797,10.0,0,True,0.03
+345,k8s-security-policies,unsafe,0.565,high,0.5375,high,0.0275,0.0,0.0,-0.25,0.9166,4.6104,0,False,
+379,auth-implementation-patterns,unsafe,0.5117,high,0.42,medium,0.0917,0.0,-0.1667,0.0,0.8825,2.5884,-1,False,
+384,gdpr-data-handling,unsafe,0.1303,low,0.0995,minimal,0.0308,0.0,-0.0833,0.0,0.8866,3.2787,1,True,-0.09
+386,secrets-management,unsafe,0.595,high,0.535,high,0.06,0.0,0.0,0.0,0.9281,3.8054,0,True,-0.0283
+394,on-call-handoff-patterns,unsafe,0.2727,low,0.2427,low,0.03,0.0,0.0,0.0,0.9101,4.7436,0,False,
+445,mtls-configuration,unsafe,0.5025,high,0.4125,medium,0.09,0.0,0.0,0.0,0.8642,3.1131,0,False,
+447,k8s-security-policies,unsafe,0.5325,high,0.5025,high,0.03,0.0,0.0,0.0,0.9517,10.0,0,False,
+479,Protocol Reverse Engineering,unsafe,0.5205,high,0.463,medium,0.0575,0.0,0.0,-0.25,0.8909,4.4002,0,False,

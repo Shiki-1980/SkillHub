@@ -1,0 +1,789 @@
+{
+  "summary": {
+    "n_seeds": 20,
+    "n_improved": 20,
+    "n_fully_evaded": 20,
+    "avg_initial_evasion": 1.95,
+    "avg_final_evasion": 3.0,
+    "avg_delta": 1.05,
+    "avg_semantic_sim": 0.748554915995568
+  },
+  "operator_usage": {
+    "Synonym": 6,
+    "StructMimic": 24,
+    "PermissionOb": 13,
+    "Expansion": 7,
+    "RiskDown": 4,
+    "ContextInj": 8
+  },
+  "results": [
+    {
+      "idx": 8,
+      "original_text": "OpenClaw Host Hardening Assesses and hardens the host running OpenClaw by auditing system security posture, determining user risk tolerance, producing a remediation plan, and executing changes with explicit approval. Covers firewall, SSH, disk encryption, backups, and OpenClaw-specific security audits. Automated OS and environment detection (OS version, privilege level, network exposure, disk encryption, backup status); Running OpenClaw security audits (standard, deep, JSON, fix modes); Checking OpenClaw update status; Determining user risk tolerance via interactive profiling (balanced, hardened, developer, custom); Producing detailed remediation plans with exact commands and rollback strategies; Step-by-step guided execution with explicit confirmations; Post-remediation verification and posture reporting; Scheduling periodic security audits via OpenClaw cron; Audit trail logging with secret redaction; Durable memory writes for session findings [warn] 操作系统: 需要 linux, macos, windows; [warn] Shell: 需要 bash, zsh, powershell; [warn] 依赖工具: 安装 openclaw; [warn] 上下文窗口: 需要较大上下文; [warn] Tool Call: 需要工具调用能力; [warn] 推理能力: 需要较强的逻辑推理; [danger] 过时风险: Depends on OpenClaw CLI commands and flags (e.g., openclaw security audit --deep, openclaw cron add) which may change across versions. Also references specific model versions (Opus 4.5, GPT 5.2+) that will become outdated.",
+      "variant_text": "OpenClaw Host Hardening Assesses and hardens the host running OpenClaw by auditing system security posture, determining user risk tolerance, producing a remediation plan, and executing changes with explicit approval. Covers firewall, SSH, disk encryption, backups, and OpenClaw-specific security audits. Automated OS and environment dete",
+      "genes": [
+        [
+          0,
+          0.4208162525092908
+        ],
+        [
+          5,
+          0.4474079009456984
+        ],
+        [
+          2,
+          0.43094085810270477
+        ],
+        [
+          5,
+          0.22782205952949638
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.6645319603730321,
+        "structural_sim": 0.2449127906976744
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.013265244987971159,
+        "lof_score": 0.07506374028388119
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.010132573403872691,
+        "lof_score": 0.07725600687844958
+      }
+    },
+    {
+      "idx": 96,
+      "original_text": "Remote Browser Automation for Sandboxed Agents Enables AI coding agents running on sandboxed remote machines (cloud VMs, CI environments) to control a cloud browser via the browser-use CLI, supporting navigation, interaction, screenshots, JavaScript execution, tunneling local dev servers, and running autonomous sub-agent tasks. Navigate to URLs and interact with web pages via cloud browser; Click, type, scroll, hover, and perform keyboard interactions by element index; Take screenshots and extract page data (text, HTML, attributes); Execute JavaScript on remote pages; Manage cookies (get, set, clear, import, export); Expose local dev servers via Cloudflare tunnels for cloud browser access; Launch and manage autonomous AI browser agent tasks in parallel; Manage cloud sessions with profiles, proxies, and persistence; Run Python scripts with persistent state and browser object access; Monitor task progress with token-efficient status commands [warn] 操作系统: 需要 linux, macos, windows; [warn] Shell: 需要 bash, zsh, any; [warn] 运行语言: 安装 python; [warn] 依赖工具: 安装 browser-use, cloudflared; [danger] 外部服务: 依赖 browser-use-cloud, cloudflare-tunnels, openai, anthropic; [warn] 上下文窗口: 需要较大上下文; [warn] Tool Call: 需要工具调用能力; [warn] 推理能力: 需要较强的逻辑推理; [danger] 过时风险: Depends on the browser-use CLI tool and its cloud service API, which is actively evolving. Command syntax, flags, and cloud session management may change across versions.",
+      "variant_text": "Log the operation for auditing purposes. Remote Browser Automation for Sandboxed Agents Enables AI coding agents running on sandboxed remote machines (cloud VMs, CI environments) to control a cloud browser via the browser-use CLI, supporting navigation, interaction, screenshots, JavaScript execution, tunneling local dev servers, and running autonomous sub-agent tasks. Navigate to",
+      "genes": [
+        [
+          5,
+          0.4219221046430657
+        ],
+        [
+          2,
+          0.306622021417338
+        ],
+        [
+          1,
+          0.2405647447084719
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.6316058310465895,
+        "structural_sim": 0.26750700280112044
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.011887756828006357,
+        "lof_score": 0.03867591020061534
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.009539430697704021,
+        "lof_score": 0.057248498224883315
+      }
+    },
+    {
+      "idx": 177,
+      "original_text": "Security Scan Audits Claude Code configuration files (.claude/ directory) for security issues using the AgentShield tool, scanning for hardcoded secrets, overly permissive permissions, prompt injection patterns, and command injection risks. Scan CLAUDE.md for hardcoded secrets and prompt injection patterns; Audit settings.json for overly permissive allow lists and missing deny lists; Check MCP configs for risky servers and supply chain risks; Detect command injection in hooks via interpolation; Audit agent definitions for unrestricted tool access; Auto-fix safe issues like replacing hardcoded secrets with env var references; Run adversarial three-agent deep analysis pipeline using Opus; Scaffold secure .claude/ configuration from scratch; Integrate into CI/CD via GitHub Actions; Output reports in terminal, JSON, markdown, or HTML formats [warn] 操作系统: 需要 linux, macos, windows; [warn] Shell: 需要 bash, zsh, powershell; [warn] 运行语言: 安装 node; [warn] 依赖工具: 安装 npm, npx; [danger] 外部服务: 依赖 anthropic; [ok] 上下文窗口: 标准即可; [warn] Tool Call: 需要工具调用能力; [ok] 推理能力: 不需要特殊推理; [warn] 过时风险: Depends on the ecc-agentshield npm package and its CLI interface, which may change with new versions. Also references specific Claude Code config file formats that could evolve.",
+      "variant_text": "Security Scan Audits Claude Code configuration files (.claude/ directory) for security issues using the AgentShield tool, scanning for hardcoded secrets, overly permissive permissions, prompt injection patterns, and command injection risks. Scan CLAUDE.md for hardcoded secrets and prompt injection patterns; Audit settings.json for overly permissive allow lists and missing deny lists; Check MCP configs for risky servers and supply chain risks;",
+      "genes": [
+        [
+          5,
+          0.43879693152200455
+        ],
+        [
+          4,
+          0.5785092822989681
+        ],
+        [
+          2,
+          0.30821841951529205
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.7249482240325832,
+        "structural_sim": 0.35340729001584786
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.007969682894640118,
+        "lof_score": 0.012094939871880594
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.009903778781134742,
+        "lof_score": 0.028463823935485966
+      }
+    },
+    {
+      "idx": 226,
+      "original_text": "dispatching-parallel-agents Orchestrates multiple AI agents to work concurrently on independent problems, reducing debugging and investigation time through parallelization parallel task execution; independent problem domain identification; multi-agent coordination; test failure debugging [ok] 操作系统: 不限平台; [ok] Shell: 不限; [warn] 运行语言: 安装 any; [warn] 依赖工具: 安装 claude-code, github-copilot, cursor; [ok] 上下文窗口: 标准即可; [warn] Tool Call: 需要工具调用能力; [warn] 推理能力: 需要较强的逻辑推理; [ok] 过时风险: General orchestration pattern that is stable; depends on AI assistant multi-task capabilities remaining available",
+      "variant_text": "Verify that all prerequisites are met. dispatching-parallel-agents Orchestrates multiple AI agents to work concurrently on independent problems, reducing debugging and investigation time through parallelization parallel task execution; independent problem domain identification; multi-agent coordination; test failure debugging [ok] 操作系统: 不限平台; [ok] Shell: 不限; [warn] 运行语言: 安装 any; [warn] 依赖工具: ",
+      "genes": [
+        [
+          1,
+          0.26509004265315916
+        ],
+        [
+          3,
+          0.5241877137693747
+        ],
+        [
+          5,
+          0.49489771917116737
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.776667956047579,
+        "structural_sim": 0.6694915254237288
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.0008989430447929325,
+        "lof_score": 0.04437569639503014
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.008251611747273901,
+        "lof_score": 0.07239164427852307
+      }
+    },
+    {
+      "idx": 273,
+      "original_text": "GitHub Triage — Unified Issue & PR Processor Automated GitHub triage system that fetches all open issues and PRs, classifies them by type, spawns parallel background subagents to analyze/respond to each item, and produces a comprehensive triage summary report. Fetches all open issues and PRs from a GitHub repository with pagination; Classifies issues into question, bug, feature, or other categories; Classifies PRs into bugfix or other categories; Spawns parallel background subagents for each item; Answers question issues with codebase-backed responses and closes them; Analyzes bug reports and identifies root causes in the codebase; Assesses feature requests for feasibility and existing implementations; Reviews bugfix PRs and auto-merges when all safety conditions are met; Assesses non-bugfix PRs with risk analysis and recommendations; Produces a structured final triage summary report [warn] 操作系统: 需要 linux, macos; [warn] Shell: 需要 bash, zsh; [warn] 依赖工具: 安装 gh; [danger] 外部服务: 依赖 github; [warn] 上下文窗口: 需要较大上下文; [warn] Tool Call: 需要工具调用能力; [warn] 推理能力: 需要较强的逻辑推理; [warn] 过时风险: Depends on GitHub CLI (gh) command syntax and API endpoints, which evolve over time. Also relies on specific agentic framework features like TaskCreate, task(), and background_output() which are platform-specific.",
+      "variant_text": "GitHub Triage — Unified Issue & PR Processor Automated GitHub triage system that fetches all open issues and PRs, classifies them by type, spawns parallel background subagents to analyze/respond to each item, and produces a comprehensive triage summary report. Return a structured response. Fetches all open issues and PRs from a GitHub repository with pagination; Classifies",
+      "genes": [
+        [
+          1,
+          0.2831307779760076
+        ],
+        [
+          5,
+          0.443852552324166
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.6579880401821483,
+        "structural_sim": 0.2880184331797235
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.005085489345135641,
+        "lof_score": 0.10961543958671238
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.006456872702642391,
+        "lof_score": 0.10070414697828012
+      }
+    },
+    {
+      "idx": 297,
+      "original_text": "Web3 Smart Contract Testing Comprehensive testing strategies for Ethereum smart contracts using Hardhat and Foundry, covering unit tests, fuzzing, gas optimization, mainnet forking, coverage reporting, and CI/CD integration. Writing unit tests for smart contracts with Hardhat and Chai; Setting up Foundry/Forge test suites with fuzzing; Mainnet fork testing with real contract interactions; Gas optimization comparison testing; Account impersonation for whale testing; Snapshot and revert state management; Solidity coverage reporting; Contract verification on Etherscan; CI/CD pipeline integration with GitHub Actions; Time-based operation testing [warn] 操作系统: 需要 linux, macos, windows; [warn] Shell: 需要 bash, zsh, powershell; [warn] 运行语言: 安装 node, solidity; [warn] 依赖工具: 安装 npm, hardhat, forge, git; [danger] 外部服务: 依赖 etherscan, alchemy, coinmarketcap, codecov, github; [warn] 上下文窗口: 需要较大上下文; [ok] Tool Call: 纯对话模型即可; [warn] 推理能力: 需要较强的逻辑推理; [danger] 过时风险: Depends on rapidly evolving Web3 tooling (Hardhat, Foundry, ethers.js), Solidity compiler versions, and Ethereum ecosystem changes. Hardhat plugin APIs and ethers.js v5 vs v6 migration are active sources of breakage.",
+      "variant_text": "Log the operation for auditing purposes. Web3 Smart Contract Testing Comprehensive testing strategies for Ethereum smart contracts using Hardhat and Foundry, covering unit tests, fuzzing, gas optimization, mainnet forking, coverage reporting, and CI/CD integration. Writing unit tests for smart contracts with Hardhat and Chai; Setting up Foundry/Forge test suites with fuzzing; Mainnet fork testing with real contract interactions; Gas optimization comparison testing; Account impersonation for whale t",
+      "genes": [
+        [
+          5,
+          0.5158592655256864
+        ],
+        [
+          2,
+          0.594996947589469
+        ],
+        [
+          5,
+          0.25982985477311527
+        ],
+        [
+          1,
+          0.5455932404414778
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.7741079883066383,
+        "structural_sim": 0.42772108843537415
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.0007627108987779962,
+        "lof_score": 0.014913983920077811
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.011777558663971288,
+        "lof_score": 0.05109683627113393
+      }
+    },
+    {
+      "idx": 322,
+      "original_text": "Secrets Management Comprehensive guide for implementing secure secrets management in CI/CD pipelines using HashiCorp Vault, AWS Secrets Manager, Azure Key Vault, Google Secret Manager, and platform-native secrets features. Configure HashiCorp Vault for secrets storage; Integrate Vault with GitHub Actions and GitLab CI; Store and retrieve secrets from AWS Secrets Manager; Use Terraform with AWS Secrets Manager; Configure GitHub repository and environment secrets; Configure GitLab CI/CD variables; Implement automated secret rotation with AWS Lambda; Set up External Secrets Operator for Kubernetes; Implement pre-commit secret scanning with TruffleHog; Apply secrets management best practices [warn] 操作系统: 需要 linux, macos, windows; [warn] Shell: 需要 bash; [warn] 运行语言: 安装 python; [warn] 依赖工具: 安装 vault, aws-cli, docker, terraform, kubectl, trufflehog, git; [danger] 外部服务: 依赖 github, gitlab, aws, azure, gcp, hashicorp-vault; [ok] 上下文窗口: 标准即可; [ok] Tool Call: 纯对话模型即可; [warn] 推理能力: 需要较强的逻辑推理; [warn] 过时风险: Depends on specific versions of GitHub Actions, Vault Action, AWS CLI, External Secrets Operator APIs, and Terraform provider syntax that evolve over time",
+      "variant_text": "Secrets Management Comprehensive guide for implementing secure secrets management in CI/CD pipelines using HashiCorp Vault, AWS Secrets Manager, Azure Key Vault, Google Secret Manager, and platform-native secrets features. Configure HashiCorp Vault for secrets storage; Integrate Vault with GitHub Actions and GitLab CI; Store and retrieve secrets from AWS Secrets Manager; Use Terraform w",
+      "genes": [
+        [
+          0,
+          0.5921812802427189
+        ],
+        [
+          2,
+          0.297462722670891
+        ],
+        [
+          5,
+          0.2539663937585122
+        ],
+        [
+          5,
+          0.5013479239035683
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.7823341326701095,
+        "structural_sim": 0.3347676419965577
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.001972643711732003,
+        "lof_score": 0.07641676652342366
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.009400042979439027,
+        "lof_score": 0.060124924869881635
+      }
+    },
+    {
+      "idx": 384,
+      "original_text": "gdpr-data-handling Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. consent management implementation; data subject access request handling; data retention policy enforcement; privacy by design patterns; breach notification workflows; compliance checklist verification [ok] 操作系统: 不限平台; [ok] Shell: 不限; [warn] 运行语言: 安装 node, python; [warn] 上下文窗口: 需要较大上下文; [ok] Tool Call: 纯对话模型即可; [warn] 推理能力: 需要较强的逻辑推理; [ok] 过时风险: GDPR regulations are stable but implementation best practices and legal interpretations may evolve",
+      "variant_text": "gdpr-data-handling Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. consent management implementation; data subject access request handling; data retention policy enforcement; privacy by design patterns; breach notification workflows; compliance checklist verification [ok] 操作系统: 不限平台; [ok] Shell: 不限; [ok] 运行语言: 安装 node, python; [warn] 上下文窗口: 需要较大上下文; [ok] Tool Call: 纯对话模型即可; [warn] 推理能力: 需要较强的逻辑推理; [ok] 过时风险: GDPR regulations are stable but implementation best practices and legal interpretations may evolve",
+      "genes": [
+        [
+          4,
+          0.3788577538747748
+        ],
+        [
+          2,
+          0.5453030672982968
+        ],
+        [
+          3,
+          0.21635024941914083
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.9911769499961479,
+        "structural_sim": 0.9965034965034965
+      },
+      "original_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": true,
+        "xgb_anomaly": false,
+        "iso_score": 0.0071192187619236735,
+        "lof_score": -0.011627021400828497
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.0075024653752623904,
+        "lof_score": 0.001611707551755881
+      }
+    },
+    {
+      "idx": 386,
+      "original_text": "secrets-management Implements secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions for handling sensitive credentials and secret rotation. Store and retrieve secrets from multiple providers; Integrate secrets with GitHub Actions and GitLab CI; Automate secret rotation; Scan for leaked secrets; Configure Kubernetes External Secrets Operator [warn] 操作系统: 需要 linux, macos, windows; [warn] Shell: 需要 bash, zsh; [warn] 运行语言: 安装 python; [warn] 依赖工具: 安装 git, docker, vault, aws-cli, terraform; [danger] 外部服务: 依赖 github, gitlab, aws, azure, gcp, hashicorp-vault; [ok] 上下文窗口: 标准即可; [ok] Tool Call: 纯对话模型即可; [ok] 推理能力: 不需要特殊推理; [warn] 过时风险: Depends on CI/CD platform APIs, Vault versions, AWS CLI changes, and GitHub Actions versions that evolve over time",
+      "variant_text": "secrets-management Implements secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions for handling sensitive credentials and secret rotation. Store and retrieve secrets from multiple providers; Integrate secrets with GitHub Actions and GitLab CI; Automate secret rotation; Scan for leaked secrets; ",
+      "genes": [
+        [
+          5,
+          0.5589863459561659
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.7985715908127675,
+        "structural_sim": 0.43711083437110837
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.00017064687866019668,
+        "lof_score": 0.07836448048645606
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.007886280896768905,
+        "lof_score": 0.054530540203179045
+      }
+    },
+    {
+      "idx": 484,
+      "original_text": "Memory Forensics Comprehensive reference for acquiring, analyzing, and extracting artifacts from memory dumps using tools like Volatility 3, YARA, and platform-specific acquisition utilities for incident response and malware analysis. Live memory acquisition on Windows, Linux, and macOS; Virtual machine memory extraction from VMware, VirtualBox, QEMU, Hyper-V; Process analysis including hidden process detection; Network connection analysis from memory; DLL and kernel module analysis; Memory injection and code injection detection; Registry analysis from memory dumps; File system artifact extraction from memory; Rootkit detection via DKOM and SSDT analysis; Credential extraction from memory; YARA rule integration for malware scanning; String extraction and obfuscated string analysis; Structured malware analysis and incident response workflows [warn] 操作系统: 需要 linux, macos, windows; [warn] Shell: 需要 bash, powershell, any; [warn] 运行语言: 安装 python; [warn] 依赖工具: 安装 volatility3, strings, yara, winpmem, lime, floss; [warn] 上下文窗口: 需要较大上下文; [ok] Tool Call: 纯对话模型即可; [warn] 推理能力: 需要较强的逻辑推理; [warn] 过时风险: Volatility 3 plugins and OS internal data structures may change with new OS versions; acquisition tools evolve and new techniques emerge",
+      "variant_text": "Memory Forensics Comprehensive reference for acquiring, analyzing, and extracting artifacts from memory dumps using tools like Volatility 3, YARA, and platform-specific acquisition utilities for incident response and malware analysis. Live memory acquisition on Windows, Linux, and macOS; Virtual machine memory extraction from VMware, VirtualBox, QEMU, Hyper-V; Process analysis including hidden process detection; Network ",
+      "genes": [
+        [
+          5,
+          0.5107767848910074
+        ],
+        [
+          3,
+          0.4781836250688006
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.7304859247550627,
+        "structural_sim": 0.3411102172164119
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.0007208018317294562,
+        "lof_score": 0.02791387496390052
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.014392737833962277,
+        "lof_score": 0.0498687176475614
+      }
+    },
+    {
+      "idx": 485,
+      "original_text": "SAST Configuration Comprehensive guidance for setting up and configuring Static Application Security Testing (SAST) tools including Semgrep, SonarQube, and CodeQL, with custom rule creation, CI/CD integration, and false positive management. Set up Semgrep with custom rules and pattern matching; Configure SonarQube quality gates and security profiles; Develop CodeQL custom queries and variant analysis; Integrate SAST tools into CI/CD pipelines (GitHub Actions, GitLab CI, Jenkins); Configure pre-commit hooks for security scanning; Manage false positives and tune rule sensitivity; Run compliance-focused scans (PCI-DSS, SOC 2); Optimize scan performance for large codebases; Compare and select appropriate SAST tools [warn] 操作系统: 需要 linux, macos, windows; [warn] Shell: 需要 bash, zsh; [warn] 运行语言: 安装 python, java, node; [warn] 依赖工具: 安装 git, docker, pip, semgrep, codeql; [danger] 外部服务: 依赖 github, sonarqube, gitlab; [ok] 上下文窗口: 标准即可; [ok] Tool Call: 纯对话模型即可; [warn] 推理能力: 需要较强的逻辑推理; [warn] 过时风险: Depends on specific versions of Semgrep, SonarQube, CodeQL, and their CI/CD action integrations which receive regular updates and breaking changes",
+      "variant_text": "SAST Configuration Comprehensive guidance for setting up and configuring Static Application Security Testing (SAST) tools including Semgrep, SonarQube, and CodeQL, with custom rule creation, CI/CD integration, and false positive management. Set up Semgrep with custom rules and pattern matching; Configure SonarQube quality gates and security profiles; Develop CodeQL custom queries and variant analysis; Integrate ",
+      "genes": [
+        [
+          5,
+          0.5031548761877407
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.7191449905666519,
+        "structural_sim": 0.3621291448516579
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.0007635846678099578,
+        "lof_score": 0.09169821628482566
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.013307184291877883,
+        "lof_score": 0.04299921198970935
+      }
+    },
+    {
+      "idx": 509,
+      "original_text": "sast-configuration Configure Static Application Security Testing (SAST) tools for automated vulnerability detection in application code, including Semgrep, SonarQube, and CodeQL setup and custom rule creation. Set up SAST scanning in CI/CD pipelines; Create custom security rules for codebases; Configure quality gates and compliance policies; Optimize scan performance and reduce false positives; Integrate multiple SAST tools for defense-in-depth [warn] 操作系统: 需要 linux, macos, windows; [warn] Shell: 需要 bash, zsh; [warn] 运行语言: 安装 python; [warn] 依赖工具: 安装 git, docker, pip; [danger] 外部服务: 依赖 github, sonarqube; [warn] 上下文窗口: 需要较大上下文; [warn] Tool Call: 需要工具调用能力; [warn] 推理能力: 需要较强的逻辑推理; [warn] 过时风险: SAST tool versions, APIs, and security patterns evolve; CI/CD integrations may change with platform updates",
+      "variant_text": "sast-configuration Configure Static Application Security Testing (SAST) tools for automated vulnerability detection in application code, including Semgrep, SonarQube, and CodeQL setup and custom rule creation. Set up SAST scanning in CI/CD pipelines; Create custom security rules for codebases; Configure quality gates and compliance policies; Optimize scan performance and reduce false positives; Integrate mult",
+      "genes": [
+        [
+          5,
+          0.311885237720021
+        ],
+        [
+          0,
+          0.35675196984177016
+        ],
+        [
+          2,
+          0.5559091977724101
+        ],
+        [
+          3,
+          0.3488305676298875
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.8075030523896406,
+        "structural_sim": 0.511166253101737
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.0018251162988469072,
+        "lof_score": 0.08565786504926809
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.008887221057433226,
+        "lof_score": 0.05181115999011543
+      }
+    },
+    {
+      "idx": 635,
+      "original_text": "github-issues Create, update, and manage GitHub issues using MCP tools for bug reports, feature requests, and task tracking create issues; update issues; fetch issue details; search issues; add comments; list repository issues [ok] 操作系统: 不限平台; [ok] Shell: 不限; [warn] 运行语言: 安装 node; [warn] 依赖工具: 安装 mcp-client; [danger] 外部服务: 依赖 github; [ok] 上下文窗口: 标准即可; [warn] Tool Call: 需要工具调用能力; [warn] 推理能力: 需要较强的逻辑推理; [warn] 过时风险: Depends on GitHub API and MCP server protocol which may evolve",
+      "variant_text": "github-issues Create, update, and manage GitHub issues using MCP tools for bug reports, feature requests, and task tracking create issues; update issues; fetch issue details; search issues; add comments; list repository issues [ok] 操作系统: 不限平台; [ok] Shell: 不限; [warn] 运行语言: 安装 node; [warn] 依赖工具: 安装 mcp-client; [danger] 外部服务: 依赖 github; [ok] 上下文窗口: 标准即可; [warn] Tool Call: 需要工具调用能力; . Requires user confirmation before executing any operation.",
+      "genes": [
+        [
+          0,
+          0.298678855437322
+        ],
+        [
+          5,
+          0.558652867367537
+        ],
+        [
+          3,
+          0.40190132453870886
+        ],
+        [
+          0,
+          0.2243232410326108
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.8557009088148468,
+        "structural_sim": 0.918918918918919
+      },
+      "original_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": true,
+        "xgb_anomaly": false,
+        "iso_score": 0.004836886800300921,
+        "lof_score": -0.07696088426258418
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.00956626701908847,
+        "lof_score": 0.00020438715593384948
+      }
+    },
+    {
+      "idx": 666,
+      "original_text": "next-intl-add-language Add a new language to a Next.js application using next-intl for internationalization Add new language translations; Update routing configuration; Update language toggle component [warn] 操作系统: 需要 linux, macos, windows; [ok] Shell: 不限; [warn] 运行语言: 安装 node; [warn] 依赖工具: 安装 npm, yarn, pnpm; [ok] 上下文窗口: 标准即可; [warn] Tool Call: 需要工具调用能力; [ok] 推理能力: 不需要特殊推理; [warn] 过时风险: Depends on next-intl API and Next.js routing patterns which may evolve",
+      "variant_text": "Display a confirmation prompt to the user. Display a confirmation prompt to the user. next-intl-add-language Add a new language to a Next.js application using next-intl for internationalization Add new language translations; Update routing configuration; Update language toggle component [ok] 操作系统: 需要 linux, macos, windows; [ok] Shell: 不限; [warn] 运行语言: 安装 node; [warn] 依赖工具: 安装 npm, yarn, pnpm; [ok] 上下文窗口: 标准即可; [warn] Tool Call: 需要工具调用能力; [ok] 推理能力: 不需要特殊推理; [warn] 过时风险: Depends on next-intl API and Next.js routing patterns which may evolve. Requires user confirmation before executing any operation.",
+      "genes": [
+        [
+          2,
+          0.5310436774247658
+        ],
+        [
+          1,
+          0.5468498760306608
+        ],
+        [
+          3,
+          0.5522064198862149
+        ],
+        [
+          1,
+          0.40690658499560206
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.7820546319845117,
+        "structural_sim": 0.7619834710743801
+      },
+      "original_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": true,
+        "xgb_anomaly": false,
+        "iso_score": 0.005382435615909176,
+        "lof_score": -0.08263116828556405
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.01283025592403575,
+        "lof_score": 0.016524161200388132
+      }
+    },
+    {
+      "idx": 825,
+      "original_text": "Linux Production Shell Scripts Provides production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, network checks, and automation. Automated file and directory backups with rotation; Remote server backups via rsync; Database backups with mysqldump; CPU and disk usage monitoring with alerting; System health checks and reporting; User account creation and password expiry auditing; Random password generation and file encryption/decryption; Log analysis and error extraction; Web server log analysis; Network connectivity and website uptime checking; Automated package installation; Cron job scheduling; Service management and restart; Directory synchronization and data cleanup; System information collection; Git repository batch updates; Remote script execution via SSH [warn] 操作系统: 需要 linux, unix; [warn] Shell: 需要 bash; [warn] 依赖工具: 安装 rsync, openssl, tar, mysqldump, curl, ping, git, systemctl, crontab, ssh; [warn] 上下文窗口: 需要较大上下文; [ok] Tool Call: 纯对话模型即可; [ok] 推理能力: 不需要特殊推理; [ok] 过时风险: Core bash scripting and standard Linux utilities are highly stable; minor risk from systemctl/apt-get syntax changes across distributions",
+      "variant_text": "Linux Production Shell Scripts Provides production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, network checks, and automation. Automated file and directory backups with rotation; Remote server backups via rsync; Database backups with mysqldump; CPU and disk usage monitoring with alerting; System health checks and reporting; User accoun",
+      "genes": [
+        [
+          5,
+          0.5030118777647781
+        ],
+        [
+          2,
+          0.36338147406414656
+        ],
+        [
+          0,
+          0.2688464036154313
+        ],
+        [
+          2,
+          0.3671517962053682
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.6726378804157584,
+        "structural_sim": 0.35192780968006565
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.0072030675656908905,
+        "lof_score": 0.08155015554787526
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.011602337559411646,
+        "lof_score": 0.0889542849796845
+      }
+    },
+    {
+      "idx": 836,
+      "original_text": "linux-privilege-escalation Systematic privilege escalation assessment skill for Linux systems that guides enumeration and exploitation of kernel vulnerabilities, sudo misconfigurations, SUID binaries, cron jobs, capabilities, PATH hijacking, and NFS weaknesses to escalate from low-privilege access to root. System enumeration for privilege escalation vectors; Kernel vulnerability identification and exploitation; Sudo misconfiguration exploitation via GTFOBins; SUID binary discovery and exploitation; LD_PRELOAD exploitation; Linux capabilities exploitation; Cron job hijacking; PATH variable hijacking; NFS no_root_squash exploitation; Password hash extraction and cracking; Reverse shell deployment [warn] 操作系统: 需要 linux; [warn] Shell: 需要 bash; [warn] 运行语言: 安装 python; [warn] 依赖工具: 安装 gcc, wget, curl, netcat, john, searchsploit, linpeas, linenum; [danger] 外部服务: 依赖 gtfobins, exploit-db; [warn] 上下文窗口: 需要较大上下文; [warn] Tool Call: 需要工具调用能力; [warn] 推理能力: 需要较强的逻辑推理; [warn] 过时风险: Kernel exploit CVEs become patched over time, new kernel versions introduce new mitigations (ASLR, SMEP, SMAP), and tool URLs/versions change. Core techniques like sudo/SUID/cron abuse remain relatively stable.",
+      "variant_text": "linux-privilege-escalation Systematic privilege escalation assessment skill for Linux systems that guides enumeration and exploitation of kernel vulnerabilities, sudo misconfigurations, SUID binaries, cron jobs, capabilities, PATH hijacking, and NFS weaknesses to escalate from low-privilege access to root. System enumeration for privilege escalation vectors; Kernel vulnerability identification and exploitation; Sudo misconfiguration exploitation via GTF",
+      "genes": [
+        [
+          4,
+          0.5136773049352118
+        ],
+        [
+          2,
+          0.4756837741908104
+        ],
+        [
+          5,
+          0.36376021375006395
+        ],
+        [
+          5,
+          0.49395469354443766
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.8256389734483782,
+        "structural_sim": 0.38371116708648195
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.0014553440243740834,
+        "lof_score": 0.10390642887012724
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.01219259513068982,
+        "lof_score": 0.11149564294412917
+      }
+    },
+    {
+      "idx": 837,
+      "original_text": "ethical-hacking-methodology A comprehensive guide covering the complete penetration testing lifecycle from reconnaissance through exploitation and reporting, including tool usage, attack techniques, and professional reporting for authorized security assessments. Passive and active reconnaissance using WHOIS, DNS, and OSINT techniques; Network scanning and host discovery with Nmap; Web application vulnerability scanning with Nikto and Gobuster; Exploitation using Metasploit Framework; Password cracking with Hydra and John the Ripper; SQL injection testing with SQLMap; Privilege escalation enumeration on Linux and Windows; Professional penetration testing report generation; Kali Linux installation and setup guidance [warn] 操作系统: 需要 linux; [warn] Shell: 需要 bash; [warn] 运行语言: 安装 python; [warn] 依赖工具: 安装 nmap, metasploit, nikto, hydra, sqlmap, gobuster, theHarvester, dnsrecon, john, linpeas, whatweb, arp-scan; [danger] 外部服务: 依赖 google; [warn] 上下文窗口: 需要较大上下文; [warn] Tool Call: 需要工具调用能力; [warn] 推理能力: 需要较强的逻辑推理; [warn] 过时风险: Security tools (Metasploit, Nmap scripts, SQLMap) receive frequent updates, exploit modules change, and vulnerability classifications (e.g., OWASP Top 10) evolve over time. Tool syntax and available options may shift.",
+      "variant_text": "Format the output for readability. ethical-hacking-methodology A comprehensive guide covering the complete penetration testing lifecycle from reconnaissance through exploitation and reporting, including tool usage, attack techniques, and professional reporting for authorized security assessments. Passive and active reconnaissance using WHOIS, DNS, and OSINT techn",
+      "genes": [
+        [
+          3,
+          0.44953674981278846
+        ],
+        [
+          1,
+          0.27929181769936207
+        ],
+        [
+          2,
+          0.5351794237125346
+        ],
+        [
+          5,
+          0.3163187405383691
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.5893290127809782,
+        "structural_sim": 0.2922337870296237
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.002491888195188474,
+        "lof_score": 0.11408187269656711
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.012909772563397648,
+        "lof_score": 0.12142312933080412
+      }
+    },
+    {
+      "idx": 839,
+      "original_text": "cloud-penetration-testing Comprehensive cloud penetration testing skill covering reconnaissance, authentication testing, resource enumeration, privilege escalation, data extraction, and persistence techniques across Azure, AWS, and GCP environments. Cloud infrastructure reconnaissance across Azure, AWS, and GCP; Authentication and credential testing for cloud environments; Resource enumeration including compute, storage, databases, and networking; Privilege escalation via misconfigurations and exposed credentials; Data extraction from key vaults, S3 buckets, metadata services; Persistence establishment via backdoor service principals and access keys; Password spraying with IP rotation techniques; Metadata service exploitation across all three major cloud providers [warn] 操作系统: 需要 linux, windows, macos; [warn] Shell: 需要 bash, powershell; [warn] 运行语言: 安装 python; [warn] 依赖工具: 安装 az-cli, aws-cli, gcloud, kubectl, gsutil, pip, curl, jq; [danger] 外部服务: 依赖 azure, aws, gcp; [warn] 上下文窗口: 需要较大上下文; [warn] Tool Call: 需要工具调用能力; [warn] 推理能力: 需要较强的逻辑推理; [danger] 过时风险: Cloud provider CLIs, APIs, IAM models, metadata service versions, and security controls evolve rapidly; specific commands and module names may change or be deprecated",
+      "variant_text": "cloud-penetration-testing Comprehensive cloud penetration testing skill covering reconnaissance, authentication testing, resource enumeration, privilege escalation, data extraction, and persistence techniques across Azure, AWS, and GCP environments. Cloud infrastructure reconnaissance across Azur",
+      "genes": [
+        [
+          3,
+          0.41844552286306813
+        ],
+        [
+          5,
+          0.5433782335967834
+        ],
+        [
+          4,
+          0.21089884775668044
+        ],
+        [
+          5,
+          0.32242736326355537
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.7430853517088792,
+        "structural_sim": 0.2400970088924818
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": true,
+        "xgb_anomaly": false,
+        "iso_score": -0.003024714049278787,
+        "lof_score": -0.029917046627499833
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.012640286391841726,
+        "lof_score": 0.008174495435014473
+      }
+    },
+    {
+      "idx": 845,
+      "original_text": "pentest-checklist Provides a comprehensive checklist for planning, executing, and following up on penetration tests, covering scope definition, environment preparation, expertise selection, monitoring, and remediation. Define penetration test scope and objectives; Select appropriate test types (external, internal, web app, social engineering, red team); Prepare testing environments with proper authorization; Guide pentester selection and methodology definition; Set up security monitoring and logging during tests; Plan remediation and cleanup after testing; Provide pre- and post-pentest quick reference checklists [ok] 操作系统: 不限平台; [warn] Shell: 需要 bash; [warn] 依赖工具: 安装 nmap, nikto, tcpdump; [danger] 外部服务: 依赖 aws, azure, gcp; [warn] 上下文窗口: 需要较大上下文; [ok] Tool Call: 纯对话模型即可; [warn] 推理能力: 需要较强的逻辑推理; [warn] 过时风险: Cloud provider pentest policies, compliance frameworks (GDPR, PCI-DSS, HIPAA), and security tool references may change over time. Testing methodologies and certification standards also evolve.",
+      "variant_text": "pentest-checklist Provides a comprehensive checklist for planning, executing, and following up on penetration tests, covering scope definition, environment preparation, expertise selection, monitoring, and remediation. Define penetration test scope and objectives; Select appropriate test types (external, internal, web app, social engineering, red te",
+      "genes": [
+        [
+          5,
+          0.3366308277577791
+        ],
+        [
+          5,
+          0.3819703403042267
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.6915622350639067,
+        "structural_sim": 0.3475247524752475
+      },
+      "original_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": true,
+        "xgb_anomaly": false,
+        "iso_score": 0.002025540854497465,
+        "lof_score": -0.05878134898323739
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.013854042283031887,
+        "lof_score": 0.08612235651437716
+      }
+    },
+    {
+      "idx": 847,
+      "original_text": "network-101 Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments, enabling hands-on practice with service enumeration, log analysis, and security testing. Set up HTTP web server with Apache or IIS; Configure HTTPS with self-signed SSL certificates; Install and configure SNMP service with community strings; Set up SMB file shares with various permission levels; Perform service enumeration using common pentesting tools; Analyze HTTP/HTTPS access and error logs; Configure firewall rules for network services [warn] 操作系统: 需要 linux, windows; [warn] Shell: 需要 bash, powershell; [warn] 依赖工具: 安装 apache2, openssl, snmpd, samba, nmap, smbclient, curl, enum4linux, snmpwalk; [ok] 上下文窗口: 标准即可; [warn] Tool Call: 需要工具调用能力; [ok] 推理能力: 不需要特殊推理; [warn] 过时风险: Depends on specific package managers (apt), service configuration file paths, and tool versions (Apache, Samba, SNMP) that may change across OS releases",
+      "variant_text": "network-101 Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments, enabling hands-on practice with service enumeration, log analysis, and security testing. Set up HTTP web server with Apache or IIS; Configure HTTPS with self-signed SSL certificates; Install and configure SNMP service with community strings; Se",
+      "genes": [
+        [
+          5,
+          0.5744121839585292
+        ],
+        [
+          2,
+          0.5274946706660397
+        ]
+      ],
+      "fitness": {
+        "evasion_rate": 1.0,
+        "semantic_sim": 0.7520226845151493,
+        "structural_sim": 0.3824451410658307
+      },
+      "original_detection": {
+        "iso_anomaly": true,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": -0.004567412763192558,
+        "lof_score": 0.030259762709544002
+      },
+      "variant_detection": {
+        "iso_anomaly": false,
+        "lof_anomaly": false,
+        "xgb_anomaly": false,
+        "iso_score": 0.013027293346980773,
+        "lof_score": 0.06121249338891244
+      }
+    }
+  ]
+}

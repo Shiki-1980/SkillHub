@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Papers (large PDFs, not needed for reproducibility)
+papers/
+
+# Intermediate outputs
+output/task_b/llm_labels.json
+output/task_b/labeling_tasks.json
+output/task_b/llm_labeling_tasks.json
+
+# Empty / sample only
+data/skills_test.csv
+data/skills_sample.csv
+
+# IDE
+.idea/
+.vscode/

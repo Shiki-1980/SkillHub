@@ -1,0 +1,73 @@
+{
+  "dataset": {
+    "total_skills": 5499,
+    "feature_dim": 3045,
+    "tfidf_dim": 3000,
+    "structural_dim": 45
+  },
+  "label_distribution": {
+    "normal": 4925,
+    "unsafe": 544,
+    "malicious": 29,
+    "useless": 1
+  },
+  "method_agreement": {
+    "agreement_rate": 0.8203309692671394,
+    "both_anomaly": 56,
+    "both_normal": 4455,
+    "if_only": 494,
+    "lof_only": 494
+  },
+  "unsupervised_results": [
+    {
+      "method": "Isolation Forest (TF-IDF)",
+      "precision": 0.06909090909090909,
+      "recall": 0.06620209059233449,
+      "f1": 0.06761565836298933,
+      "accuracy": 0.8094198945262775
+    },
+    {
+      "method": "LOF (PCA+TF-IDF)",
+      "precision": 0.10545454545454545,
+      "recall": 0.10104529616724739,
+      "f1": 0.10320284697508897,
+      "accuracy": 0.8166939443535188
+    },
+    {
+      "method": "Ensemble (IF+LOF)",
+      "precision": 0.08545454545454545,
+      "recall": 0.08188153310104529,
+      "f1": 0.08362989323843416,
+      "accuracy": 0.8126932169485361
+    }
+  ],
+  "supervised_results": {
+    "XGBoost": {
+      "method": "XGBoost",
+      "cv_f1_macro": 0.8293365383858206,
+      "cv_f1_std": 0.08243523816743105,
+      "cv_accuracy": 0.9859973529655057
+    }
+  },
+  "ablation_studies": [
+    {
+      "experiment": "Without TF-IDF (structural only)",
+      "cv_f1_macro": 0.8392914108831043,
+      "cv_f1_std": 0.11501890486497589,
+      "delta_vs_full": -0.009954872497283773
+    },
+    {
+      "experiment": "Without LLM labels (rule-based only)",
+      "cv_f1_macro": 0.851850992029856,
+      "cv_f1_std": 0.09132792295857993,
+      "delta_vs_full": -0.02251445364403548
+    },
+    {
+      "experiment": "Without both TF-IDF + LLM",
+      "cv_f1_macro": 0.8743325143440573,
+      "cv_f1_std": 0.08144566253480068,
+      "delta_vs_full": -0.04499597595823679
+    }
+  ],
+  "consensus_anomaly_count": 56
+}
