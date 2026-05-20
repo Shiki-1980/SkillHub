@@ -1,806 +1,881 @@
 {
   "n_seeds": 100,
-  "kri_reduced_rate": "86/100",
+  "kri_reduced": "86/100",
+  "avg_kri_delta": 0.0475,
+  "avg_semantic_sim": 0.9302,
   "results": [
     {
-      "idx": 6611,
-      "name": "lofy-home",
-      "orig_kri": 0.4325,
-      "derisked_kri": 0.4325,
-      "kri_delta": 0.0,
-      "semantic_similarity": 0.9869
-    },
-    {
-      "idx": 10072,
-      "name": "last-ai-standing",
-      "orig_kri": 0.4317,
-      "derisked_kri": 0.3917,
-      "kri_delta": 0.04,
-      "semantic_similarity": 0.8421
-    },
-    {
-      "idx": 890,
-      "name": "azure-role-selector",
-      "orig_kri": 0.2683,
-      "derisked_kri": 0.2383,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9421
-    },
-    {
-      "idx": 1272,
-      "name": "nemo-guardrails",
-      "orig_kri": 0.5095,
-      "derisked_kri": 0.4795,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9895
-    },
-    {
-      "idx": 9254,
-      "name": "duffel",
-      "orig_kri": 0.3904,
-      "derisked_kri": 0.3004,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.8317
-    },
-    {
-      "idx": 4068,
-      "name": "clone-farm-detector",
-      "orig_kri": 0.4117,
-      "derisked_kri": 0.3817,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9239
-    },
-    {
-      "idx": 6318,
-      "name": "ugc-manual",
-      "orig_kri": 0.4325,
-      "derisked_kri": 0.4225,
-      "kri_delta": 0.01,
-      "semantic_similarity": 0.9603
-    },
-    {
-      "idx": 3184,
-      "name": "bug-reaper",
-      "orig_kri": 0.2779,
-      "derisked_kri": 0.2388,
-      "kri_delta": 0.0391,
-      "semantic_similarity": 0.9632
-    },
-    {
-      "idx": 3638,
-      "name": "config-field",
-      "orig_kri": 0.3912,
-      "derisked_kri": 0.3312,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.877
-    },
-    {
-      "idx": 3854,
-      "name": "og-board-individual",
-      "orig_kri": 0.3283,
-      "derisked_kri": 0.3192,
-      "kri_delta": 0.0091,
-      "semantic_similarity": 0.9332
-    },
-    {
-      "idx": 495,
-      "name": "python-observability",
-      "orig_kri": 0.2571,
-      "derisked_kri": 0.2479,
-      "kri_delta": 0.0092,
-      "semantic_similarity": 0.8219
-    },
-    {
-      "idx": 2777,
-      "name": "grafana-plugin",
-      "orig_kri": 0.37,
-      "derisked_kri": 0.3,
-      "kri_delta": 0.07,
-      "semantic_similarity": 0.8565
-    },
-    {
-      "idx": 8006,
-      "name": "markdown-converter",
-      "orig_kri": 0.35,
-      "derisked_kri": 0.24,
-      "kri_delta": 0.11,
-      "semantic_similarity": 0.8898
-    },
-    {
-      "idx": 3032,
-      "name": "conclave",
-      "orig_kri": 0.3071,
-      "derisked_kri": 0.2179,
-      "kri_delta": 0.0892,
-      "semantic_similarity": 0.8121
-    },
-    {
-      "idx": 4792,
-      "name": "wiz-light-control",
-      "orig_kri": 0.3325,
-      "derisked_kri": 0.2725,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9435
-    },
-    {
-      "idx": 8313,
-      "name": "intent-router",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4138,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9501
-    },
-    {
-      "idx": 3851,
-      "name": "os-activity",
-      "orig_kri": 0.3292,
-      "derisked_kri": 0.2992,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9174
-    },
-    {
-      "idx": 3607,
-      "name": "coupler-io",
-      "orig_kri": 0.4025,
-      "derisked_kri": 0.3425,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9127
-    },
-    {
-      "idx": 6484,
-      "name": "expanso-email-triage",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.3538,
-      "kri_delta": 0.12,
-      "semantic_similarity": 0.9174
-    },
-    {
-      "idx": 3792,
-      "name": "underclassic-lobster-trap",
-      "orig_kri": 0.5238,
-      "derisked_kri": 0.4038,
-      "kri_delta": 0.12,
-      "semantic_similarity": 0.8869
-    },
-    {
-      "idx": 9817,
-      "name": "tweet-cli",
-      "orig_kri": 0.5238,
-      "derisked_kri": 0.4338,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.8638
-    },
-    {
-      "idx": 1823,
-      "name": "deep-research",
-      "orig_kri": 0.4325,
-      "derisked_kri": 0.3725,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9804
-    },
-    {
-      "idx": 6124,
-      "name": "openrouter-usage",
-      "orig_kri": 0.4325,
-      "derisked_kri": 0.3425,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.9118
-    },
-    {
-      "idx": 4480,
-      "name": "icloud-caldav",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4738,
-      "kri_delta": 0.0,
-      "semantic_similarity": 0.9258
-    },
-    {
-      "idx": 5670,
-      "name": "agentpin",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.3838,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.9807
-    },
-    {
-      "idx": 4081,
-      "name": "passo",
-      "orig_kri": 0.5238,
-      "derisked_kri": 0.5137,
-      "kri_delta": 0.0101,
-      "semantic_similarity": 0.8845
-    },
-    {
-      "idx": 9915,
-      "name": "download-tools",
-      "orig_kri": 0.4238,
-      "derisked_kri": 0.3938,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9106
-    },
-    {
-      "idx": 7756,
-      "name": "anyone-proxy",
-      "orig_kri": 0.5507,
-      "derisked_kri": 0.4808,
-      "kri_delta": 0.0699,
-      "semantic_similarity": 0.9024
-    },
-    {
-      "idx": 1551,
-      "name": "vercel-deploy-claimable",
-      "orig_kri": 0.5238,
-      "derisked_kri": 0.4338,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.9742
-    },
-    {
-      "idx": 5543,
-      "name": "airpoint",
-      "orig_kri": 0.465,
-      "derisked_kri": 0.435,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.939
-    },
-    {
-      "idx": 7592,
-      "name": "thingsboard",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4437,
-      "kri_delta": 0.0301,
-      "semantic_similarity": 0.946
-    },
-    {
-      "idx": 4468,
-      "name": "coala-client",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.3538,
-      "kri_delta": 0.12,
-      "semantic_similarity": 0.9495
-    },
-    {
-      "idx": 8717,
-      "name": "Spaces Group Assistant",
-      "orig_kri": 0.3668,
-      "derisked_kri": 0.34,
-      "kri_delta": 0.0268,
-      "semantic_similarity": 0.9448
-    },
-    {
-      "idx": 7485,
-      "name": "etherlink",
-      "orig_kri": 0.2571,
-      "derisked_kri": 0.1879,
-      "kri_delta": 0.0692,
-      "semantic_similarity": 0.9253
-    },
-    {
-      "idx": 8109,
-      "name": "code-review",
-      "orig_kri": 0.4238,
-      "derisked_kri": 0.2738,
-      "kri_delta": 0.15,
-      "semantic_similarity": 0.9128
-    },
-    {
-      "idx": 8306,
-      "name": "voice2text",
-      "orig_kri": 0.25,
-      "derisked_kri": 0.16,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.9777
-    },
-    {
-      "idx": 1990,
-      "name": "pagerduty-automation",
-      "orig_kri": 0.39,
-      "derisked_kri": 0.3808,
-      "kri_delta": 0.0092,
-      "semantic_similarity": 0.9678
-    },
-    {
-      "idx": 7068,
-      "name": "x-to-kindle",
-      "orig_kri": 0.4113,
-      "derisked_kri": 0.3812,
-      "kri_delta": 0.0301,
-      "semantic_similarity": 0.9327
-    },
-    {
-      "idx": 1526,
-      "name": "scanning-tools",
-      "orig_kri": 0.465,
-      "derisked_kri": 0.465,
-      "kri_delta": 0.0,
-      "semantic_similarity": 0.9705
-    },
-    {
-      "idx": 8526,
-      "name": "xiaohongshu-publisher",
-      "orig_kri": 0.4437,
-      "derisked_kri": 0.4138,
-      "kri_delta": 0.0299,
-      "semantic_similarity": 0.8554
-    },
-    {
-      "idx": 7991,
-      "name": "swift-concurrency-expert",
-      "orig_kri": 0.2162,
-      "derisked_kri": 0.2271,
-      "kri_delta": -0.0109,
-      "semantic_similarity": 0.8541
-    },
-    {
-      "idx": 842,
-      "name": "Broken Authentication Testing",
-      "orig_kri": 0.615,
-      "derisked_kri": 0.495,
-      "kri_delta": 0.12,
-      "semantic_similarity": 0.9271
-    },
-    {
-      "idx": 4383,
-      "name": "tor-browser",
-      "orig_kri": 0.4238,
-      "derisked_kri": 0.3638,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9321
-    },
-    {
-      "idx": 5547,
-      "name": "didit-sessions",
-      "orig_kri": 0.4821,
-      "derisked_kri": 0.3921,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.9845
-    },
-    {
-      "idx": 3016,
-      "name": "soulforge",
-      "orig_kri": 0.4325,
-      "derisked_kri": 0.3425,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.9478
-    },
-    {
-      "idx": 4496,
-      "name": "crypto-address-checker",
-      "orig_kri": 0.4325,
-      "derisked_kri": 0.4725,
-      "kri_delta": -0.04,
-      "semantic_similarity": 0.9636
-    },
-    {
-      "idx": 8507,
-      "name": "evidence-url-verifier",
-      "orig_kri": 0.3738,
-      "derisked_kri": 0.3938,
-      "kri_delta": -0.02,
-      "semantic_similarity": 0.9235
-    },
-    {
-      "idx": 1517,
-      "name": "burp-suite-testing",
-      "orig_kri": 0.3321,
-      "derisked_kri": 0.2721,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9476
-    },
-    {
-      "idx": 4612,
-      "name": "m365-spam-manager",
-      "orig_kri": 0.3696,
-      "derisked_kri": 0.3013,
-      "kri_delta": 0.0683,
-      "semantic_similarity": 0.96
-    },
-    {
-      "idx": 10181,
-      "name": "gotchi-equip",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4938,
-      "kri_delta": -0.02,
-      "semantic_similarity": 0.8366
-    },
-    {
-      "idx": 1740,
-      "name": "kotlin-coroutines-expert",
-      "orig_kri": 0.0833,
-      "derisked_kri": 0.0142,
-      "kri_delta": 0.0691,
-      "semantic_similarity": 0.929
-    },
-    {
-      "idx": 6912,
-      "name": "gekko-portfolio-manager",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4338,
-      "kri_delta": 0.04,
-      "semantic_similarity": 0.8611
-    },
-    {
-      "idx": 4131,
-      "name": "skill-install-guardian",
-      "orig_kri": 0.5365,
-      "derisked_kri": 0.4765,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9799
-    },
-    {
-      "idx": 7469,
-      "name": "archon-nostr",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4938,
-      "kri_delta": -0.02,
-      "semantic_similarity": 0.8543
-    },
-    {
-      "idx": 5453,
-      "name": "macos-screenshot-telegram",
-      "orig_kri": 0.4238,
-      "derisked_kri": 0.3038,
-      "kri_delta": 0.12,
-      "semantic_similarity": 0.9251
-    },
-    {
-      "idx": 7087,
-      "name": "captchas-openclaw",
-      "orig_kri": 0.4321,
-      "derisked_kri": 0.3721,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9903
-    },
-    {
-      "idx": 5799,
-      "name": "oee-crm-intelligence",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.3838,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.8954
-    },
-    {
-      "idx": 8721,
-      "name": "mailcheck-email-verification",
-      "orig_kri": 0.5321,
-      "derisked_kri": 0.4421,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.954
-    },
-    {
-      "idx": 5889,
-      "name": "vnsh",
-      "orig_kri": 0.4325,
-      "derisked_kri": 0.3725,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9253
-    },
-    {
-      "idx": 9027,
-      "name": "Privacy Concierge",
+      "idx": 2054,
+      "name": "similarity-search-patterns",
       "orig_kri": 0.2575,
-      "derisked_kri": 0.2683,
-      "kri_delta": -0.0108,
-      "semantic_similarity": 0.9133
-    },
-    {
-      "idx": 4086,
-      "name": "angus-bounty-hunter",
-      "orig_kri": 0.4325,
-      "derisked_kri": 0.3425,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.969
-    },
-    {
-      "idx": 4494,
-      "name": "crypto-genie",
-      "orig_kri": 0.4325,
-      "derisked_kri": 0.4725,
-      "kri_delta": -0.04,
-      "semantic_similarity": 0.9299
-    },
-    {
-      "idx": 3703,
-      "name": "agenthire",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4738,
-      "kri_delta": 0.0,
-      "semantic_similarity": 0.9732
-    },
-    {
-      "idx": 5473,
-      "name": "ztp",
-      "orig_kri": 0.4238,
-      "derisked_kri": 0.3337,
-      "kri_delta": 0.0901,
-      "semantic_similarity": 0.9298
-    },
-    {
-      "idx": 6831,
-      "name": "kling",
-      "orig_kri": 0.4238,
-      "derisked_kri": 0.3838,
-      "kri_delta": 0.04,
-      "semantic_similarity": 0.9039
-    },
-    {
-      "idx": 2846,
-      "name": "cyber-security-engineer",
-      "orig_kri": 0.2996,
-      "derisked_kri": 0.2904,
-      "kri_delta": 0.0092,
-      "semantic_similarity": 0.9873
-    },
-    {
-      "idx": 7649,
-      "name": "azure-ai-transcription-py",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4138,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9863
-    },
-    {
-      "idx": 2728,
-      "name": "vincent-credentials",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.3838,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.9081
-    },
-    {
-      "idx": 2016,
-      "name": "security-scanning-security-dependencies",
-      "orig_kri": 0.3908,
-      "derisked_kri": 0.4408,
-      "kri_delta": -0.05,
-      "semantic_similarity": 0.9609
-    },
-    {
-      "idx": 5525,
-      "name": "siliconflow-video-gen",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4437,
-      "kri_delta": 0.0301,
-      "semantic_similarity": 0.9064
-    },
-    {
-      "idx": 10215,
-      "name": "iCloud Calendar Sync",
-      "orig_kri": 0.4238,
-      "derisked_kri": 0.3337,
-      "kri_delta": 0.0901,
-      "semantic_similarity": 0.9423
-    },
-    {
-      "idx": 3990,
-      "name": "cart-management",
-      "orig_kri": 0.125,
-      "derisked_kri": 0.0858,
-      "kri_delta": 0.0392,
-      "semantic_similarity": 0.9787
-    },
-    {
-      "idx": 10384,
-      "name": "hivefence",
-      "orig_kri": 0.5507,
-      "derisked_kri": 0.4607,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.8608
-    },
-    {
-      "idx": 2070,
-      "name": "helpdesk-automation",
-      "orig_kri": 0.3404,
-      "derisked_kri": 0.2921,
-      "kri_delta": 0.0483,
-      "semantic_similarity": 0.8911
+      "derisked_kri": 0.2475,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.9511
     },
     {
       "idx": 2771,
       "name": "shieldcortex",
       "orig_kri": 0.518,
-      "derisked_kri": 0.488,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9848
-    },
-    {
-      "idx": 8739,
-      "name": "vt-hash-intel",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4138,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.8831
-    },
-    {
-      "idx": 4523,
-      "name": "venice-admin",
-      "orig_kri": 0.5029,
-      "derisked_kri": 0.4429,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9103
-    },
-    {
-      "idx": 4326,
-      "name": "code-share",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.5137,
-      "kri_delta": -0.0399,
-      "semantic_similarity": 0.9514
-    },
-    {
-      "idx": 1524,
-      "name": "network-101",
-      "orig_kri": 0.3325,
-      "derisked_kri": 0.3225,
-      "kri_delta": 0.01,
-      "semantic_similarity": 0.8729
-    },
-    {
-      "idx": 6759,
-      "name": "pyright-lsp",
-      "orig_kri": 0.25,
-      "derisked_kri": 0.21,
+      "derisked_kri": 0.478,
       "kri_delta": 0.04,
-      "semantic_similarity": 0.8958
+      "semantic_similarity": 0.9602
     },
     {
-      "idx": 6600,
-      "name": "hotdog",
-      "orig_kri": 0.5238,
-      "derisked_kri": 0.4938,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9835
-    },
-    {
-      "idx": 8440,
-      "name": "podcast-discovery",
-      "orig_kri": 0.4117,
-      "derisked_kri": 0.3217,
-      "kri_delta": 0.09,
-      "semantic_similarity": 0.8965
-    },
-    {
-      "idx": 7444,
-      "name": "capacities",
+      "idx": 4587,
+      "name": "forever-moments",
       "orig_kri": 0.4738,
       "derisked_kri": 0.3838,
       "kri_delta": 0.09,
-      "semantic_similarity": 0.7882
+      "semantic_similarity": 0.9747
     },
     {
-      "idx": 4243,
-      "name": "ocr-python",
-      "orig_kri": 0.25,
-      "derisked_kri": 0.19,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9041
-    },
-    {
-      "idx": 3576,
-      "name": "daolv-hotel-search",
-      "orig_kri": 0.4408,
-      "derisked_kri": 0.4308,
-      "kri_delta": 0.01,
-      "semantic_similarity": 0.8993
-    },
-    {
-      "idx": 1502,
-      "name": "pentest-checklist",
-      "orig_kri": 0.2783,
-      "derisked_kri": 0.2392,
-      "kri_delta": 0.0391,
-      "semantic_similarity": 0.9005
-    },
-    {
-      "idx": 8092,
-      "name": "warden-governance",
-      "orig_kri": 0.4025,
-      "derisked_kri": 0.3725,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9885
-    },
-    {
-      "idx": 2840,
-      "name": "nihao",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4738,
+      "idx": 1194,
+      "name": "web-design-guidelines",
+      "orig_kri": 0.3788,
+      "derisked_kri": 0.3788,
       "kri_delta": 0.0,
-      "semantic_similarity": 0.9927
+      "semantic_similarity": 0.9428
+    },
+    {
+      "idx": 5001,
+      "name": "mixtiles-monthly",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9215
+    },
+    {
+      "idx": 3650,
+      "name": "auto-watchdog",
+      "orig_kri": 0.3412,
+      "derisked_kri": 0.3412,
+      "kri_delta": 0.0,
+      "semantic_similarity": 1.0
+    },
+    {
+      "idx": 1974,
+      "name": "busybox-on-windows",
+      "orig_kri": 0.3617,
+      "derisked_kri": 0.3017,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.8902
+    },
+    {
+      "idx": 1529,
+      "name": "ethical-hacking-methodology",
+      "orig_kri": 0.3525,
+      "derisked_kri": 0.3225,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9699
+    },
+    {
+      "idx": 925,
+      "name": "machine-learning-ops-ml-pipeline",
+      "orig_kri": 0.515,
+      "derisked_kri": 0.505,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.971
+    },
+    {
+      "idx": 549,
+      "name": "fedora-linux-triage",
+      "orig_kri": 0.3821,
+      "derisked_kri": 0.3221,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9734
+    },
+    {
+      "idx": 669,
+      "name": "create-spring-boot-kotlin-project",
+      "orig_kri": 0.3912,
+      "derisked_kri": 0.3513,
+      "kri_delta": 0.0399,
+      "semantic_similarity": 0.9142
+    },
+    {
+      "idx": 183,
+      "name": "ClickHouse Analytics Patterns",
+      "orig_kri": 0.3608,
+      "derisked_kri": 0.3717,
+      "kri_delta": -0.0109,
+      "semantic_similarity": 0.9286
+    },
+    {
+      "idx": 3854,
+      "name": "og-board-individual",
+      "orig_kri": 0.3283,
+      "derisked_kri": 0.2683,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.974
+    },
+    {
+      "idx": 7469,
+      "name": "archon-nostr",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4638,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.8239
+    },
+    {
+      "idx": 5159,
+      "name": "fints-banking",
+      "orig_kri": 0.515,
+      "derisked_kri": 0.515,
+      "kri_delta": 0.0,
+      "semantic_similarity": 1.0
+    },
+    {
+      "idx": 8588,
+      "name": "deepwiki",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.2825,
+      "kri_delta": 0.15,
+      "semantic_similarity": 0.8962
+    },
+    {
+      "idx": 9548,
+      "name": "postwall",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.4638,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9448
+    },
+    {
+      "idx": 7024,
+      "name": "foto-webcam",
+      "orig_kri": 0.3704,
+      "derisked_kri": 0.3404,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9824
+    },
+    {
+      "idx": 4494,
+      "name": "crypto-genie",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.4225,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.9672
+    },
+    {
+      "idx": 5326,
+      "name": "jupiter-skill",
+      "orig_kri": 0.465,
+      "derisked_kri": 0.405,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9307
+    },
+    {
+      "idx": 3818,
+      "name": "rmn-soul",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.977
+    },
+    {
+      "idx": 2987,
+      "name": "shellmail",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3337,
+      "kri_delta": 0.1401,
+      "semantic_similarity": 0.9313
+    },
+    {
+      "idx": 9583,
+      "name": "Ollama Model Tuner",
+      "orig_kri": 0.2292,
+      "derisked_kri": 0.1392,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9658
+    },
+    {
+      "idx": 3173,
+      "name": "food-cal-order",
+      "orig_kri": 0.465,
+      "derisked_kri": 0.435,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9642
     },
     {
       "idx": 8444,
       "name": "pentest-api-attacker",
       "orig_kri": 0.515,
-      "derisked_kri": 0.455,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.9599
+      "derisked_kri": 0.505,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.964
     },
     {
-      "idx": 837,
-      "name": "ethical-hacking-methodology",
-      "orig_kri": 0.4442,
-      "derisked_kri": 0.4142,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9929
+      "idx": 3245,
+      "name": "plugy",
+      "orig_kri": 0.565,
+      "derisked_kri": 0.475,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.8501
     },
     {
-      "idx": 6207,
-      "name": "identitygram-signin",
-      "orig_kri": 0.5737,
-      "derisked_kri": 0.5137,
-      "kri_delta": 0.06,
-      "semantic_similarity": 0.8668
-    },
-    {
-      "idx": 2892,
-      "name": "github-repo-stats",
-      "orig_kri": 0.3825,
-      "derisked_kri": 0.3525,
-      "kri_delta": 0.03,
-      "semantic_similarity": 0.9407
-    },
-    {
-      "idx": 8879,
-      "name": "weixin-xlog-analyzer",
-      "orig_kri": 0.2083,
-      "derisked_kri": 0.0883,
-      "kri_delta": 0.12,
-      "semantic_similarity": 0.916
-    },
-    {
-      "idx": 10437,
-      "name": "supabase-gen",
+      "idx": 4282,
+      "name": "chrome-devtools",
       "orig_kri": 0.4738,
       "derisked_kri": 0.4638,
       "kri_delta": 0.01,
-      "semantic_similarity": 0.9549
+      "semantic_similarity": 0.9194
     },
     {
-      "idx": 10453,
-      "name": "webhook-gen",
-      "orig_kri": 0.3492,
-      "derisked_kri": 0.31,
+      "idx": 4292,
+      "name": "pine-voice",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.4138,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.9366
+    },
+    {
+      "idx": 2780,
+      "name": "which-llm",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.4025,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9786
+    },
+    {
+      "idx": 2769,
+      "name": "turing-pyramid",
+      "orig_kri": 0.3412,
+      "derisked_kri": 0.2512,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.933
+    },
+    {
+      "idx": 3301,
+      "name": "mh-openai-whisper-api",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3337,
+      "kri_delta": 0.0901,
+      "semantic_similarity": 0.9365
+    },
+    {
+      "idx": 1733,
+      "name": "aws-secrets-rotation",
+      "orig_kri": 0.465,
+      "derisked_kri": 0.375,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9284
+    },
+    {
+      "idx": 3928,
+      "name": "line-oa",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3938,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9736
+    },
+    {
+      "idx": 1793,
+      "name": "conversation-memory",
+      "orig_kri": 0.1663,
+      "derisked_kri": 0.0971,
+      "kri_delta": 0.0692,
+      "semantic_similarity": 0.9639
+    },
+    {
+      "idx": 3896,
+      "name": "startuppan",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4738,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.9342
+    },
+    {
+      "idx": 5342,
+      "name": "composio-connect",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3538,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.8692
+    },
+    {
+      "idx": 2729,
+      "name": "keychat",
+      "orig_kri": 0.4529,
+      "derisked_kri": 0.3929,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9286
+    },
+    {
+      "idx": 4962,
+      "name": "nvidia-kimi-vision",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.4638,
+      "kri_delta": -0.04,
+      "semantic_similarity": 0.8169
+    },
+    {
+      "idx": 3403,
+      "name": "notes-reminders",
+      "orig_kri": 0.3071,
+      "derisked_kri": 0.2679,
       "kri_delta": 0.0392,
-      "semantic_similarity": 0.8137
+      "semantic_similarity": 0.9381
     },
     {
-      "idx": 3845,
-      "name": "video-understand",
+      "idx": 3760,
+      "name": "mailtarget-email",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.4938,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9312
+    },
+    {
+      "idx": 4284,
+      "name": "appdev",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3538,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.8607
+    },
+    {
+      "idx": 2320,
+      "name": "Claude Code Swarm Orchestration",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3538,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.9799
+    },
+    {
+      "idx": 3510,
+      "name": "online-shopping",
+      "orig_kri": 0.4414,
+      "derisked_kri": 0.3814,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.819
+    },
+    {
+      "idx": 3270,
+      "name": "karma-book",
       "orig_kri": 0.5238,
       "derisked_kri": 0.4338,
       "kri_delta": 0.09,
-      "semantic_similarity": 0.9418
+      "semantic_similarity": 0.8802
     },
     {
-      "idx": 5293,
-      "name": "aegis-security",
+      "idx": 4681,
+      "name": "zeroapi",
       "orig_kri": 0.4529,
-      "derisked_kri": 0.4129,
-      "kri_delta": 0.04,
-      "semantic_similarity": 0.9466
-    },
-    {
-      "idx": 4245,
-      "name": "rotate-openrouter-key",
-      "orig_kri": 0.4738,
-      "derisked_kri": 0.4638,
-      "kri_delta": 0.01,
-      "semantic_similarity": 0.9557
-    },
-    {
-      "idx": 4734,
-      "name": "claude-usage-checker",
-      "orig_kri": 0.35,
-      "derisked_kri": 0.32,
+      "derisked_kri": 0.4229,
       "kri_delta": 0.03,
-      "semantic_similarity": 0.9765
+      "semantic_similarity": 0.9643
     },
     {
-      "idx": 844,
-      "name": "File Path Traversal Testing",
-      "orig_kri": 0.415,
-      "derisked_kri": 0.405,
+      "idx": 3454,
+      "name": "disposable-email-for-agents",
+      "orig_kri": 0.3908,
+      "derisked_kri": 0.3808,
       "kri_delta": 0.01,
-      "semantic_similarity": 0.9479
+      "semantic_similarity": 0.9415
+    },
+    {
+      "idx": 3930,
+      "name": "literature-manager",
+      "orig_kri": 0.4325,
+      "derisked_kri": 0.4225,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.9624
+    },
+    {
+      "idx": 3128,
+      "name": "recruiter-assistant",
+      "orig_kri": 0.4529,
+      "derisked_kri": 0.3929,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.8697
+    },
+    {
+      "idx": 825,
+      "name": "Linux Production Shell Scripts",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3638,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9756
+    },
+    {
+      "idx": 2367,
+      "name": "Delegation",
+      "orig_kri": 0.2996,
+      "derisked_kri": 0.2296,
+      "kri_delta": 0.07,
+      "semantic_similarity": 0.9158
+    },
+    {
+      "idx": 5340,
+      "name": "holded-skill",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.8324
+    },
+    {
+      "idx": 5270,
+      "name": "coda-io",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.4638,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9532
+    },
+    {
+      "idx": 9063,
+      "name": "ClawAI.Town World Connector",
+      "orig_kri": 0.515,
+      "derisked_kri": 0.485,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9613
+    },
+    {
+      "idx": 5474,
+      "name": "reprompter",
+      "orig_kri": 0.4413,
+      "derisked_kri": 0.4012,
+      "kri_delta": 0.0401,
+      "semantic_similarity": 0.9465
+    },
+    {
+      "idx": 2971,
+      "name": "minara",
+      "orig_kri": 0.515,
+      "derisked_kri": 0.425,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9865
+    },
+    {
+      "idx": 4551,
+      "name": "telegram-media",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3638,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9545
+    },
+    {
+      "idx": 7300,
+      "name": "clawaudit",
+      "orig_kri": 0.3488,
+      "derisked_kri": 0.3187,
+      "kri_delta": 0.0301,
+      "semantic_similarity": 0.9187
+    },
+    {
+      "idx": 5321,
+      "name": "capmonster",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3337,
+      "kri_delta": 0.0901,
+      "semantic_similarity": 0.9021
+    },
+    {
+      "idx": 6568,
+      "name": "tech-security-audit",
+      "orig_kri": 0.3117,
+      "derisked_kri": 0.2817,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9567
+    },
+    {
+      "idx": 2908,
+      "name": "browse",
+      "orig_kri": 0.4029,
+      "derisked_kri": 0.4029,
+      "kri_delta": 0.0,
+      "semantic_similarity": 1.0
+    },
+    {
+      "idx": 1808,
+      "name": "avalonia-zafiro-development",
+      "orig_kri": 0.0917,
+      "derisked_kri": 0.0317,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9094
+    },
+    {
+      "idx": 7233,
+      "name": "baoyu-post-to-x",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.4238,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.9372
+    },
+    {
+      "idx": 525,
+      "name": "winapp-cli",
+      "orig_kri": 0.3912,
+      "derisked_kri": 0.3013,
+      "kri_delta": 0.0899,
+      "semantic_similarity": 0.9807
+    },
+    {
+      "idx": 3278,
+      "name": "intent-engineering",
+      "orig_kri": 0.2875,
+      "derisked_kri": 0.2183,
+      "kri_delta": 0.0692,
+      "semantic_similarity": 0.7981
+    },
+    {
+      "idx": 1927,
+      "name": "nanobanana-ppt-skills",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.9126
+    },
+    {
+      "idx": 6808,
+      "name": "web-bundling",
+      "orig_kri": 0.25,
+      "derisked_kri": 0.22,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9677
+    },
+    {
+      "idx": 2164,
+      "name": "Cloudflare Deploy",
+      "orig_kri": 0.515,
+      "derisked_kri": 0.455,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9646
+    },
+    {
+      "idx": 9016,
+      "name": "amazon-ordering",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3938,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.917
+    },
+    {
+      "idx": 5380,
+      "name": "nova-act",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4338,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.9161
+    },
+    {
+      "idx": 1720,
+      "name": "blockrun",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3938,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9709
+    },
+    {
+      "idx": 9901,
+      "name": "skillguard",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4437,
+      "kri_delta": 0.0301,
+      "semantic_similarity": 0.962
+    },
+    {
+      "idx": 1521,
+      "name": "linux-shell-scripting",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.9448
+    },
+    {
+      "idx": 3507,
+      "name": "polygon-agent-kit",
+      "orig_kri": 0.5535,
+      "derisked_kri": 0.5235,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9403
+    },
+    {
+      "idx": 5153,
+      "name": "mediaproc",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3538,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.9314
+    },
+    {
+      "idx": 5004,
+      "name": "zugashield",
+      "orig_kri": 0.5068,
+      "derisked_kri": 0.4768,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9384
+    },
+    {
+      "idx": 4447,
+      "name": "eachlabs-face-swap",
+      "orig_kri": 0.5029,
+      "derisked_kri": 0.4429,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.7059
+    },
+    {
+      "idx": 3017,
+      "name": "xfor-bot",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.5238,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.9935
+    },
+    {
+      "idx": 4465,
+      "name": "ollama-model-tuner",
+      "orig_kri": 0.3412,
+      "derisked_kri": 0.2213,
+      "kri_delta": 0.1199,
+      "semantic_similarity": 0.932
+    },
+    {
+      "idx": 4938,
+      "name": "geepers-etymology",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3838,
+      "kri_delta": 0.09,
+      "semantic_similarity": 0.7377
+    },
+    {
+      "idx": 3347,
+      "name": "quack",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4437,
+      "kri_delta": 0.0301,
+      "semantic_similarity": 0.9233
+    },
+    {
+      "idx": 385,
+      "name": "github-actions-templates",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.4138,
+      "kri_delta": 0.01,
+      "semantic_similarity": 0.9475
+    },
+    {
+      "idx": 3418,
+      "name": "dollar-platoon",
+      "orig_kri": 0.565,
+      "derisked_kri": 0.525,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.9273
+    },
+    {
+      "idx": 3479,
+      "name": "agentcp",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4738,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.984
+    },
+    {
+      "idx": 3371,
+      "name": "youam",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4338,
+      "kri_delta": 0.04,
+      "semantic_similarity": 0.9039
+    },
+    {
+      "idx": 3562,
+      "name": "code-security-audit",
+      "orig_kri": 0.371,
+      "derisked_kri": 0.311,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9781
+    },
+    {
+      "idx": 4172,
+      "name": "ultimate-fork-and-skill-scanner",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4437,
+      "kri_delta": 0.0301,
+      "semantic_similarity": 0.919
+    },
+    {
+      "idx": 5519,
+      "name": "arxiv-agentic-verifier",
+      "orig_kri": 0.2575,
+      "derisked_kri": 0.2392,
+      "kri_delta": 0.0183,
+      "semantic_similarity": 0.885
+    },
+    {
+      "idx": 1923,
+      "name": "performance-testing-review-ai-review",
+      "orig_kri": 0.4238,
+      "derisked_kri": 0.3638,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.9868
+    },
+    {
+      "idx": 2343,
+      "name": "Parser",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.5137,
+      "kri_delta": -0.0399,
+      "semantic_similarity": 0.8776
+    },
+    {
+      "idx": 1061,
+      "name": "neon-instagres",
+      "orig_kri": 0.5238,
+      "derisked_kri": 0.4638,
+      "kri_delta": 0.06,
+      "semantic_similarity": 0.8841
+    },
+    {
+      "idx": 7892,
+      "name": "homey-cli",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.3538,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.8815
+    },
+    {
+      "idx": 7361,
+      "name": "clickup-manager",
+      "orig_kri": 0.4529,
+      "derisked_kri": 0.3329,
+      "kri_delta": 0.12,
+      "semantic_similarity": 0.8209
+    },
+    {
+      "idx": 2570,
+      "name": "AFL++",
+      "orig_kri": 0.3821,
+      "derisked_kri": 0.3221,
+      "kri_delta": 0.06,
+      "semantic_similarity": 1.0
+    },
+    {
+      "idx": 8002,
+      "name": "1password",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4437,
+      "kri_delta": 0.0301,
+      "semantic_similarity": 0.9148
+    },
+    {
+      "idx": 9946,
+      "name": "x-deep-miner",
+      "orig_kri": 0.4738,
+      "derisked_kri": 0.4938,
+      "kri_delta": -0.02,
+      "semantic_similarity": 0.9292
+    },
+    {
+      "idx": 2198,
+      "name": "paid-ads",
+      "orig_kri": 0.3525,
+      "derisked_kri": 0.2233,
+      "kri_delta": 0.1292,
+      "semantic_similarity": 0.9484
+    },
+    {
+      "idx": 7762,
+      "name": "freshrss-reader",
+      "orig_kri": 0.3825,
+      "derisked_kri": 0.3825,
+      "kri_delta": 0.0,
+      "semantic_similarity": 0.9434
+    },
+    {
+      "idx": 5214,
+      "name": "opencode-api-control-skill",
+      "orig_kri": 0.3912,
+      "derisked_kri": 0.3813,
+      "kri_delta": 0.0099,
+      "semantic_similarity": 0.9495
+    },
+    {
+      "idx": 377,
+      "name": "nft-standards",
+      "orig_kri": 0.39,
+      "derisked_kri": 0.36,
+      "kri_delta": 0.03,
+      "semantic_similarity": 0.9608
+    },
+    {
+      "idx": 2986,
+      "name": "compaction-ui-enhancements",
+      "orig_kri": 0.2579,
+      "derisked_kri": 0.2888,
+      "kri_delta": -0.0309,
+      "semantic_similarity": 0.9546
     }
-  ]
+  ],
+  "functionality_audit": {
+    "n_audited": 5,
+    "preserved": 4,
+    "removed": 1,
+    "results": [
+      {
+        "functionality_preserved": "yes",
+        "original_purpose": "Implement efficient similarity search with vector databases for semantic search, RAG retrieval, and recommendation systems.",
+        "still_accomplishes": "The de-risked version retains all original actions and permissions, and the core functionality of implementing similarity search with vector databases remains unchanged.",
+        "safety_improvements": [
+          "Added caution about handling authentication credentials and using only trusted services",
+          "Added maintenance of a detailed operation log for security review"
+        ],
+        "functionality_removed": "no",
+        "name": "similarity-search-patterns",
+        "idx": 2054
+      },
+      {
+        "functionality_preserved": "yes",
+        "original_purpose": "To provide a security framework for AI agents with persistent memory, semantic search, knowledge graphs, and a multi-layer defence pipeline against prompt injection and credential leaks.",
+        "still_accomplishes": "Yes, the de-risked version retains all core actions and descriptions, including persistent memory, semantic search, 6-layer defence, credential leak detection, knowledge graph extraction, memory decay, contradiction detection, skill file scanning, Iron Dome protection, audit logging, and Universal Memory Bridge. The only additions are a warning about shell command execution, a consent requirement for external resources, and a purpose statement, which do not remove or alter any original functionality.",
+        "safety_improvements": [
+          "Added warning that the skill executes shell commands and requires user verification before approval",
+          "Added consent requirement before accessing external resources",
+          "Added explicit purpose statement to clarify legitimate use"
+        ],
+        "functionality_removed": "no",
+        "name": "shieldcortex",
+        "idx": 2771
+      },
+      {
+        "functionality_preserved": "partial",
+        "original_purpose": "To enable posting moments as LSP8 NFTs, minting LIKES tokens, managing decentralized collections, listing moments for sale, integrating AI image generation, and using gasless relay transactions on the LUKSO blockchain.",
+        "still_accomplishes": "The de-risked version retains all listed actions (post moments, mint LIKES, create/join collections, list for sale, AI image generation, gasless relay) but adds a confirmation dialog for minting LIKES tokens, which may introduce a minor friction but does not block the core functionality. However, the removal of Windows OS support could limit accessibility for some users, and the external service dependencies remain unchanged, so the core purpose is largely preserved but with a slight reduction in platform compatibility.",
+        "safety_improvements": [
+          "Added confirmation dialog before minting LIKES tokens to prevent accidental operations",
+          "Restricted OS support to Linux and macOS, reducing attack surface from Windows-specific vulnerabilities",
+          "Explicitly stated adherence to least privilege principle",
+          "Clarified purpose as legitimate API operation for authorized functionality"
+        ],
+        "functionality_removed": "yes",
+        "name": "forever-moments",
+        "idx": 4587
+      },
+      {
+        "functionality_preserved": "yes",
+        "original_purpose": "To review UI code files for compliance with web interface design guidelines by fetching the latest rules from a remote GitHub source and outputting findings.",
+        "still_accomplishes": "Yes, the de-risked version still fetches the latest design guidelines from a remote source, reviews UI code files for compliance, outputs findings in file:line format, and handles missing file arguments by prompting the user. The core workflow remains unchanged.",
+        "safety_improvements": [
+          "Added user confirmation step before any changes take effect (output is displayed for user inspection first)",
+          "Mitigated external service dependency (GitHub) by requiring user confirmation",
+          "Mitigated obsolescence risk (external URL changes) by requiring user confirmation"
+        ],
+        "functionality_removed": "no",
+        "name": "web-design-guidelines",
+        "idx": 1194
+      },
+      {
+        "functionality_preserved": "yes",
+        "original_purpose": "Automated monthly photo-to-Mixtiles pipeline that collects photos from WhatsApp, curates using vision, builds a cart link, and sends it.",
+        "still_accomplishes": "Yes, the de-risked version still performs all the same core steps: collecting photos from WhatsApp, vision-based curation, cart generation, and link delivery. The only addition is a confirmation dialog before proceeding, which does not alter the core functionality.",
+        "safety_improvements": [
+          "Added a confirmation dialog before proceeding with the operation",
+          "Mitigated external service dependency risk by requiring user confirmation",
+          "Added purpose annotation for legitimate API operation",
+          "Added compliance auditing for all operations"
+        ],
+        "functionality_removed": "no",
+        "name": "mixtiles-monthly",
+        "idx": 5001
+      }
+    ]
+  }
 }
