@@ -1,0 +1,219 @@
+{
+  "n_sample": 30,
+  "flagged": 15,
+  "missed": 15,
+  "maybe": 0,
+  "clean": 15,
+  "results": [
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill is a purely conversational persona framework for ethical cosmic exploration with no sensitive data handling, network access, or file operations, and all risks are appropriately documented as low or none.",
+      "name": "lygo-champion-cosmara"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill transmits user productivity data (XP, habits, tasks, goals) to an external Supabase database via API, which could expose sensitive personal information if not properly secured.",
+      "severity": "medium",
+      "explanation": "While the skill appears benign, the transmission of detailed user behavior data to an external service (Supabase) and dependency on ClawdBot API introduces data privacy and security risks that warrant flagging.",
+      "name": "gamification-xp"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill performs academic paper analysis with no malicious intent, dangerous operations, or hidden behavior; the only risk is data exposure from uploaded PDFs, which is inherent to the task and not anomalous.",
+      "name": "cvpr-pdf-two-pass-review"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill installs a plugin that enables encrypted messaging but requires external services (Nostr, Keychat) and stores identity mnemonics in the OS keychain, which could be a vector for data exposure if the keychain is compromised or if the external services are malicious.",
+      "severity": "medium",
+      "explanation": "While the skill itself is not inherently malicious, the dependency on external services and storage of sensitive cryptographic material in the OS keychain introduces moderate security risks that warrant flagging for review.",
+      "name": "keychat"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill requires sensitive credentials (peaq_wallet_key, did_credentials) and transmits sensor data, identity information, and access control configurations to an external blockchain network, which poses data exposure and unauthorized access risks.",
+      "severity": "high",
+      "explanation": "This skill handles sensitive data and credentials with external network transmission, requiring manual confirmation and posing a high risk of data leakage or misuse.",
+      "name": "peaq-robotics"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "This skill is purely advisory and provides guidance on A/B test setup without executing any code, accessing data, or making network calls, so it poses no security risk.",
+      "name": "ab-test-setup"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill performs legitimate security auditing functions with no malicious intent, operates locally without external data transmission, and its permissions and risks are appropriately documented and acceptable for its purpose.",
+      "name": "agentic-security-audit"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill is a legitimate PostgreSQL optimization assistant with appropriate warnings about manual confirmation and potential data exposure, but no malicious intent or hidden behavior.",
+      "name": "postgresql-optimization"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill transmits game session data and player information to external Kradleverse servers, which could expose sensitive user data and requires network access, posing a data exposure risk.",
+      "severity": "medium",
+      "explanation": "Although the skill appears benign, the transmission of game session and player data to an external service without clear data handling guarantees is a security concern.",
+      "name": "kradleverse-join"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill transmits user images and prompts to multiple external APIs (PrintPal, WaveSpeed, OpenRouter) and downloads files from untrusted URLs, posing data exposure and potential malware risks.",
+      "severity": "high",
+      "explanation": "This skill involves sending user data to third-party services and handling untrusted downloaded files, which could lead to data leaks or system compromise if not carefully controlled.",
+      "name": "printpal-3d"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill requires access to wallet private keys and performs operations that could lead to loss of funds if misused, and it explicitly warns that human confirmation is required before execution, indicating it is not safe for autonomous use.",
+      "severity": "high",
+      "explanation": "This skill involves handling cryptographic private keys and executing transactions on a blockchain, which poses a high risk of financial loss if compromised or misused, and the explicit warnings about human confirmation and data exposure confirm it should not be classified as normal.",
+      "name": "solana-dev-skill"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "This skill is a communication protocol specification with no executable code, no sensitive data handling, and no network or file operations, making it safe for normal use.",
+      "name": "moltlang"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill performs dependency vulnerability auditing using standard tools and public databases, with no malicious intent, dangerous operations, or hidden behavior; it only reads local lockfiles and queries public advisory databases, which is normal for this type of security tool.",
+      "name": "dep-audit"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill performs legitimate security analysis on local source code with no external network access beyond GitHub dependency, and the risks are properly documented and mitigated by requiring human confirmation before execution.",
+      "name": "CodeQL Analysis"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill sends search queries to external providers (Crunchbase, LinkedIn, GitHub) and may expose sensitive or proprietary information through those queries, while also depending on external services that could be used for data exfiltration or unauthorized data collection.",
+      "severity": "medium",
+      "explanation": "Although the skill appears benign, its reliance on external services and the transmission of search queries to third parties introduces a data exposure risk that warrants flagging.",
+      "name": "Startup Info \u2014 Portable Prompt"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "This skill is purely advisory, providing best practices for VueUse composables without performing any dangerous operations, accessing sensitive data, or requiring elevated permissions.",
+      "name": "VueUse Best Practices"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill performs legitimate e-commerce customer service tasks with PII auto-redaction and requires standard API access, presenting no security concerns beyond normal operational risks.",
+      "name": "chaterimo"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill has high-risk dependencies on external services (codex, claude, opencode, pi) and requires network access, which could lead to data exfiltration or unauthorized external interactions. It also reads local project files that may contain secrets and stores them in a local file, increasing the risk of sensitive data exposure.",
+      "severity": "high",
+      "explanation": "Despite being classified as normal, the skill's dependencies on multiple external services and its ability to read and store local project files containing secrets pose significant security risks that warrant flagging.",
+      "name": "codex-conductor"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill performs legitimate scientific research tasks with appropriate safety warnings and requires human confirmation before execution, posing no security threat.",
+      "name": "Scientific Hypothesis Generation"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill requires manual confirmation before execution, modifies local PDF files that may contain sensitive content, and has medium destructive potential, which could lead to data corruption or unauthorized changes.",
+      "severity": "medium",
+      "explanation": "Despite being classified as normal, the skill's medium destructive potential and requirement for manual confirmation indicate it should be flagged for additional oversight.",
+      "name": "nano-pdf"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill accesses and reveals secrets from an external password manager, which could lead to credential exposure if misused or if the AI agent is compromised.",
+      "severity": "high",
+      "explanation": "Although the skill requires confirmation for secret reveals, it still handles sensitive credentials and depends on external services, posing a significant security risk if the agent is exploited or the user is tricked into approving a reveal.",
+      "name": "bitwarden-secrets"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "This skill is a benign meta-cognitive workflow that improves communication clarity without performing any dangerous operations, accessing sensitive data, or requiring elevated permissions.",
+      "name": "Ask Questions If Underspecified"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill reads local repository files which may contain secrets or sensitive code, and outputs structured JSON that could expose internal code structure and architecture patterns, posing a data exposure risk.",
+      "severity": "medium",
+      "explanation": "Although the skill is not malicious, its access to local files and generation of detailed documentation could inadvertently leak sensitive information, warranting a flag for data exposure.",
+      "name": "wiki-architect"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill transmits marketing and analytics data to an external service (Windsor.ai MCP server) and sends API keys in Authorization headers, which could expose sensitive business data and credentials if the external service is compromised or misused.",
+      "severity": "medium",
+      "explanation": "While the skill appears legitimate, its dependency on an external service for data processing and credential transmission introduces a medium risk of data exposure and unauthorized access.",
+      "name": "windsor-ai"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill performs benign gas price monitoring and alerting using public APIs, with no malicious intent, dangerous operations, or hidden behavior.",
+      "name": "gas-price-alert"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "This skill involves autonomous trading with real financial assets, requires private keys, and has high blast radius and external service dependencies, which could lead to financial loss or data exposure if misused.",
+      "severity": "high",
+      "explanation": "The skill's permissions and risks clearly indicate it should be flagged as anomalous due to the combination of financial operations, credential requirements, and high impact potential.",
+      "name": "headless-trading"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill sends user prompts, images, and text content to an external API (dr.eamer.dev) which is not a well-known or trusted provider, posing a risk of data exposure and potential misuse.",
+      "severity": "high",
+      "explanation": "The dependency on an obscure external service (dr.eamer.dev) for processing all user data, combined with the need for manual confirmation and network access, creates a significant data leakage and security risk that should not be classified as normal.",
+      "name": "geepers-llm"
+    },
+    {
+      "should_be_flagged": "yes",
+      "concern": "The skill enables downloading potentially copyrighted or restricted content from a wide range of sources, including torrents and Chinese cloud drives, which could lead to legal or policy violations.",
+      "severity": "medium",
+      "explanation": "While the skill itself is not malicious, its ability to download copyrighted material, torrents, and access restricted cloud drives poses legal and compliance risks that warrant flagging.",
+      "name": "download-anything"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill performs legitimate content extraction and summarization from public sources, with no persistent storage, credential requirements, or destructive operations, and its network access is limited to fetching content for analysis.",
+      "name": "ExtractWisdom"
+    },
+    {
+      "should_be_flagged": "no",
+      "concern": "none",
+      "severity": "none",
+      "explanation": "The skill performs local development tasks with no malicious intent, dangerous operations, or hidden behavior, and its permissions and risks are appropriate for its purpose.",
+      "name": "portless"
+    }
+  ]
+}
