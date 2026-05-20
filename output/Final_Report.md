@@ -9,7 +9,7 @@
 AI Agent 技能（Skill）市场的开放生态带来了显著的供应链安全风险。本研究以 DataHub Skills API 为数据源，采集了 **10,501 条** AI agent skill，围绕四个任务展开系统性安全分析：
 
 - **Task A** — 数据获取：增量爬虫采集 10,501 条 skill（两批次）
-- **Task B** — 异常检测：**4 种方法**（Isolation Forest、LOF、LSTM Autoencoder、XGBoost）+ **2 种嵌入**（TF-IDF vs SBERT）+ 消融实验 + 方法集成
+- **Task B** — 异常检测：**4 种方法**（Isolation Forest、LOF、LSTM Autoencoder、XGBoost）+ **2 种嵌入**（TF-IDF vs SBERT）+ 消融实验 + 方法集成 + **SHAP 可解释性** + **Layer 2 LLM 事后解释**
 - **Task C** — 对抗生成：**EASG 进化框架**（6 个可复现算子 + 多目标遗传算法），100% 逃逸率
 - **Task D** — 去风险化：**KRI 复合风险评分**（校准权重 0.55/0.25/0.20）+ **7 个去风险算子** + Safety Bonus 机制
 
@@ -125,6 +125,54 @@ SBERT 仅用 384 维超越 500 维 TF-IDF，在 LOF 上提升最大（+24%）。
 - SBERT：稀疏区异常率 13.4%，密集区 15.0%（异常更偏向稀疏区——正确方向）
 
 可视化直观验证了定量结论：SBERT 比 TF-IDF 更有效地编码了安全语义。
+
+### 3.9 评估方式对比
+
+三种评估在同一模型上的结果：
+
+| 评估方式 | 指标 | 数据 | 标签 |
+|---|---|---|---|
+| 5-fold CV (旧) | macro-F1=**0.829** | 5,499 | 纯规则 |
+| 80/20 held-out | macro-F1=**0.648** | 10,501 | LLM+规则 |
+| 5-fold CV (新) | macro-F1=**0.659** | 10,501 | LLM+规则 |
+
+5-fold CV (旧) 偏高的原因：规则标签与结构化特征来自同源规则体系，XGBoost 在 CV 中近似学习确定性映射。LLM 标签引入了规则无法表达的语义 nuance（如意图不一致、隐蔽行为），这些在当前 545 维特征中缺乏直接数值表示，因此 0.659 更接近真实泛化水平。
+
+### 3.10 Layer 2：LLM 事后解释
+
+受 SkillSieve [1] Layer 2 启发，对 XGBoost 判定的 anomalous skill，调用 DeepSeek-chat 进行四维事后分析。LLM 不改变分类 —— 仅解释"为什么被标记"。
+
+**50 样本分析结果**：
+
+| 指标 | 值 |
+|---|---|
+| LLM 同意 XGBoost | **48/50 (96.0%)** |
+| LLM 不同意 | 1/50 (2.0%) |
+| 部分同意 | 1/50 (2.0%) |
+| LLM 置信度均值 | 0.87 |
+| 风险根因：权限过度 (dim B) | **86%** |
+| 风险根因：意图不一致 (dim A) | 10% |
+| 风险根因：隐蔽行为 (dim C) | 4% |
+| 可操作的降风险建议 | **100%** |
+
+**Layer 2 作为独立审计**：用 LLM 的 agree/disagree 作为 XGBoost 预测的验证标签，XGBoost **Precision = 96%**。说明 XGBoost 敢于标记的那些，独立 LLM 几乎全部确认属实。
+
+96% precision (Layer 2) 与 0.648 F1 (held-out) 的差异揭示了当前瓶颈：XGBoost **精确但保守**——它只对特征能捕捉的 case 出手，遗漏了大量语义层面的 unsafe。Layer 2 弥补了这一缺口：提供了每个被标记 skill 的具体去风险指导，直接输入 Task D。
+
+### 3.11 SHAP 可解释性
+
+使用 SHAP TreeExplainer 分析 XGBoost 的 545 维特征贡献：
+
+| 发现 | 数据 |
+|---|---|
+| 结构化特征贡献占比 | **54%** (仅 45 维 vs TF-IDF 500 维) |
+| 单位维度效率 | 结构化 = TF-IDF 的 **13 倍** |
+| malicious 最强信号 | `sig_credential_theft` (SHAP=0.90) |
+| unsafe 最强信号 | `actions_len` (SHAP=1.57) |
+| 跨类别共享 Top 特征 | 4 个 |
+| 类别特有特征 | 8 个 |
+
+SHAP 验证了消融实验的核心结论：少量精心设计的领域特征远优于大量通用文本特征。`sig_credential_theft` 是 ON/OFF 开关型特征——一旦命中，立即将分类推向 malicious。`actions_len` 则区分"过度"（unsafe）与"恶意"（malicious）。
 
 ---
 

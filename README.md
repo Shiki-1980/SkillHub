@@ -57,8 +57,10 @@ skillHub/
 │   ├── pipeline/                   # 流水线编排
 │   │   └── 02_label_and_detect.py  #   标注 → 特征 → 检测 (一键Task B)
 │   │
-│   ├── adversarial/                # (待重构) 对抗生成
-│   ├── derisking/                  # (待重构) 去风险化
+│   ├── adversarial/                # 对抗生成 (算子+GA)
+│   ├── derisking/                  # 去风险化 (KRI+算子)
+│   ├── interpretability/           # 可解释性 (SHAP + Layer2 LLM)
+│   ├── training/                   # 对抗训练
 │   │
 │   ├── task_b_lstm_autoencoder.py  # LSTM Autoencoder (第3种无监督)
 │   ├── task_b_sbert_benchmark.py   # SBERT vs TF-IDF 基准测试
