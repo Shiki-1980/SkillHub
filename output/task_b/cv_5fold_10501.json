@@ -1,0 +1,14 @@
+{
+  "data": "10501 skills, LLM+rule mixed labels",
+  "features": "500d TF-IDF + 45d structural",
+  "model": "XGBoost(n=300, depth=6, lr=0.05)",
+  "cv_5fold_macro_f1": 0.6587,
+  "cv_5fold_macro_f1_std": 0.0343,
+  "cv_5fold_accuracy": 0.8797,
+  "per_class_f1": {
+    "malicious": 0.3376,
+    "normal": 0.9284,
+    "unsafe": 0.6589,
+    "useless": 0.71
+  }
+}

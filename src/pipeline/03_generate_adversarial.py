@@ -82,4 +82,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--seeds", type=int, default=20)
+    args = parser.parse_args()
+    main(args.seeds)
